@@ -1,0 +1,7 @@
+\usepackage{framed}
+\usepackage{xcolor}
+\let\oldquote=\quote
+\let\endoldquote=\endquote
+\colorlet{shadecolor}{blue!15}
+\renewenvironment{quote}{\begin{shaded*}\begin{oldquote}}{\end{oldquote}\end{shaded*}}
+

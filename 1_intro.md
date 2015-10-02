@@ -23,8 +23,8 @@ Users who want to get up and running as quickly as possible should start here.
 In the next section we describe the various features of Subgraph OS that 
 distinguish it from other operating systems. This is intended for users who are 
 interested in learning in\-depth about the various security and privacy 
-enhancements that we have implemented. Advanced users will this section useful
-for performing configuration of operating system features and Subgraph 
+enhancements that we have implemented. Advanced users will find this section 
+useful for performing configuration of operating system features and Subgraph 
 applications.
 
 \newpage

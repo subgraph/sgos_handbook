@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<article>
+  <articleinfo>
+    <title>Subgraph OS Handbook</title>
+  </articleinfo>
+<sect1 id="preface">
+  <title>Preface</title>
+  <para>
+    We have created this handbook as an instructional manual on how to
+    use the Subgraph operating system. This handbook also introduces
+    various security and privacy enhancing technologies that we have
+    developed at Subgraph.
+  </para>
+  <para>
+    This handbook is intended for new users of Subgraph OS, including
+    users who are already familiar with other Linux-based operating
+    systems. It also includes users who are just getting started with
+    Linux. We hope that this handbook helps to ease the transition for
+    both groups of users.
+  </para>
+  <para>
+    The first section of this book describes how to perform common tasks
+    such as installing Subgraph OS and using the various applications
+    that are included. Users who want to get up and running as quickly
+    as possible should start here.
+  </para>
+  <para>
+    In the next section, we describe the various features of Subgraph OS
+    that distinguish it from other operating systems. This is intended
+    for users who are interested in learning in-depth about the various
+    security and privacy enhancements that we have implemented. Advanced
+    users will find this section useful for configuring operating system
+    features and Subgraph applications.
+  </para>
+</sect1>
+<sect1 id="subgraph-os">
+  <title>Subgraph OS</title>
+  <sect2 id="what-is-subgraph-os">
+    <title>What is Subgraph OS?</title>
+    <para>
+      Subgraph OS is an adversary resistant computing platform. The main
+      purpose of Subgraph OS is to empower people to communicate, share,
+      and collaborate without fear of surveillance and interference.
+      What this means in practical terms is that users of Subgraph OS
+      can safely perform their day-to-day tasks securely and privately.
+    </para>
+    <para>
+      In some ways, Subgraph OS is like other operating systems -- it is
+      derived from Debian GNU/Linux and uses the GNOME desktop
+      environment as its graphical user interface. Many applications
+      found in other Linux distributions are also available in Subgraph
+      OS. Therefore, users who are already familiar to Linux and
+      particularly the GNOME desktop environment will find Subgraph OS
+      easy to use.
+    </para>
+    <para>
+      Subgraph OS also has key differences from conventional Linux
+      operating systems. In particular:
+    </para>
+    <orderedlist numeration="arabic" spacing="compact">
+      <listitem>
+        <para>
+          Subgraph OS anonymizes Internet traffic by sending it through
+          the Tor network
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Subgraph OS is hardened against common security
+          vulnerabilities
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Subgraph runs many desktop applications in a security sandbox
+          to limit their risk in case of compromise
+        </para>
+      </listitem>
+    </orderedlist>
+  </sect2>
+  <sect2 id="what-do-we-mean-by-security-and-privacy">
+    <title>What do we mean by security and privacy?</title>
+    <para>
+      Security and privacy can have many different meanings. In computer
+      security, a secure system is one that assures the
+      <literal>confidentiality, integrity, and  availability</literal>
+      of information it stores, processes, or communicates.
+    </para>
+    <blockquote>
+      <para>
+        <literal>Confidentiality</literal> assures that information is
+        not revealed to anybody who is not authorized
+      </para>
+      <para>
+        <literal>Integrity</literal> assures that information cannot be
+        modified or tampered with by anybody who is not authorized
+      </para>
+      <para>
+        <literal>Availability</literal> assures that information can be
+        reliably accessed by those who are authorized
+      </para>
+    </blockquote>
+    <para>
+      Privacy is similar to confidentiality. Privacy also relies heavily
+      on the integrity of communications. But we think about in a
+      broader sense as well.
+    </para>
+    <para>
+      We believe it as a fundamental right for people to communicate
+      with each other privately. We also believe that people should not
+      be required to reveal information about themselves or their social
+      network without explicit consent. This is an ongoing challenge
+      because our devices and the applications we use reveal a great
+      deal of information about us. Additionally, they communicate this
+      private information over networks that are untrustworthy and
+      hostile.
+    </para>
+    <para>
+      We designed Subgraph OS with these privacy concerns in mind.
+    </para>
+  </sect2>
+  <sect2 id="what-is-adversary-resistant-computing">
+    <title>What is adversary resistant computing?</title>
+    <para>
+      Subgraph OS has been designed from the ground up to defend against
+      threats to security and privacy. We aim to provide our users with
+      a computing platform that is
+      <literal>adversary resistant</literal>.
+    </para>
+    <para>
+      We when use the term <literal>adversary</literal>, we are
+      referring to an actual or hypothetical threat to the
+      confidentiality, integrity, and availability of information.
+    </para>
+    <para>
+      A hacker exploiting a vulnerability in an application is one type
+      of adversary. This is an actual and often active threat to
+      security and privacy.
+    </para>
+    <para>
+      Passive or indirect threats also exist. A passive or indirect
+      threat may be an adversary conducting surveillance by intercepting
+      and analyzing network traffic.
+    </para>
+    <para>
+      Lastly, adversaries may present a theoretical or impractical
+      threat. For example, a cryptography algorithm may have a
+      theoretical weakness. As technology and attack methods improve,
+      the weakness is no longer theoretical and may be practically
+      exploited.
+    </para>
+    <para>
+      We use the term <literal>adversary</literal> to cover all of the
+      above possibilities.
+    </para>
+    <para>
+      Secure systems should be resistant to all of these types of
+      threats.
+    </para>
+    <para>
+      While no computing platform can anticipate and defend against all
+      possible threats by all possible adversaries, we aspire to make
+      such attacks extremely difficult for adversaries. And in making
+      these attacks difficult, they also become more expensive for
+      adversaries to scale.
+    </para>
+    <para>
+      Some of our users have critical security and privacy needs.
+      Subgraph OS affords them strong security and privacy to conduct
+      their activities safely. Casual users are afforded the same
+      security and privacy without having to sacrifice the usability and
+      maintainability afforded by other operating systems.
+    </para>
+    <para>
+      This is the <literal>adversary resistant computing</literal>
+      paradigm.
+    </para>
+  </sect2>
+</sect1>
+<sect1 id="installing-subgraph-os">
+  <title>Installing Subgraph OS</title>
+  <sect2 id="installation-methods">
+    <title>Installation methods</title>
+    <sect3 id="installing-from-a-cd-or-dvd">
+      <title>Installing from a CD or DVD</title>
+    </sect3>
+    <sect3 id="installing-from-a-usb-key">
+      <title>Installing from a USB key</title>
+    </sect3>
+    <sect3 id="booting-from-a-usb-key-live-mode">
+      <title>Booting from a USB key (Live mode)</title>
+<literallayout>Subgraph OS also features a 'live' mode. Subgraph OS live mode runs in memory, directly from the USB stick. While running in live mode, nothing will be saved to your hard-drive. When the live session ends, any data created during your session will disappear, leaving no traces behind on the hard-disk.
+
+People normally run in live mode for the following reasons:</literallayout>
+      <orderedlist numeration="arabic" spacing="compact">
+        <listitem>
+          <para>
+            They want to demo Subgraph OS
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            They want to test Subgraph OS with their particular hardware
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            They want to perform certain tasks with extra security and
+            privacy but do not want a permanent installation of Subgraph
+            OS
+          </para>
+        </listitem>
+      </orderedlist>
+      <para>
+        When the Subgraph OS ISO starts, you will be presented with
+        different options. To start the live mode, select
+        <literal>Live (amd64)</literal>.
+      </para>
+      <figure>
+        <title>Subgraph OS boot screen</title>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="static/subgraph_splash.png" />
+          </imageobject>
+          <textobject><phrase>Subgraph OS boot
+          screen</phrase></textobject>
+        </mediaobject>
+      </figure>
+    </sect3>
+  </sect2>
+  <sect2 id="installing-step-by-step">
+    <title>Installing, step-by-step</title>
+  </sect2>
+  <sect2 id="after-the-first-boot">
+    <title>After the First Boot</title>
+  </sect2>
+</sect1>
+<sect1 id="everyday-usage">
+  <title>Everyday usage</title>
+  <sect2 id="browsing-the-web-with-tor-browser">
+    <title>Browsing the Web with Tor Browser</title>
+    <para>
+      Tor Browser is the default web browser of Subgraph OS. It has a
+      number of security and privacy advantages over other browsers.
+    </para>
+    <para>
+      The security and privacy features include:
+    </para>
+    <itemizedlist spacing="compact">
+      <listitem>
+        <para>
+          Anti-fingerprinting countermeasures to prevent websites from
+          identifying individual users by their browser fingerprint
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          A security slider that lets users disable browser features
+          that may pose security and privacy risks
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      The Tor Browser runs inside a security sandbox, managed by
+      Subgraph Oz. Web browsers represent some of the most complex
+      software available. With complexity comes increased risk to
+      security and privacy. This is what we call the
+      <literal>attack surface</literal> of an application. Tor Browser
+      is no different than other browsers in that it has a lot of attack
+      surface. A successful compromise of Tor Browser could let an
+      attacker gain access to things such as SSH keys, GPG encryption
+      keys, personal files, email, etc. Our security sandbox technology
+      helps to mitigate these risks.
+    </para>
+  </sect2>
+  <sect2 id="configuring-the-tor-browser-security-slider">
+    <title>Configuring the Tor Browser security slider</title>
+    <para>
+      The Tor Browser includes a <literal>security slider</literal> that
+      lets users choose the security and privacy features they want to
+      enable. If they enable all of the security and privacy settings,
+      some websites may be slower or may not work as expected. However,
+      the security slider lets them instantly lower the settings if they
+      need a particular website to work better.
+    </para>
+    <para>
+      We recommend setting the security slider to Medium-High or High.
+      For websites you trust, you can lower the settings to make the
+      website perform better.
+    </para>
+    <para>
+      We advise against lowering the security slider for any websites
+      that are not accessed over HTTPS. HTTPS helps to make sure that
+      the traffic between the Tor Browser and the website has not been
+      tampered with. This is what we refer to as the 'integrity'
+      security property. If you cannot verify the integrity of the
+      traffic originating from a website by using HTTPS, it may be
+      dangerous to visit the website using lowered security and privacy
+      settings.
+    </para>
+  </sect2>
+  <sect2 id="viewing-pdfs">
+    <title>Viewing PDFs</title>
+    <para>
+      PDFs can present security and privacy risks to users. Subgraph OS
+      sandboxes PDFs in a safe environment, minimizing those risks.
+    </para>
+    <para>
+      PDFs are affected by the following security and privacy risks:
+    </para>
+    <orderedlist numeration="arabic" spacing="compact">
+      <listitem>
+        <para>
+          Security vulnerabilities in the PDF reader software may allow
+          adversaries to compromise a user who opens a malicious PDF
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Privacy may be compromised if the PDF makes an outgoing
+          connection to the Internet, such as when the user clicks on a
+          link within the document or if the document automatically
+          opens a link
+        </para>
+      </listitem>
+    </orderedlist>
+  </sect2>
+  <sect2 id="chatting-with-coyim">
+    <title>Chatting with CoyIM</title>
+    <para>
+      CoyIM is the default instant messaging application in Subgraph OS.
+      CoyIM supports the XMPP instant messaging protocol. All chats are
+      end-to-end encrypted using OTR (Off-the-Record) Messaging.
+    </para>
+    <sect3 id="adding-an-xmpp-account-to-coyim">
+      <title>Adding an XMPP account to CoyIM</title>
+      <para>
+        When CoyIM opens for the first time, it asks you if you want to
+        encrypt your configuration file. We recommend that you encrypt
+        your configuration.
+      </para>
+      <figure>
+        <title>CoyIM - Encrypt configuration file</title>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="static/CoyIM_encrypt_config.png" />
+          </imageobject>
+          <textobject><phrase>CoyIM - Encrypt configuration
+          file</phrase></textobject>
+        </mediaobject>
+      </figure>
+      <para>
+        If you have decided to encrypt your configuration file, you will
+        be prompted to configure the master password that will be used
+        to encrypt your configuration file. You will need to re-enter
+        this password each time you use CoyIM, so choose something
+        strong but memorable!
+      </para>
+      <figure>
+        <title>CoyIM - Configure master password</title>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="static/CoyIM_configure_master_password.png" />
+          </imageobject>
+          <textobject><phrase>CoyIM - Configure master
+          password</phrase></textobject>
+        </mediaobject>
+      </figure>
+      <para>
+        To begin using CoyIM, you must first add an existing account
+        from an XMPP network.
+      </para>
+      <figure>
+        <title>CoyIM - Account details: basic configuration</title>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="static/CoyIM_account_details_basic.png" />
+          </imageobject>
+          <textobject><phrase>CoyIM - Account details: basic
+          configuration</phrase></textobject>
+        </mediaobject>
+      </figure>
+      <para>
+        Once you had added your account details, you can connect your
+        account. If you have successfully connected to the chat network,
+        a green dot will appear to the left of your username.
+      </para>
+      <figure>
+        <title>CoyIM - Successful connection</title>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="static/CoyIM_connected.png" />
+          </imageobject>
+          <textobject><phrase>CoyIM - Successful
+          connection</phrase></textobject>
+        </mediaobject>
+      </figure>
+    </sect3>
+  </sect2>
+</sect1>
+<sect1 id="features">
+  <title>Features</title>
+  <sect2 id="sandboxing-applications-with-subgraph-oz">
+    <title>Sandboxing applications with Subgraph Oz</title>
+  </sect2>
+  <sect2 id="anonymizing-communications-with-tor">
+    <title>Anonymizing communications with Tor</title>
+  </sect2>
+  <sect2 id="routing-applications-through-tor-with-subgraph-metaproxy">
+    <title>Routing applications through Tor with Subgraph
+    Metaproxy</title>
+    <para>
+      The Metaproxy is an important part of Subgraph OS. It is a service
+      that runs in the background to help applications connect through
+      the Tor network. This is done transparently, even with
+      applications that are not configured or designed to work with Tor.
+    </para>
+    <para>
+      On a typical operating system, users must configure each
+      application to connect to the Internet through Tor. This normally
+      requires the user to configure the proxy settings of the
+      application to use one of Tor's built-in proxies or to
+      <literal>torify</literal> the application. Since Subgraph OS
+      blocks outgoing connections that are not routed through Tor, this
+      may pose a problem for applications that try to connect to the
+      Internet but have not been manually <literal>torified</literal> or
+      otherwise configured to work with Tor.
+    </para>
+    <para>
+      The Metaproxy addresses this problem by automatically relaying
+      outgoing connections through Tor. When we say this is done
+      transparently, we mean the following two things:
+    </para>
+    <orderedlist numeration="arabic" spacing="compact">
+      <listitem>
+        <para>
+          Users do not have to manually <literal>torify</literal> their
+          applications or otherwise configuration them to use Tor
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Applications that are already configured to use Tor are
+          ignored by the Metaproxy, therefore, it only helps those
+          applications which need it
+        </para>
+      </listitem>
+    </orderedlist>
+  </sect2>
+  <sect2 id="hardening-the-operating-system-and-applications-with-grsecurity">
+    <title>Hardening the operating system and applications with
+    Grsecurity</title>
+    <para>
+      Grsecurity is a third-party security enhancement to the Linux
+      kernel. It is developed and maintained by the Grsecurity team. It
+      is implemented as a patch to the upstream Linux kernel. Subgraph
+      OS ships with a kernel that is patched with Grsecurity.
+    </para>
+    <sect3 id="configuring-pax-flags-with-paxrat">
+      <title>Configuring PaX flags with Paxrat</title>
+    </sect3>
+  </sect2>
+  <sect2 id="anonymizing-mac-addresses-with-macouflage">
+    <title>Anonymizing MAC addresses with Macouflage</title>
+    <para>
+      MAC addresses are the unique identifiers for the network interface
+      on the computer (such as Ethernet ports and WIFI cards). Due to
+      their unique nature, they can also compromise the privacy of the
+      user.
+    </para>
+    <para>
+      When connecting to a network, it is possible for other devices on
+      the network to see the MAC address of the network interface that
+      is connected. While this is not much of a concern on networks you
+      trust such as your home network, it may compromise your privacy on
+      those who do not trust. On untrustworthy or hostile networks,
+      uniquely identifying characteristics such as the MAC address may
+      allow others to track your computer.
+    </para>
+    <para>
+      Subgraph OS mitigates this privacy risk by always creating random
+      MAC addresses for all of your network interfaces. Each time one of
+      your interfaces connects to a network, it will use a different MAC
+      address. This helps to anonymize you across different networks or
+      when connecting to the same network over and over again.
+    </para>
+  </sect2>
+</sect1>
+</article>

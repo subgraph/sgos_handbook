@@ -39,5 +39,9 @@ sgos_handbook: $(BUILD_DIR)/sgos_handbook.pdf
 $(BUILD_DIR)/sgos_handbook.pdf: static/sgos_handbook_cover.pdf build/contents.pdf 
 	pdftk $^ cat output $@
 
+docbook: $(BUILD_DIR)/sgos_handbook.xml
+$(BUILD_DIR)/sgos_handbook.xml: 1_intro.md 2_faq.md 3_installation.md 4_everyday_usage.md 5_features_and_advanced_usage.md
+	pandoc -s -r markdown -t docbook -o $@ $^
+
 clean:
 	rm -f $(BUILD_DIR)/*.pdf $(BUILD_DIR)/*.txt

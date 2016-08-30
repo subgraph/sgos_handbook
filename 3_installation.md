@@ -36,6 +36,8 @@ To start the live mode, select `Live (amd64)`.
 
 ![Subgraph OS boot screen](static/subgraph_splash.png)
 
+Please note that the user password on the live image is: `live`.
+
 \newpage
 
 ## Installing, step\-by\-step

@@ -2,6 +2,63 @@
 
 ## Sandboxing applications with Subgraph Oz
 
+Copy an already existing oz configuration file from `/var/lib/oz/cells.d/`, e.g.
+
+```
+sudo cp /var/lib/oz/cells.d/xchat.json /var/lib/oz/cells.d/quassel.json
+```
+
+for an application that needs network connectivity or
+
+```
+sudo cp /var/lib/oz/cells.d/mpv.json /var/lib/oz/cells.d/inkscape.json
+```
+
+for one that does not.
+
+The *xserver* section configures permissions related to how the application behaves within the X server.
+
+The *networking* section configures if and if yes how the application uses the network/internet.
+
+The *whitelist* section configures files and folders the application needs access to (this includes configuration and cache) and if the access is read-only or also for file (re)write.
+
+The *seccomp* section configures if there is a file that defines syscalls the application should (whitelist) or should **not** (blacklist) have access to. For the purpose of creating such a whitelist it is recommended to set the parameter "enforce" to "false", this allows usage of the application and inspection of the syscalls made via `/var/log/oz-daemon.log`.
+
+So create an empty file and configure it in the `whitelist` parameter of the *seccomp* section.
+
+Then you need to register it with Oz
+
+e.g.
+
+```
+which inkscape
+sudo oz-setup install /usr/bin/inkscape
+sudo systemctl restart oz-daemon.service # this will close all applications that a run via Oz
+```
+
+To be able to concentrate on the application and settings at hand, clear the oz-daemon.log via
+
+```
+sudo echo "" > /var/log/oz-daemon.log
+```
+
+Now you can start and use the application. After closing it you can reduce the output of `/var/log/oz-daemon.log` into the seccomp whitelist like so:
+
+e.g.
+
+```
+grep 'inkscape' /var/log/oz-daemon.log > /tmp/filtered.1
+grep 'syscall' /tmp/filtered.1 > /tmp/filtered.2
+cut -d ' ' -f 20 /tmp/filtered.2 > /tmp/list.1
+cut -d ' ' -f 22 /tmp/filtered.2 > /tmp/list.2
+cat /tmp/list.{1,2} | sort | uniq | tail -n+3 > /var/lib/oz/cells.d/inkscape-whitelist.seccomp
+sed -i 's/$/: 1/' /var/lib/oz/cells.d/inkscape-whitelist.seccomp
+```
+
+The last step is setting the seccomp whitelist enforcment to "true" in the .json file and restarting Oz: `systemctl restart oz-daemon.service`
+
+
+
 \newpage
 
 ## Anonymizing communications with Tor

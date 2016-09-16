@@ -4,8 +4,11 @@ OS := $(shell uname)
 ifeq ($(OS),Darwin)
 	SHELL := "/bin/bash"
 	ASPELLPATH := "/usr/local/bin/aspell"
+	FONT := Palatino
 else
 	ASPELLPATH := "/usr/bin/aspell"
+	FONT := Nimbus Sans L
+
 endif
 ASPELL := $(shell { type $(ASPELLPATH); } 2>/dev/null)
 STYLE := $(shell { type /usr/bin/style; } 2>/dev/null)
@@ -33,7 +36,7 @@ endif
 # requires texlive, texlive-xetex, lmodern, pdftk
 contents: $(BUILD_DIR)/contents.pdf
 $(BUILD_DIR)/contents.pdf:  1_intro.md 2_faq.md 3_installation.md 4_everyday_usage.md 5_features_and_advanced_usage.md
-	pandoc -r markdown  -o $@ -H templates/style.tex --template=templates/sgos_handbook.latex --latex-engine=xelatex -V mainfont='Droid Sans' $^
+	pandoc -r markdown  -o $@ -H templates/style.tex --template=templates/sgos_handbook.latex --latex-engine=xelatex -V mainfont="$(FONT)" $^
 
 sgos_handbook: $(BUILD_DIR)/sgos_handbook.pdf
 $(BUILD_DIR)/sgos_handbook.pdf: static/sgos_handbook_cover.pdf build/contents.pdf 

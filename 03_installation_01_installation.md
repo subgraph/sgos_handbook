@@ -2,6 +2,10 @@
 
 \newpage
 
+## Downloading and verifying the Subgraph OS ISO
+
+\newpage
+
 ## Installation methods
 
 \newpage

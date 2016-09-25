@@ -54,7 +54,7 @@ $(BUILD_DIR)/sgos_handbook.pdf: static/sgos_handbook_cover.pdf build/contents.pd
 
 epub: $(BUILD_DIR)/sgos_handbook.epub
 $(BUILD_DIR)/sgos_handbook.epub: $(BOOK_CH_ALL)
-	pandoc -r markdown -o $@ $^
+	pandoc -r markdown --epub-cover-image=static/sgos_handbook_cover.png -o $@ $^
 
 
 docbook: $(BUILD_DIR)/sgos_handbook.xml

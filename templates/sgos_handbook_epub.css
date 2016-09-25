@@ -1,0 +1,26 @@
+@font-face {
+font-family: LiberationSans;
+font-style: normal;
+font-weight: normal;
+src:url("LiberationSans-Regular.ttf");
+}
+@font-face {
+font-family: LiberationSans;
+font-style: normal;
+font-weight: bold;
+src:url("LiberationSans-Bold.ttf");
+}
+@font-face {
+font-family: LiberationSans;
+font-style: italic;
+font-weight: normal;
+src:url("LiberationSans-Italic.ttf");
+}
+@font-face {
+font-family: DejaVuSans;
+font-style: italic;
+font-weight: bold;
+src:url("LiberationSans-BoldItalic.ttf");
+}
+body { font-family: "Liberation Sans"; }
+

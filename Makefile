@@ -7,9 +7,10 @@ ifeq ($(OS),Darwin)
 	FONT := Palatino
 else
 	ASPELLPATH := "/usr/bin/aspell"
-	FONT := Nimbus Sans L
-
+	FONT := Liberation Sans
+	EPUB_FONTS := 'static/fonts/Liberation*.ttf'
 endif
+
 ASPELL := $(shell { type $(ASPELLPATH); } 2>/dev/null)
 STYLE := $(shell { type /usr/bin/style; } 2>/dev/null)
 BUILD_DIR := "build"
@@ -54,7 +55,7 @@ $(BUILD_DIR)/sgos_handbook.pdf: static/sgos_handbook_cover.pdf build/contents.pd
 
 epub: $(BUILD_DIR)/sgos_handbook.epub
 $(BUILD_DIR)/sgos_handbook.epub: $(BOOK_CH_ALL)
-	pandoc -r markdown --epub-cover-image=static/sgos_handbook_cover.png -o $@ $^
+	pandoc -r markdown --epub-embed-font=$(EPUB_FONTS) --epub-cover-image=static/sgos_handbook_cover.png -o $@ $^
 
 
 docbook: $(BUILD_DIR)/sgos_handbook.xml

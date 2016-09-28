@@ -65,5 +65,9 @@ $(BUILD_DIR)/sgos_handbook.xml: $(BOOK_CH4_01) $(BOOK_CH4_02) $(BOOK_CH5_01) $(B
 docbook_fix_links_dev:
 	sed -i 's/<imagedata fileref="static/<imagedata fileref="..\/static/g' $(BUILD_DIR)/sgos_handbook.xml
 
+html: $(BUILD_DIR)/sgos_handbook.html
+$(BUILD_DIR)/sgos_handbook.html: $(BOOK_CH_ALL)
+	pandoc -s -r markdown -t html -o $@ $^
+
 clean:
 	rm -f $(BUILD_DIR)/*.pdf $(BUILD_DIR)/*.txt

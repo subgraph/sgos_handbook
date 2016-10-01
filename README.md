@@ -21,8 +21,8 @@ output type
 4. Publish the finished handbook, including making it available in a Debian
 package for Subgraph OS, putting sections onto our website, etc.
 
-At this point, the next step will be to unertake the process of having it 
-translated into a few different languages.
+At this point, the next step will be to undertake having it translated into a 
+few different languages.
 
 ## Pull requests
 

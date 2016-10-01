@@ -12,6 +12,7 @@ documentation that is readable and translatable. The handbook is organized into
 sections for beginners and advanced users. 
 
 The current roadmap for this project is the following:
+
 1. Finish the document conversion framework
 2. Add support for translation such that the single source text can be 
 translated and localized versions of the handbook can be generated for each

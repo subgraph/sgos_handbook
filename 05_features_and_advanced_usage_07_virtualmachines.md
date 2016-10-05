@@ -25,7 +25,7 @@ For other information regarding the operation of Qemu/KVM virtual machine see th
 
 ### Managing virtual machine using an interface
 
-There are multiple user interfaces that allow interfacing with Qemu/KVM with various degrees in complexity such as:
+There are multiple user interfaces that allow interfacing with Qemu/KVM with various degrees of complexity such as:
 
 * [gnome-boxes](https://wiki.gnome.org/Apps/Boxes)
 * [virt-manager](http://virt-manager.et.redhat.com/)

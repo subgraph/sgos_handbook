@@ -23,5 +23,14 @@ To attach a cdrom image, for example to install an operating system:
 
 For other information regarding the operation of Qemu/KVM virtual machine see the official [Qemu manual](http://wiki.qemu.org/Manual).
 
+### Managing virtual machine using an interface
+
+There are multiple user interfaces that allow interfacing with Qemu/KVM with various degrees in complexity such as:
+
+* [gnome-boxes](https://wiki.gnome.org/Apps/Boxes)
+* [virt-manager](http://virt-manager.et.redhat.com/)
+* [qemuctl](http://qemuctl.sourceforge.net/)
+* [virtualbricks](https://launchpad.net/virtualbrick)
+
 \newpage
 

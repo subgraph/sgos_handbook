@@ -56,7 +56,7 @@ du --apparent-size -sh disk.img
 Now that we have an image created and mounted, we can use debootstrap to expand a basic install into it:
 
 ```
-sudo debootstrap --variant=mintbase --include=systemd-sysv,grub2,grub-pc stretch /mnt
+sudo debootstrap --variant=mintbase --include=systemd-sysv stretch /mnt
 
 # We will grab a copy of the kernel and initramfs we just installed to boot the system
 cp /mnt/boot/vmlinuz-<version>-amd64 /mnt/boot/initrd.img-<version>-amd64 ./

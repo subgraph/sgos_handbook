@@ -56,7 +56,7 @@ du --apparent-size -sh disk.img
 Now that we have an image created and mounted, we can use debootstrap to expand a basic install into it:
 
 ```
-sudo debootstrap --variant=mintbase --include=linux-image-amd64,systemd-sysv,grub2,grub-pc stretch /mnt
+sudo debootstrap --variant=mintbase --include=systemd-sysv,grub2,grub-pc stretch /mnt
 
 # We will grab a copy of the kernel and initramfs we just installed to boot the system
 cp /mnt/boot/vmlinuz-<version>-amd64 /mnt/boot/initrd.img-<version>-amd64 ./
@@ -68,6 +68,14 @@ sudo chroot /mnt passwd
 sudo tee /mnt/etc/fstab << EOL
 /dev/sda	/	ext4	defaults,errors=remount-ro	0	1
 EOL
+
+# Let's download the subgraph grsec kernel and install it
+cd /tmp
+apt-get download linux-{image,headers}-grsec-amd64-subgraph linux-{image,headers}-$(uname -r)
+sudo cp ./linux-{image,headers}-$(uname -r) /mnt/tmp
+sudo chroot /mnt
+dpkg -i /tmp/linux-{image,headers}-*
+update-initramfs -u -k all
 
 # After, we will sync and umount
 sync

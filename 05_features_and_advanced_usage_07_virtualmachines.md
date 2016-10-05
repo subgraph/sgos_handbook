@@ -74,8 +74,9 @@ cd /tmp
 apt-get download linux-{image,headers}-grsec-amd64-subgraph linux-{image,headers}-$(uname -r)
 sudo cp ./linux-{image,headers}-$(uname -r) /mnt/tmp
 sudo chroot /mnt
-dpkg -i /tmp/linux-{image,headers}-*
-update-initramfs -u -k all
+$ dpkg -i /tmp/linux-{image,headers}-*
+$ update-initramfs -u -k all
+$ exit
 
 # After, we will sync and umount
 sync

@@ -19,7 +19,7 @@ Where `-enable-kvm` enables KVM virtualisation instead of using emulation; `-hda
 
 To attach a cdrom image, for example to install an operating system:
 
-	qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 -m 4096 -cdrom ./subgraph-os-alpha_2016-06-16_2.iso -boot c
+	qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 -m 4096 -cdrom ./subgraph-os-alpha_2016-06-16_2.iso -boot d
 
 For other information regarding the operation of Qemu/KVM virtual machine see the official [Qemu manual](http://wiki.qemu.org/Manual).
 

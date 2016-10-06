@@ -101,7 +101,10 @@ qemu-img convert -f raw -O qcow2 ./disk.img ./disk.qcow2
 We can now launch our image:
 
 ```
-qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 -kernel ./vmlinuz-<version>-amd64 -initrd ./initrd.img-<version>-amd64 -append root=/dev/sda
+qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 \
+	-kernel ./vmlinuz-<version>-amd64 \
+	-initrd ./initrd.img-<version>-amd64 \
+	-append root=/dev/sda
 ```
 
 If you want to install grub to keep the kernel and initrd images inside the virtual machine you'll have to create a full partition table, and potentially a separate /boot partition. But this is out of scope for this short tutorial.

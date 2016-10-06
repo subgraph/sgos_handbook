@@ -7,7 +7,7 @@ Qemu/KVM can be obtained by installing it the normal way: `sudo apt install qemu
 
 ### Creating a virtual machine with Qemu.
 
-The following are simple starters guide to using Qemu. For more information regarding the operation of Qemu/KVM virtual machine see the official [Qemu manual](http://wiki.qemu.org/Manual).
+The following are simple starter guides to using Qemu. For more detailed information regarding the operation of Qemu/KVM virtual machine see the official [Qemu manual](http://wiki.qemu.org/Manual).
 
 There are also multiple user interfaces that allow interfacing with Qemu/KVM with various degrees of complexity and flexibility such as:
 
@@ -67,9 +67,6 @@ Now that we have an image created and mounted, we can use debootstrap to expand 
 ```
 sudo debootstrap --variant=mintbase --include=systemd-sysv stretch /mnt
 
-# We will grab a copy of the kernel and initramfs we just installed to boot the system
-cp /mnt/boot/vmlinuz-<version>-amd64 /mnt/boot/initrd.img-<version>-amd64 ./
-
 # And set a root password
 sudo chroot /mnt passwd
 
@@ -86,6 +83,9 @@ sudo chroot /mnt
 $ dpkg -i /tmp/linux-{image,headers}-*
 $ update-initramfs -u -k all
 $ exit
+
+# Now we grab a copy of the kernel and initramfs we just installed to boot the system
+cp /mnt/boot/vmlinuz-<version>-amd64 /mnt/boot/initrd.img-<version>-amd64 /home/user/path/to/vm
 
 # After, we will sync and umount
 sync

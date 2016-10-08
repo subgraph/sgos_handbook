@@ -14,15 +14,12 @@ endif
 ASPELL := $(shell { type $(ASPELLPATH); } 2>/dev/null)
 STYLE := $(shell { type /usr/bin/style; } 2>/dev/null)
 BUILD_DIR := "build"
-BOOK_CH1 := 01_intro_01_preface.md 
-BOOK_CH2 := 02_faq_01_faq.md 
-BOOK_CH3 := 03_installation_01_installation.md 
-BOOK_CH4_01 := 04_everyday-usage_01_intro.md 04_everyday-usage_02_torbrowser.md 04_everyday-usage_03_pdfs.md 04_everyday-usage_04_coyim.md
-BOOK_CH4_02 := 04_everyday-usage_05_ricochet.md 04_everyday-usage_06_onionshare.md 04_everyday-usage_07_subgraph_firewall.md
-BOOK_CH5_01 := 05_features_and_advanced_usage_01_oz.md 05_features_and_advanced_usage_02_tor.md 
-BOOK_CH5_02 := 05_features_and_advanced_usage_03_metaproxy.md 05_features_and_advanced_usage_04_grsecurity.md 
-BOOK_CH5_03 := 05_features_and_advanced_usage_05_macouflage.md 05_features_and_advanced_usage_06_usblockout.md
-BOOK_CH_ALL := $(BOOK_CH1) $(BOOK_CH2) $(BOOK_CH3) $(BOOK_CH4_01) $(BOOK_CH4_02) $(BOOK_CH5_01) $(BOOK_CH5_02) $(BOOK_CH5_03)
+BOOK_CH1 := $(sort $(wildcard 01_*))
+BOOK_CH2 := $(sort $(wildcard 02_*))
+BOOK_CH3 := $(sort $(wildcard 03_*))
+BOOK_CH4 := $(sort $(wildcard 04_*))
+BOOK_CH5 := $(sort $(wildcard 05_*))
+BOOK_CH_ALL := $(BOOK_CH1) $(BOOK_CH2) $(BOOK_CH3) $(BOOK_CH4) $(BOOK_CH4) $(BOOK_CH5)
 
 all: clean spellcheck readability contents sgos_handbook
 docbook_dev: docbook docbook_fix_links_dev
@@ -59,7 +56,7 @@ $(BUILD_DIR)/sgos_handbook.epub: $(BOOK_CH_ALL)
 
 
 docbook: $(BUILD_DIR)/sgos_handbook.xml
-$(BUILD_DIR)/sgos_handbook.xml: $(BOOK_CH4_01) $(BOOK_CH4_02) $(BOOK_CH5_01) $(BOOK_CH5_02) $(BOOK_CH5_03)
+$(BUILD_DIR)/sgos_handbook.xml: $(BOOK_CH4) $(BOOK_CH5)
 	pandoc -s -r markdown -t docbook -o $@ $^
 
 docbook_fix_links_dev:

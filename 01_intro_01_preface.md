@@ -1,7 +1,3 @@
----
-title: "Subgraph OS Handbook"
-documentclass: [book,scrartcl,table]
----
 
 \newpage 
 

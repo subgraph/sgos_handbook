@@ -43,7 +43,7 @@ endif
 
 # requires texlive, texlive-xetex, lmodern, pdftk
 contents: $(BUILD_DIR)/contents.pdf
-$(BUILD_DIR)/contents.pdf:  $(BOOK_CH_ALL)
+$(BUILD_DIR)/contents.pdf:  $(BOOK_CH_ALL) metadata.yaml
 	pandoc -r markdown  -o $@ -H templates/style.tex --template=templates/sgos_handbook.latex --toc --latex-engine=xelatex -V mainfont="$(FONT)" $^
 
 sgos_handbook: $(BUILD_DIR)/sgos_handbook.pdf
@@ -51,19 +51,19 @@ $(BUILD_DIR)/sgos_handbook.pdf: static/sgos_handbook_cover.pdf build/contents.pd
 	pdftk $^ cat output $@
 
 epub: $(BUILD_DIR)/sgos_handbook.epub
-$(BUILD_DIR)/sgos_handbook.epub: $(BOOK_CH_ALL)
+$(BUILD_DIR)/sgos_handbook.epub: $(BOOK_CH_ALL) metadata.yaml
 	pandoc -r markdown --epub-embed-font=$(EPUB_FONTS) --epub-cover-image=static/sgos_handbook_cover.png -o $@ $^
 
 
 docbook: $(BUILD_DIR)/sgos_handbook.xml
-$(BUILD_DIR)/sgos_handbook.xml: $(BOOK_CH4) $(BOOK_CH5)
+$(BUILD_DIR)/sgos_handbook.xml: $(BOOK_CH4) $(BOOK_CH5) metadata.yaml
 	pandoc -s -r markdown -t docbook -o $@ $^
 
 docbook_fix_links_dev:
 	sed -i 's/<imagedata fileref="static/<imagedata fileref="..\/static/g' $(BUILD_DIR)/sgos_handbook.xml
 
-html: $(BUILD_DIR)/sgos_handbook.html
-$(BUILD_DIR)/sgos_handbook.html: $(BOOK_CH_ALL)
+html: $(BUILD_DIR)/sgos_handbook.html 
+$(BUILD_DIR)/sgos_handbook.html: $(BOOK_CH_ALL) metadata.yaml
 	pandoc -s -r markdown -t html -o $@ $^
 
 clean:

@@ -3,10 +3,33 @@
                   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
 <article>
   <articleinfo>
-    <title></title>
+    <title>Subgraph OS Handbook</title>
   </articleinfo>
 <sect1 id="everyday-usage">
   <title>Everyday usage</title>
+  <para>
+    Subgraph OS comes with a number of applications that may already be
+    familiar. We have also added newer alternatives that may be less
+    familiar. This chapter shows you how to use these applications to
+    perform everyday tasks.
+  </para>
+  <para>
+    Subgraph OS is also unique because the applications we have included
+    are run inside of a security sandbox. We call this sandbox Oz. Oz
+    helps protect the operating system and your personal files in case
+    an application is compromised by a security vulnerability.
+  </para>
+  <para>
+    Each application described in this chapter runs inside an Oz
+    sandbox. This means that they can only access the files and
+    directories that they need to. Each of the applications is isolated
+    from each other. They are also isolated from the system itself.
+    Because the applications are isolated, they cannot access common
+    directories such as <literal>Pictures</literal> or
+    <literal>Downloads</literal> in the usual way. This chapter shows
+    you how to manage your files in Oz, with some examples for each
+    application.
+  </para>
   <sect2 id="browsing-the-web-with-tor-browser">
     <title>Browsing the Web with Tor Browser</title>
     <para>
@@ -42,32 +65,142 @@
       keys, personal files, email, etc. Our security sandbox technology
       helps to mitigate these risks.
     </para>
-  </sect2>
-  <sect2 id="configuring-the-tor-browser-security-slider">
-    <title>Configuring the Tor Browser security slider</title>
-    <para>
-      The Tor Browser includes a <literal>security slider</literal> that
-      lets users choose the security and privacy features they want to
-      enable. If they enable all of the security and privacy settings,
-      some websites may be slower or may not work as expected. However,
-      the security slider lets them instantly lower the settings if they
-      need a particular website to work better.
-    </para>
-    <para>
-      We recommend setting the security slider to Medium-High or High.
-      For websites you trust, you can lower the settings to make the
-      website perform better.
-    </para>
-    <para>
-      We advise against lowering the security slider for any websites
-      that are not accessed over HTTPS. HTTPS helps to make sure that
-      the traffic between the Tor Browser and the website has not been
-      tampered with. This is what we refer to as the 'integrity'
-      security property. If you cannot verify the integrity of the
-      traffic originating from a website by using HTTPS, it may be
-      dangerous to visit the website using lowered security and privacy
-      settings.
-    </para>
+    <sect3 id="configuring-the-tor-browser-security-slider">
+      <title>Configuring the Tor Browser security slider</title>
+      <para>
+        The Tor Browser includes a <literal>security slider</literal>
+        that lets users choose the security and privacy features they
+        want to enable. If they enable all of the security and privacy
+        settings, some websites may be slower or may not work as
+        expected. However, the security slider lets them instantly lower
+        the settings if they need a particular website to work better.
+      </para>
+      <para>
+        We recommend setting the security slider to Medium-High or High.
+        For websites you trust, you can lower the settings to make the
+        website perform better.
+      </para>
+      <para>
+        We advise against lowering the security slider for any websites
+        that are not accessed over HTTPS. HTTPS helps to make sure that
+        the traffic between the Tor Browser and the website has not been
+        tampered with. This is what we refer to as the 'integrity'
+        security property. If you cannot verify the integrity of the
+        traffic originating from a website by using HTTPS, it may be
+        dangerous to visit the website using lowered security and
+        privacy settings.
+      </para>
+    </sect3>
+    <sect3 id="downloading-and-saving-files-in-the-tor-browser">
+      <title>Downloading and saving files in the Tor Browser</title>
+      <para>
+        The Tor Browser runs inside of Oz, our application sandbox. When
+        files are downloaded by a sandboxed application such as the Tor
+        Browser, they are saved within the sandbox. When you close the
+        Tor Browser, Oz will cleanup the sandbox, causing files saved in
+        the sandbox to be destroyed.
+      </para>
+      <para>
+        To allow the Tor Browser to download that can persist after the
+        application is closed, Oz makes a special exception. This
+        special exception is a <literal>shared directory</literal> where
+        files can be saved and retrieved later, without being destroyed
+        when Tor Browser is closed. <literal>Shared directory</literal>,
+        in this case, means a directory that is shared inside and
+        outside of the Oz sandbox. Oz sets up the the following shared
+        directory for saving downloaded files:
+      </para>
+      <programlisting>
+~/Downloads/TorBrowser
+</programlisting>
+      <para>
+        The shared directory name may be localized depending on the
+        language settings on your computer. In the case of French, the
+        shared directory would be:
+      </para>
+      <programlisting>
+~/Téléchargements/TorBrowser
+</programlisting>
+      <para>
+        Files downloaded to the shared directory will persist after
+        closing the Tor Browser.
+      </para>
+    </sect3>
+    <sect3 id="uploading-files-in-the-tor-browser">
+      <title>Uploading files in the Tor Browser</title>
+      <para>
+        When the Tor Browser starts, the Oz sandbox limits its access to
+        files and directories on the computer. For example, a photo from
+        the <literal>Pictures</literal> directory will not be visible in
+        the sandbox by default. If you want to upload a photo from this
+        directory, you must use the Oz menu to add it to the Tor Browser
+        sandbox. The Oz menu is denoted by the little zebra icon at the
+        top-right corner of the screen.
+      </para>
+      <blockquote>
+        <para>
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="static/oz_menu_zebra.png" id="id" role="class" width="60px" depth="60px" />
+            </imageobject>
+          </inlinemediaobject> The following actions may be performed
+          using the Oz menu:
+        </para>
+        <itemizedlist>
+          <listitem>
+            <para>
+              Add files to sandbox
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              Open terminal in sandbox
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              Shutdown sandbox
+            </para>
+          </listitem>
+        </itemizedlist>
+      </blockquote>
+      <para>
+      </para>
+      <para>
+        Click on the little zebra and then click
+        <literal>Add file...</literal>.
+      </para>
+      <figure>
+        <title>Oz menu - Add file</title>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="static/oz_menu_addfiles_menu.png" />
+          </imageobject>
+          <textobject><phrase>Oz menu - Add file</phrase></textobject>
+        </mediaobject>
+      </figure>
+      <para>
+        You may add more than one file at a time. You may also choose to
+        make these files <literal>read-only</literal>, meaning that they
+        can only be read and not written to while in the sandbox.
+      </para>
+      <figure>
+        <title>Oz menu - Select files or directories</title>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="static/oz_menu_addfiles_prompt.png" />
+          </imageobject>
+          <textobject><phrase>Oz menu - Select files or
+          directories</phrase></textobject>
+        </mediaobject>
+      </figure>
+      <para>
+      </para>
+      <para>
+        Once the file(s) you want to upload are added to the Tor Browser
+        sandbox, you may proceed to upload them normally.
+      </para>
+    </sect3>
   </sect2>
   <sect2 id="viewing-pdfs">
     <title>Viewing PDFs</title>
@@ -113,7 +246,7 @@
         <title>CoyIM - Encrypt configuration file</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../static/CoyIM_encrypt_config.png" />
+            <imagedata fileref="static/CoyIM_encrypt_config.png" />
           </imageobject>
           <textobject><phrase>CoyIM - Encrypt configuration
           file</phrase></textobject>
@@ -130,7 +263,7 @@
         <title>CoyIM - Configure master password</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../static/CoyIM_configure_master_password.png" />
+            <imagedata fileref="static/CoyIM_configure_master_password.png" />
           </imageobject>
           <textobject><phrase>CoyIM - Configure master
           password</phrase></textobject>
@@ -144,7 +277,7 @@
         <title>CoyIM - Account details: basic configuration</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../static/CoyIM_account_details_basic.png" />
+            <imagedata fileref="static/CoyIM_account_details_basic.png" />
           </imageobject>
           <textobject><phrase>CoyIM - Account details: basic
           configuration</phrase></textobject>
@@ -159,12 +292,317 @@
         <title>CoyIM - Successful connection</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../static/CoyIM_connected.png" />
+            <imagedata fileref="static/CoyIM_connected.png" />
           </imageobject>
           <textobject><phrase>CoyIM - Successful
           connection</phrase></textobject>
         </mediaobject>
       </figure>
+    </sect3>
+  </sect2>
+  <sect2 id="chatting-over-tor-with-ricochet">
+    <title>Chatting over Tor with Ricochet</title>
+  </sect2>
+  <sect2 id="sharing-files-with-onionshare">
+    <title>Sharing files with OnionShare</title>
+  </sect2>
+  <sect2 id="monitoring-outgoing-connections-with-subgraph-firewall">
+    <title>Monitoring outgoing connections with Subgraph
+    Firewall</title>
+  </sect2>
+</sect1>
+<sect1 id="features-and-advanced-usage">
+  <title>Features and advanced usage</title>
+  <sect2 id="sandboxing-applications-with-subgraph-oz">
+    <title>Sandboxing applications with Subgraph Oz</title>
+    <sect3 id="securing-sandboxed-applications-with-oz-seccomp">
+      <title>Securing sandboxed applications with Oz seccomp</title>
+    </sect3>
+  </sect2>
+  <sect2 id="anonymizing-communications-with-tor">
+    <title>Anonymizing communications with Tor</title>
+    <sect3 id="securing-the-tor-control-port-with-roflcoptor">
+      <title>Securing the Tor control port with roflcoptor</title>
+    </sect3>
+  </sect2>
+  <sect2 id="routing-applications-through-tor-with-subgraph-metaproxy">
+    <title>Routing applications through Tor with Subgraph
+    Metaproxy</title>
+    <para>
+      The Metaproxy is an important part of Subgraph OS. It is a service
+      that runs in the background to help applications connect through
+      the Tor network. This is done transparently, even with
+      applications that are not configured or designed to work with Tor.
+    </para>
+    <para>
+      On a typical operating system, users must configure each
+      application to connect to the Internet through Tor. This normally
+      requires the user to configure the proxy settings of the
+      application to use one of Tor's built-in proxies or to
+      <literal>torify</literal> the application. Since Subgraph OS
+      blocks outgoing connections that are not routed through Tor, this
+      may pose a problem for applications that try to connect to the
+      Internet but have not been manually <literal>torified</literal> or
+      otherwise configured to work with Tor.
+    </para>
+    <para>
+      The Metaproxy addresses this problem by automatically relaying
+      outgoing connections through Tor. When we say this is done
+      transparently, we mean the following two things:
+    </para>
+    <orderedlist numeration="arabic" spacing="compact">
+      <listitem>
+        <para>
+          Users do not have to manually <literal>torify</literal> their
+          applications or otherwise configuration them to use Tor
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Applications that are already configured to use Tor are
+          ignored by the Metaproxy, therefore, it only helps those
+          applications which need it
+        </para>
+      </listitem>
+    </orderedlist>
+  </sect2>
+  <sect2 id="hardening-the-operating-system-and-applications-with-grsecurity">
+    <title>Hardening the operating system and applications with
+    Grsecurity</title>
+    <para>
+      Grsecurity is a third-party security enhancement to the Linux
+      kernel. It is developed and maintained by the Grsecurity team. It
+      is implemented as a patch to the upstream Linux kernel. Subgraph
+      OS ships with a kernel that is patched with Grsecurity.
+    </para>
+    <sect3 id="configuring-pax-flags-with-paxrat">
+      <title>Configuring PaX flags with Paxrat</title>
+    </sect3>
+  </sect2>
+  <sect2 id="anonymizing-mac-addresses-with-macouflage">
+    <title>Anonymizing MAC addresses with Macouflage</title>
+    <para>
+      MAC addresses are the unique identifiers for the network interface
+      on the computer (such as Ethernet ports and WIFI cards). Due to
+      their unique nature, they can also compromise the privacy of the
+      user.
+    </para>
+    <para>
+      When connecting to a network, it is possible for other devices on
+      the network to see the MAC address of the network interface that
+      is connected. While this is not much of a concern on networks you
+      trust such as your home network, it may compromise your privacy on
+      those who do not trust. On untrustworthy or hostile networks,
+      uniquely identifying characteristics such as the MAC address may
+      allow others to track your computer.
+    </para>
+    <para>
+      Subgraph OS mitigates this privacy risk by always creating random
+      MAC addresses for all of your network interfaces. Each time one of
+      your interfaces connects to a network, it will use a different MAC
+      address. This helps to anonymize you across different networks or
+      when connecting to the same network over and over again.
+    </para>
+  </sect2>
+  <sect2 id="preventing-unauthorized-usb-access-with-usb-lockout">
+    <title>Preventing unauthorized USB access with USB Lockout</title>
+  </sect2>
+  <sect2 id="using-virtual-machines-in-subgraph-os">
+    <title>Using virtual machines in Subgraph OS</title>
+    <para>
+      Contrary to popular belief, there is nothing that stops the use of
+      virtual machines in Subgraph OS. While there are, as of this
+      writing, some known incompatibilities with VirtualBox, Qemu/KVM
+      works as expected.
+    </para>
+    <para>
+      Qemu/KVM can be obtained by installing it the normal way:
+      <literal>sudo apt install qemu-system qemu-kvm qemu-utils</literal>
+    </para>
+    <sect3 id="creating-a-virtual-machine-with-qemu.">
+      <title>Creating a virtual machine with Qemu.</title>
+      <para>
+        The following are simple starter guides to using Qemu. For more
+        detailed information regarding the operation of Qemu/KVM virtual
+        machine see the official
+        <ulink url="http://wiki.qemu.org/Manual">Qemu manual</ulink>.
+      </para>
+      <para>
+        There are also multiple user interfaces that allow interfacing
+        with Qemu/KVM with various degrees of complexity and flexibility
+        such as:
+      </para>
+      <itemizedlist spacing="compact">
+        <listitem>
+          <para>
+            <ulink url="https://wiki.gnome.org/Apps/Boxes">gnome-boxes</ulink>
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            <ulink url="http://virt-manager.et.redhat.com/">virt-manager</ulink>
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            <ulink url="http://qemuctl.sourceforge.net/">qemuctl</ulink>
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            <ulink url="https://launchpad.net/virtualbrick">virtualbricks</ulink>
+          </para>
+        </listitem>
+      </itemizedlist>
+      <sect4 id="simple-virtual-machine-creation">
+        <title>Simple virtual machine creation</title>
+        <para>
+          To create a virtual machine you will, if required, create a
+          hard drive image for it:
+        </para>
+        <programlisting>
+qemu-img create -f qcow2 disk.qcow2 8G
+</programlisting>
+        <para>
+          Your virtual machine drive is now ready for use. You may
+          launch a virtual machine using this drive like so:
+        </para>
+        <programlisting>
+qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 -m 4096
+</programlisting>
+        <para>
+          Where <literal>-enable-kvm</literal> enables KVM
+          virtualisation instead of using emulation;
+          <literal>-hda ./disk.qcow2</literal> attaches the disk image;
+          and <literal>-m 4096</literal> allocates 4096MB of RAM to the
+          virtual machine.
+        </para>
+        <para>
+          To attach a cdrom image, for example to install an operating
+          system:
+        </para>
+        <programlisting>
+qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 -m 4096 -cdrom ./subgraph-os-alpha_2016-06-16_2.iso -boot d
+</programlisting>
+      </sect4>
+      <sect4 id="advanced-virtual-machine-creation">
+        <title>Advanced virtual machine creation</title>
+        <para>
+          For more control and easier installation of Debian releases
+          inside of a virtual machine, one may use debootstrap to create
+          pre installed images without going through the installer
+          process.
+        </para>
+        <para>
+          Let's start by creating an 8GB raw sparse image for our VM,
+          then format and mount it:
+        </para>
+        <programlisting>
+truncate --size 8G ./disk.img
+# Here you could decide to create a proper partition table if you wanted... or not...
+/sbin/mkfs.ext4 ./disk.img
+sudo mount -o loop ./disk.img /mnt
+</programlisting>
+        <para>
+          It's worth nothing that you should have enough free disk space
+          for the image you create (and possible twice as much if you
+          want to convert it later on).
+        </para>
+        <para>
+          However, the truncated image will only take as much as space
+          as required:
+        </para>
+        <programlisting>
+du -sh disk.img
+189M    disk.img
+du --apparent-size -sh disk.img
+8.0G    disk.img
+</programlisting>
+        <para>
+          Now that we have an image created and mounted, we can use
+          debootstrap to expand a basic install into it:
+        </para>
+        <programlisting>
+sudo debootstrap --variant=mintbase --include=systemd-sysv stretch /mnt
+
+# And set a root password
+sudo chroot /mnt passwd
+
+# Create a standard fstab
+sudo tee /mnt/etc/fstab &lt;&lt; EOL
+/dev/sda    /   ext4    defaults,errors=remount-ro  0   1
+EOL
+
+# Let's download the subgraph grsec kernel and install it
+cd /tmp
+apt-get download linux-{image,headers}-grsec-amd64-subgraph linux-{image,headers}-$(uname -r)
+sudo cp ./linux-{image,headers}-$(uname -r) /mnt/tmp
+sudo chroot /mnt
+$ dpkg -i /tmp/linux-{image,headers}-*
+$ update-initramfs -u -k all
+$ exit
+
+# Now we grab a copy of the kernel and initramfs we just installed to boot the system
+cp /mnt/boot/vmlinuz-&lt;version&gt;-amd64 /mnt/boot/initrd.img-&lt;version&gt;-amd64 /home/user/path/to/vm
+
+# After, we will sync and umount
+sync
+sudo umount /mnt
+</programlisting>
+        <para>
+          Once done, we can use it as is with Qemu/KVM, or if you prefer
+          it can be converted to a qcow2 image for convenience:
+        </para>
+        <programlisting>
+qemu-img convert -f raw -O qcow2 ./disk.img ./disk.qcow2
+</programlisting>
+        <para>
+          We can now launch our image:
+        </para>
+        <programlisting>
+qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 \
+    -kernel ./vmlinuz-&lt;version&gt;-amd64 \
+    -initrd ./initrd.img-&lt;version&gt;-amd64 \
+    -append root=/dev/sda
+</programlisting>
+        <para>
+          If you want to install grub to keep the kernel and initrd
+          images inside the virtual machine you'll have to create a full
+          partition table, and potentially a separate /boot partition.
+          But this is out of scope for this short tutorial.
+        </para>
+      </sect4>
+      <sect4 id="simple-networking">
+        <title>Simple networking</title>
+        <para>
+          By default, Qemu will transparently NAT your virtual machines
+          to the host network. This can be disabled by using the
+          <literal>-net none</literal> flag.
+        </para>
+        <para>
+          Alternatively, you can also open simple tunnels between the
+          host and the virtual machine using the port redirection
+          mechanism with the <literal>-redir</literal> flag:
+        </para>
+        <programlisting>
+-redir tcp:55700::55700
+</programlisting>
+        <para>
+          For more on networking in Qemu/KVM see:
+        </para>
+        <itemizedlist spacing="compact">
+          <listitem>
+            <para>
+              http://wiki.qemu.org/Documentation/Networking
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              https://en.wikibooks.org/wiki/QEMU/Networking
+            </para>
+          </listitem>
+        </itemizedlist>
+      </sect4>
     </sect3>
   </sect2>
 </sect1>

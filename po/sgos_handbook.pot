@@ -1,0 +1,1081 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Subgraph
+# This file is distributed under the same license as the Subgraph OS Handbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Subgraph OS Handbook v1\n"
+"Report-Msgid-Bugs-To: mckinney@subgraph.com\n"
+"POT-Creation-Date: 2016-10-13 11:59-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: 01_intro_01_preface.md:3 01_intro_01_preface.md:26 02_faq_01_faq.md:4 02_faq_01_faq.md:28 02_faq_01_faq.md:91 03_installation_01_installation.md:4 03_installation_01_installation.md:8 03_installation_01_installation.md:12 03_installation_01_installation.md:16 03_installation_01_installation.md:20 03_installation_01_installation.md:37 03_installation_01_installation.md:46 03_installation_01_installation.md:50 03_installation_01_installation.md:53 04_everyday-usage_01_intro.md:21 04_everyday-usage_02_torbrowser.md:41 04_everyday-usage_03_pdfs.md:14 04_everyday-usage_04_coyim.md:33 04_everyday-usage_05_ricochet.md:4 04_everyday-usage_06_onionshare.md:4 04_everyday-usage_07_subgraph_firewall.md:4 04_everyday-usage_01_intro.md:21 04_everyday-usage_02_torbrowser.md:41 04_everyday-usage_03_pdfs.md:14 04_everyday-usage_04_coyim.md:33 04_everyday-usage_05_ricochet.md:4 04_everyday-usage_06_onionshare.md:4 04_everyday-usage_07_subgraph_firewall.md:4 05_features_and_advanced_usage_01_oz.md:6 05_features_and_advanced_usage_01_oz.md:10 05_features_and_advanced_usage_02_tor.md:7 05_features_and_advanced_usage_03_metaproxy.md:25 05_features_and_advanced_usage_04_grsecurity.md:10 05_features_and_advanced_usage_05_macouflage.md:20 05_features_and_advanced_usage_06_usblockout.md:4 05_features_and_advanced_usage_07_virtualmachines.md:128
+msgid "\\newpage"
+msgstr ""
+
+#. type: Plain text
+#: 01_intro_01_preface.md:5
+msgid "# Preface"
+msgstr ""
+
+#. type: Plain text
+#: 01_intro_01_preface.md:9
+msgid ""
+"We have created this handbook as an instructional manual on how to use the "
+"Subgraph operating system. This handbook also introduces various security "
+"and privacy enhancing technologies that we have developed at Subgraph."
+msgstr ""
+
+#. type: Plain text
+#: 01_intro_01_preface.md:14
+msgid ""
+"This handbook is intended for new users of Subgraph OS, including users who "
+"are already familiar with other Linux-based operating systems. It also "
+"includes users who are just getting started with Linux. We hope that this "
+"handbook helps to ease the transition for both groups of users."
+msgstr ""
+
+#. type: Plain text
+#: 01_intro_01_preface.md:18
+msgid ""
+"The first section of this book describes how to perform common tasks such as "
+"installing Subgraph OS and using the various applications that are "
+"included.  Users who want to get up and running as quickly as possible "
+"should start here."
+msgstr ""
+
+#. type: Plain text
+#: 01_intro_01_preface.md:24
+msgid ""
+"In the next section, we describe the various features of Subgraph OS that "
+"distinguish it from other operating systems. This is intended for users who "
+"are interested in learning in\\-depth about the various security and privacy "
+"enhancements that we have implemented. Advanced users will find this section "
+"useful for configuring operating system features and Subgraph applications."
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:2
+msgid "# Subgraph OS"
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:6
+msgid "## What is Subgraph OS?"
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:12
+msgid ""
+"Subgraph OS is an adversary resistant computing platform. The main purpose "
+"of Subgraph OS is to empower people to communicate, share, and collaborate "
+"without fear of surveillance and interference. What this means in practical "
+"terms is that users of Subgraph OS can safely perform their day-to-day tasks "
+"securely and privately."
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:18
+msgid ""
+"In some ways, Subgraph OS is like other operating systems -- it is derived "
+"from Debian GNU/Linux and uses the GNOME desktop environment as its "
+"graphical user interface. Many applications found in other Linux "
+"distributions are also available in Subgraph OS. Therefore, users who are "
+"already familiar to Linux and particularly the GNOME desktop environment "
+"will find Subgraph OS easy to use."
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:21
+msgid ""
+"Subgraph OS also has key differences from conventional Linux operating "
+"systems.  In particular:"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: 02_faq_01_faq.md:26
+msgid ""
+"Subgraph OS anonymizes Internet traffic by sending it through the Tor "
+"network"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: 02_faq_01_faq.md:26
+msgid "Subgraph OS is hardened against common security vulnerabilities"
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:26
+#, no-wrap
+msgid ""
+"3. Subgraph runs many desktop applications in a security sandbox to limit "
+"their\n"
+"risk in case of compromise\n"
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:30
+msgid "## What do we mean by security and privacy?"
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:34
+msgid ""
+"Security and privacy can have many different meanings. In computer security, "
+"a secure system is one that assures the `confidentiality, integrity, and "
+"availability` of information it stores, processes, or communicates."
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:40
+msgid ""
+">`Confidentiality` assures that information is not revealed to anybody who "
+"is not authorized > >`Integrity` assures that information cannot be modified "
+"or tampered with by anybody who is not authorized > >`Availability` assures "
+"that information can be reliably accessed by those who are authorized"
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:43
+msgid ""
+"Privacy is similar to confidentiality. Privacy also relies heavily on the "
+"integrity of communications. But we think about in a broader sense as well."
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:50
+msgid ""
+"We believe it as a fundamental right for people to communicate with each "
+"other privately. We also believe that people should not be required to "
+"reveal information about themselves or their social network without explicit "
+"consent.  This is an ongoing challenge because our devices and the "
+"applications we use reveal a great deal of information about "
+"us. Additionally, they communicate this private information over networks "
+"that are untrustworthy and hostile."
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:52
+msgid "We designed Subgraph OS with these privacy concerns in mind."
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:54
+msgid "## What is adversary resistant computing?"
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:58
+msgid ""
+"Subgraph OS has been designed from the ground up to defend against threats "
+"to security and privacy. We aim to provide our users with a computing "
+"platform that is `adversary resistant`."
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:61
+msgid ""
+"We when use the term `adversary`, we are referring to an actual or "
+"hypothetical threat to the confidentiality, integrity, and availability of "
+"information."
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:64
+msgid ""
+"A hacker exploiting a vulnerability in an application is one type of "
+"adversary.  This is an actual and often active threat to security and "
+"privacy."
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:68
+msgid ""
+"Passive or indirect threats also exist. A passive or indirect threat may be "
+"an adversary conducting surveillance by intercepting and analyzing network "
+"traffic."
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:73
+msgid ""
+"Lastly, adversaries may present a theoretical or impractical threat. For "
+"example, a cryptography algorithm may have a theoretical weakness. As "
+"technology and attack methods improve, the weakness is no longer theoretical "
+"and may be practically exploited."
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:75
+msgid "We use the term `adversary` to cover all of the above possibilities."
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:77
+msgid "Secure systems should be resistant to all of these types of threats."
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:82
+msgid ""
+"While no computing platform can anticipate and defend against all possible "
+"threats by all possible adversaries, we aspire to make such attacks "
+"extremely difficult for adversaries. And in making these attacks difficult, "
+"they also become more expensive for adversaries to scale."
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:87
+msgid ""
+"Some of our users have critical security and privacy needs. Subgraph OS "
+"affords them strong security and privacy to conduct their activities "
+"safely. Casual users are afforded the same security and privacy without "
+"having to sacrifice the usability and maintainability afforded by other "
+"operating systems."
+msgstr ""
+
+#. type: Plain text
+#: 02_faq_01_faq.md:89
+msgid "This is the `adversary resistant computing` paradigm."
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:2
+msgid "# Installing Subgraph OS"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:6
+msgid "## Downloading and verifying the Subgraph OS ISO"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:10
+msgid "## Installation methods"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:14
+msgid "### Installing from a CD or DVD"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:18
+msgid "### Installing from a USB key"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:22
+msgid "### Booting from a USB key (Live mode)"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:30
+msgid ""
+"Subgraph OS also features a 'live' mode. Subgraph OS live mode runs in "
+"memory, directly from the USB stick. While running in live mode, nothing "
+"will be saved to your hard-drive. When the live session ends, any data "
+"created during your session will disappear, leaving no traces behind on the "
+"hard-disk.  \\ \\ People normally run in live mode for the following "
+"reasons:"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: 03_installation_01_installation.md:35
+msgid "They want to demo Subgraph OS"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: 03_installation_01_installation.md:35
+msgid "They want to test Subgraph OS with their particular hardware"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:35
+#, no-wrap
+msgid ""
+"3. They want to perform certain tasks with extra security and privacy but\n"
+"do not want a permanent installation of Subgraph OS\n"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:40
+msgid ""
+"When the Subgraph OS ISO starts, you will be presented with different "
+"options.  To start the live mode, select `Live (amd64)`."
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:42
+msgid "![Subgraph OS boot screen](static/images/subgraph_splash.png)"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:44
+msgid "Please note that the user password on the live image is: `live`."
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:48
+msgid "## Installing, step\\-by\\-step"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:52
+msgid "## After the First Boot"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_01_intro.md:2 04_everyday-usage_01_intro.md:2
+msgid "# Everyday usage"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_01_intro.md:6 04_everyday-usage_01_intro.md:6
+msgid ""
+"Subgraph OS comes with a number of applications that may already be "
+"familiar.  We have also added newer alternatives that may be less "
+"familiar. This chapter shows you how to use these applications to perform "
+"everyday tasks."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_01_intro.md:11 04_everyday-usage_01_intro.md:11
+msgid ""
+"Subgraph OS is also unique because the applications we have included are run "
+"inside of a security sandbox. We call this sandbox Oz. Oz helps protect the "
+"operating system and your personal files in case an application is "
+"compromised by a security vulnerability."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_01_intro.md:19 04_everyday-usage_01_intro.md:19
+msgid ""
+"Each application described in this chapter runs inside an Oz sandbox. This "
+"means that they can only access the files and directories that they need "
+"to.  Each of the applications is isolated from each other. They are also "
+"isolated from the system itself. Because the applications are isolated, they "
+"cannot access common directories such as `Pictures` or `Downloads` in the "
+"usual way.  This chapter shows you how to manage your files in Oz, with some "
+"examples for each application."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:2 04_everyday-usage_02_torbrowser.md:2
+msgid "## Browsing the Web with Tor Browser"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:5 04_everyday-usage_02_torbrowser.md:5
+msgid ""
+"Tor Browser is the default web browser of Subgraph OS. It has a number of "
+"security and privacy advantages over other browsers."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:7 04_everyday-usage_02_torbrowser.md:7
+msgid "The security and privacy features include:"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:12 04_everyday-usage_02_torbrowser.md:12
+#, no-wrap
+msgid ""
+"* Anti-fingerprinting countermeasures to prevent websites from identifying\n"
+"individual users by their browser fingerprint\n"
+"* A security slider that lets users disable browser features that may pose "
+"\n"
+"security and privacy risks\n"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:21 04_everyday-usage_02_torbrowser.md:21
+msgid ""
+"The Tor Browser runs inside a security sandbox, managed by Subgraph Oz. Web "
+"browsers represent some of the most complex software available. With "
+"complexity comes increased risk to security and privacy. This is what we "
+"call the `attack surface` of an application. Tor Browser is no different "
+"than other browsers in that it has a lot of attack surface. A successful "
+"compromise of Tor Browser could let an attacker gain access to things such "
+"as SSH keys, GPG encryption keys, personal files, email, etc. Our security "
+"sandbox technology helps to mitigate these risks."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:23 04_everyday-usage_02_torbrowser.md:23
+msgid "### Configuring the Tor Browser security slider"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:29 04_everyday-usage_02_torbrowser.md:29
+msgid ""
+"The Tor Browser includes a `security slider` that lets users choose the "
+"security and privacy features they want to enable. If they enable all of the "
+"security and privacy settings, some websites may be slower or may not work "
+"as expected.  However, the security slider lets them instantly lower the "
+"settings if they need a particular website to work better."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:32 04_everyday-usage_02_torbrowser.md:32
+msgid ""
+"We recommend setting the security slider to Medium-High or High. For "
+"websites you trust, you can lower the settings to make the website perform "
+"better."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:39 04_everyday-usage_02_torbrowser.md:39
+msgid ""
+"We advise against lowering the security slider for any websites that are not "
+"accessed over HTTPS. HTTPS helps to make sure that the traffic between the "
+"Tor Browser and the website has not been tampered with. This is what we "
+"refer to as the 'integrity' security property. If you cannot verify the "
+"integrity of the traffic originating from a website by using HTTPS, it may "
+"be dangerous to visit the website using lowered security and privacy "
+"settings."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:43 04_everyday-usage_02_torbrowser.md:43
+msgid "### Downloading and saving files in the Tor Browser"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:48 04_everyday-usage_02_torbrowser.md:48
+msgid ""
+"The Tor Browser runs inside of Oz, our application sandbox. When files are "
+"downloaded by a sandboxed application such as the Tor Browser, they are "
+"saved within the sandbox. When you close the Tor Browser, Oz will cleanup "
+"the sandbox, causing files saved in the sandbox to be destroyed."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:57 04_everyday-usage_02_torbrowser.md:57
+msgid ""
+"To allow the Tor Browser to download that can persist after the application "
+"is closed, Oz makes a special exception. This special exception is a `shared "
+"directory` where files can be saved and retrieved later, without being "
+"destroyed when Tor Browser is closed. `Shared directory`, in this case, "
+"means a directory that is shared inside and outside of the Oz sandbox. Oz "
+"sets up the the following shared directory for saving downloaded files: ``` "
+"~/Downloads/TorBrowser"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:59 04_everyday-usage_02_torbrowser.md:59
+msgid "```"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:65 04_everyday-usage_02_torbrowser.md:65
+msgid ""
+"The shared directory name may be localized depending on the language "
+"settings on your computer. In the case of French, the shared directory would "
+"be: ``` ~/Téléchargements/TorBrowser ```"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:68 04_everyday-usage_02_torbrowser.md:68
+msgid ""
+"Files downloaded to the shared directory will persist after closing the Tor "
+"Browser."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:70 04_everyday-usage_02_torbrowser.md:70
+msgid "### Uploading files in the Tor Browser"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:77 04_everyday-usage_02_torbrowser.md:77
+msgid ""
+"When the Tor Browser starts, the Oz sandbox limits its access to files and "
+"directories on the computer. For example, a photo from the `Pictures` "
+"directory will not be visible in the sandbox by default. If you want to "
+"upload a photo from this directory, you must use the Oz menu to add it to "
+"the Tor Browser sandbox. The Oz menu is denoted by the little zebra icon at "
+"the top-right corner of the screen."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:86 04_everyday-usage_02_torbrowser.md:86
+msgid ""
+"> ![Oz menu - icon](static/images/oz_menu_zebra.png){#id .class width=60 "
+"height=60px} > The following actions may be performed using the Oz menu: > > "
+"- Add files to sandbox > > - Open terminal in sandbox > > - Shutdown sandbox"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:88 04_everyday-usage_02_torbrowser.md:100 04_everyday-usage_02_torbrowser.md:88 04_everyday-usage_02_torbrowser.md:100
+msgid "\\clearpage"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:90 04_everyday-usage_02_torbrowser.md:90
+msgid "Click on the little zebra and then click `Add file...`."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:92 04_everyday-usage_02_torbrowser.md:92
+msgid "![Oz menu - Add file](static/images/oz_menu_addfiles_menu.png)"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:96 04_everyday-usage_02_torbrowser.md:96
+msgid ""
+"You may add more than one file at a time. You may also choose to make these "
+"files `read-only`, meaning that they can only be read and not written to "
+"while in the sandbox."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:98 04_everyday-usage_02_torbrowser.md:98
+msgid ""
+"![Oz menu - Select files or "
+"directories](static/images/oz_menu_addfiles_prompt.png)"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_02_torbrowser.md:103 04_everyday-usage_02_torbrowser.md:103
+msgid ""
+"Once the file(s) you want to upload are added to the Tor Browser sandbox, "
+"you may proceed to upload them normally."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:2 04_everyday-usage_03_pdfs.md:2
+msgid "## Viewing PDFs"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:5 04_everyday-usage_03_pdfs.md:5
+msgid ""
+"PDFs can present security and privacy risks to users. Subgraph OS sandboxes "
+"PDFs in a safe environment, minimizing those risks."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:7 04_everyday-usage_03_pdfs.md:7
+msgid "PDFs are affected by the following security and privacy risks:"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:13 04_everyday-usage_03_pdfs.md:13
+#, no-wrap
+msgid ""
+"1. Security vulnerabilities in the PDF reader software may allow "
+"adversaries\n"
+"to compromise a user who opens a malicious PDF\n"
+"2. Privacy may be compromised if the PDF makes an outgoing connection to "
+"the\n"
+"Internet, such as when the user clicks on a link within the document or if\n"
+"the document automatically opens a link\n"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_04_coyim.md:2 04_everyday-usage_04_coyim.md:2
+msgid "## Chatting with CoyIM"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_04_coyim.md:6 04_everyday-usage_04_coyim.md:6
+msgid ""
+"CoyIM is the default instant messaging application in Subgraph OS. CoyIM "
+"supports the XMPP instant messaging protocol. All chats are end-to-end "
+"encrypted using OTR (Off-the-Record) Messaging."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_04_coyim.md:8 04_everyday-usage_04_coyim.md:8
+msgid "### Adding an XMPP account to CoyIM"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_04_coyim.md:11 04_everyday-usage_04_coyim.md:11
+msgid ""
+"When CoyIM opens for the first time, it asks you if you want to encrypt your "
+"configuration file. We recommend that you encrypt your configuration."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_04_coyim.md:13 04_everyday-usage_04_coyim.md:13
+msgid ""
+"![CoyIM - Encrypt configuration "
+"file](static/images/CoyIM_encrypt_config.png)"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_04_coyim.md:18 04_everyday-usage_04_coyim.md:18
+msgid ""
+"If you have decided to encrypt your configuration file, you will be prompted "
+"to configure the master password that will be used to encrypt your "
+"configuration file. You will need to re-enter this password each time you "
+"use CoyIM, so choose something strong but memorable!"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_04_coyim.md:20 04_everyday-usage_04_coyim.md:20
+msgid ""
+"![CoyIM - Configure master "
+"password](static/images/CoyIM_configure_master_password.png)"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_04_coyim.md:23 04_everyday-usage_04_coyim.md:23
+msgid ""
+"To begin using CoyIM, you must first add an existing account from an XMPP "
+"network."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_04_coyim.md:25 04_everyday-usage_04_coyim.md:25
+msgid ""
+"![CoyIM - Account details: basic "
+"configuration](static/images/CoyIM_account_details_basic.png)"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_04_coyim.md:29 04_everyday-usage_04_coyim.md:29
+msgid ""
+"Once you had added your account details, you can connect your account. If "
+"you have successfully connected to the chat network, a green dot will appear "
+"to the left of your username."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_04_coyim.md:31 04_everyday-usage_04_coyim.md:31
+msgid "![CoyIM - Successful connection](static/images/CoyIM_connected.png)"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_05_ricochet.md:2 04_everyday-usage_05_ricochet.md:2
+msgid "## Chatting over Tor with Ricochet"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_06_onionshare.md:2 04_everyday-usage_06_onionshare.md:2
+msgid "## Sharing files with OnionShare"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:2 04_everyday-usage_07_subgraph_firewall.md:2
+msgid "## Monitoring outgoing connections with Subgraph Firewall"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_01_oz.md:2
+msgid "# Features and advanced usage"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_01_oz.md:4
+msgid "## Sandboxing applications with Subgraph Oz"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_01_oz.md:8
+msgid "### Securing sandboxed applications with Oz seccomp"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_tor.md:3
+msgid "## Anonymizing communications with Tor \\newpage"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_tor.md:5
+msgid "### Securing the Tor control port with roflcoptor"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_03_metaproxy.md:2
+msgid "## Routing applications through Tor with Subgraph Metaproxy"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_03_metaproxy.md:7
+msgid ""
+"The Metaproxy is an important part of Subgraph OS. It is a service that runs "
+"in the background to help applications connect through the Tor network. This "
+"is done transparently, even with applications that are not configured or "
+"designed to work with Tor."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_03_metaproxy.md:15
+msgid ""
+"On a typical operating system, users must configure each application to "
+"connect to the Internet through Tor. This normally requires the user to "
+"configure the proxy settings of the application to use one of Tor's built-in "
+"proxies or to `torify` the application. Since Subgraph OS blocks outgoing "
+"connections that are not routed through Tor, this may pose a problem for "
+"applications that try to connect to the Internet but have not been manually "
+"`torified` or otherwise configured to work with Tor."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_03_metaproxy.md:19
+msgid ""
+"The Metaproxy addresses this problem by automatically relaying outgoing "
+"connections through Tor. When we say this is done transparently, we mean the "
+"following two things:"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_03_metaproxy.md:24
+#, no-wrap
+msgid ""
+"1. Users do not have to manually `torify` their applications or otherwise\n"
+"configuration them to use Tor\n"
+"2. Applications that are already configured to use Tor are ignored by the \n"
+"Metaproxy, therefore, it only helps those applications which need it\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_04_grsecurity.md:2
+msgid "## Hardening the operating system and applications with Grsecurity"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_04_grsecurity.md:7
+msgid ""
+"Grsecurity is a third-party security enhancement to the Linux kernel. It is "
+"developed and maintained by the Grsecurity team. It is implemented as a "
+"patch to the upstream Linux kernel. Subgraph OS ships with a kernel that is "
+"patched with Grsecurity."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_04_grsecurity.md:9
+msgid "### Configuring PaX flags with Paxrat"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_05_macouflage.md:2
+msgid "## Anonymizing MAC addresses with Macouflage"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_05_macouflage.md:6
+msgid ""
+"MAC addresses are the unique identifiers for the network interface on the "
+"computer (such as Ethernet ports and WIFI cards). Due to their unique "
+"nature, they can also compromise the privacy of the user."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_05_macouflage.md:13
+msgid ""
+"When connecting to a network, it is possible for other devices on the "
+"network to see the MAC address of the network interface that is "
+"connected. While this is not much of a concern on networks you trust such as "
+"your home network, it may compromise your privacy on those who do not "
+"trust. On untrustworthy or hostile networks, uniquely identifying "
+"characteristics such as the MAC address may allow others to track your "
+"computer."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_05_macouflage.md:19
+msgid ""
+"Subgraph OS mitigates this privacy risk by always creating random MAC "
+"addresses for all of your network interfaces. Each time one of your "
+"interfaces connects to a network, it will use a different MAC address. This "
+"helps to anonymize you across different networks or when connecting to the "
+"same network over and over again."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_06_usblockout.md:2
+msgid "## Preventing unauthorized USB access with USB Lockout"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:2
+msgid "## Using virtual machines in Subgraph OS"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:5
+msgid ""
+"Contrary to popular belief, there is nothing that stops the use of virtual "
+"machines in Subgraph OS.  While there are, as of this writing, some known "
+"incompatibilities with VirtualBox, Qemu/KVM works as expected."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:7
+msgid ""
+"Qemu/KVM can be obtained by installing it the normal way: `sudo apt install "
+"qemu-system qemu-kvm qemu-utils`"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:9
+msgid "### Creating a virtual machine with Qemu."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:11
+msgid ""
+"The following are simple starter guides to using Qemu. For more detailed "
+"information regarding the operation of Qemu/KVM virtual machine see the "
+"official [Qemu manual](http://wiki.qemu.org/Manual)."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:13
+msgid ""
+"There are also multiple user interfaces that allow interfacing with Qemu/KVM "
+"with various degrees of complexity and flexibility such as:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 05_features_and_advanced_usage_07_virtualmachines.md:18
+msgid "[gnome-boxes](https://wiki.gnome.org/Apps/Boxes)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 05_features_and_advanced_usage_07_virtualmachines.md:18
+msgid "[virt-manager](http://virt-manager.et.redhat.com/)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 05_features_and_advanced_usage_07_virtualmachines.md:18
+msgid "[qemuctl](http://qemuctl.sourceforge.net/)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 05_features_and_advanced_usage_07_virtualmachines.md:18
+msgid "[virtualbricks](https://launchpad.net/virtualbrick)"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:20
+msgid "#### Simple virtual machine creation"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:22
+msgid ""
+"To create a virtual machine you will, if required, create a hard drive image "
+"for it:"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:26
+msgid "``` qemu-img create -f qcow2 disk.qcow2 8G ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:28
+msgid ""
+"Your virtual machine drive is now ready for use. You may launch a virtual "
+"machine using this drive like so:"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:32
+msgid "``` qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 -m 4096 ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:34
+msgid ""
+"Where `-enable-kvm` enables KVM virtualisation instead of using emulation; "
+"`-hda ./disk.qcow2` attaches the disk image; and `-m 4096` allocates 4096MB "
+"of RAM to the virtual machine."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:36
+msgid "To attach a cdrom image, for example to install an operating system:"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:40
+msgid ""
+"``` qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 -m 4096 -cdrom "
+"./subgraph-os-alpha_2016-06-16_2.iso -boot d ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:42
+msgid "#### Advanced virtual machine creation"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:44
+msgid ""
+"For more control and easier installation of Debian releases inside of a "
+"virtual machine, one may use debootstrap to create pre installed images "
+"without going through the installer process."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:46
+msgid ""
+"Let's start by creating an 8GB raw sparse image for our VM, then format and "
+"mount it:"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:53
+msgid ""
+"``` truncate --size 8G ./disk.img # Here you could decide to create a proper "
+"partition table if you wanted... or not...  /sbin/mkfs.ext4 ./disk.img sudo "
+"mount -o loop ./disk.img /mnt ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:55
+msgid ""
+"It's worth nothing that you should have enough free disk space for the image "
+"you create (and possible twice as much if you want to convert it later on)."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:57
+msgid "However, the truncated image will only take as much as space as required:"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:64
+msgid ""
+"``` du -sh disk.img 189M\tdisk.img du --apparent-size -sh disk.img "
+"8.0G\tdisk.img ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:66
+msgid ""
+"Now that we have an image created and mounted, we can use debootstrap to "
+"expand a basic install into it:"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:69
+msgid "``` sudo debootstrap --variant=mintbase --include=systemd-sysv stretch /mnt"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:72
+msgid "# And set a root password sudo chroot /mnt passwd"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:77
+msgid ""
+"# Create a standard fstab sudo tee /mnt/etc/fstab << EOL "
+"/dev/sda\t/\text4\tdefaults,errors=remount-ro\t0\t1 EOL"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:86
+msgid ""
+"# Let's download the subgraph grsec kernel and install it cd /tmp apt-get "
+"download linux-{image,headers}-grsec-amd64-subgraph "
+"linux-{image,headers}-$(uname -r)  sudo cp ./linux-{image,headers}-$(uname "
+"-r) /mnt/tmp sudo chroot /mnt $ dpkg -i /tmp/linux-{image,headers}-* $ "
+"update-initramfs -u -k all $ exit"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:89
+msgid ""
+"# Now we grab a copy of the kernel and initramfs we just installed to boot "
+"the system cp /mnt/boot/vmlinuz-<version>-amd64 "
+"/mnt/boot/initrd.img-<version>-amd64 /home/user/path/to/vm"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:94
+msgid "# After, we will sync and umount sync sudo umount /mnt ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:96
+msgid ""
+"Once done, we can use it as is with Qemu/KVM, or if you prefer it can be "
+"converted to a qcow2 image for convenience:"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:100
+msgid "``` qemu-img convert -f raw -O qcow2 ./disk.img ./disk.qcow2 ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:102
+msgid "We can now launch our image:"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:109
+#, no-wrap
+msgid ""
+"```\n"
+"qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 \\\n"
+"\t-kernel ./vmlinuz-<version>-amd64 \\\n"
+"\t-initrd ./initrd.img-<version>-amd64 \\\n"
+"\t-append root=/dev/sda\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:111
+msgid ""
+"If you want to install grub to keep the kernel and initrd images inside the "
+"virtual machine you'll have to create a full partition table, and "
+"potentially a separate /boot partition. But this is out of scope for this "
+"short tutorial."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:113
+msgid "#### Simple networking"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:115
+msgid ""
+"By default, Qemu will transparently NAT your virtual machines to the host "
+"network. This can be disabled by using the `-net none` flag."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:117
+msgid ""
+"Alternatively, you can also open simple tunnels between the host and the "
+"virtual machine using the port redirection mechanism with the `-redir` flag:"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:121
+msgid "``` -redir tcp:55700::55700 ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_virtualmachines.md:123
+msgid "For more on networking in Qemu/KVM see:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 05_features_and_advanced_usage_07_virtualmachines.md:126
+msgid "http://wiki.qemu.org/Documentation/Networking"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 05_features_and_advanced_usage_07_virtualmachines.md:126
+msgid "https://en.wikibooks.org/wiki/QEMU/Networking"
+msgstr ""

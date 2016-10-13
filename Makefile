@@ -21,6 +21,14 @@ BOOK_CH4 := $(sort $(wildcard 04_*))
 BOOK_CH5 := $(sort $(wildcard 05_*))
 BOOK_CH_ALL := $(BOOK_CH1) $(BOOK_CH2) $(BOOK_CH3) $(BOOK_CH4) $(BOOK_CH4) $(BOOK_CH5)
 
+PODIR := po
+BOOKNAME := sgos_handbook
+EMAIL := 'mckinney@subgraph.com'
+COPYRIGHT := Subgraph
+PACKAGE := 'Subgraph OS Handbook'
+VERSION := $(shell git describe --tags)
+POTHEADER:= --msgid-bugs-address $(EMAIL) --copyright-holder $(COPYRIGHT) --package-name $(PACKAGE) --package-version $(VERSION)
+
 all: clean spellcheck readability contents sgos_handbook
 docbook_dev: docbook docbook_fix_links_dev
 
@@ -65,6 +73,12 @@ docbook_fix_links_dev:
 html: $(BUILD_DIR)/sgos_handbook.html 
 $(BUILD_DIR)/sgos_handbook.html: $(BOOK_CH_ALL) metadata.yaml
 	pandoc -s -r markdown -t html -o $@ $^
+
+.PHONY: pot
+pot: $(PODIR)/$(BOOKNAME).pot
+
+$(PODIR)/$(BOOKNAME).pot: $(foreach chap,$(BOOK_CH_ALL), $(chap))
+	po4a-gettextize $(POTHEADER) -f text -M utf-8 $(foreach pot,$(BOOK_CH_ALL),-m $(pot)) -p $@
 
 clean:
 	rm -f $(BUILD_DIR)/*.pdf $(BUILD_DIR)/*.txt

@@ -8,7 +8,7 @@ ifeq ($(OS),Darwin)
 else
 	ASPELLPATH := "/usr/bin/aspell"
 	FONT := Noto Sans
-	EPUB_FONTS := 'static/fonts/Liberation*.ttf'
+	EPUB_FONTS := 'static/fonts/Noto*.ttf'
 endif
 
 ASPELL := $(shell { type $(ASPELLPATH); } 2>/dev/null)
@@ -52,7 +52,7 @@ $(BUILD_DIR)/sgos_handbook.pdf: static/sgos_handbook_cover.pdf build/contents.pd
 
 epub: $(BUILD_DIR)/sgos_handbook.epub
 $(BUILD_DIR)/sgos_handbook.epub: $(BOOK_CH_ALL) metadata.yaml
-	pandoc -r markdown --epub-embed-font=$(EPUB_FONTS) --epub-cover-image=static/sgos_handbook_cover.png -o $@ $^
+	pandoc -r markdown --epub-embed-font=$(EPUB_FONTS) --epub-cover-image=static/images/sgos_handbook_cover.png -o $@ $^
 
 
 docbook: $(BUILD_DIR)/sgos_handbook.xml

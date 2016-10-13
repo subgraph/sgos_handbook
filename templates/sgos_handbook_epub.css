@@ -1,26 +1,26 @@
 @font-face {
-font-family: LiberationSans;
+font-family: NotoSans;
 font-style: normal;
 font-weight: normal;
-src:url("LiberationSans-Regular.ttf");
+src:url("NotoSans-Regular.ttf");
 }
 @font-face {
-font-family: LiberationSans;
+font-family: NotoSans;
 font-style: normal;
 font-weight: bold;
-src:url("LiberationSans-Bold.ttf");
+src:url("NotoSans-Bold.ttf");
 }
 @font-face {
-font-family: LiberationSans;
+font-family: NotoSans;
 font-style: italic;
 font-weight: normal;
-src:url("LiberationSans-Italic.ttf");
+src:url("NotoSans-Italic.ttf");
 }
 @font-face {
-font-family: DejaVuSans;
+font-family: NotoSans;
 font-style: italic;
 font-weight: bold;
-src:url("LiberationSans-BoldItalic.ttf");
+src:url("NotoSans-BoldItalic.ttf");
 }
-body { font-family: "Liberation Sans"; }
+body { font-family: "Noto Sans"; }
 

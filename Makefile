@@ -7,7 +7,7 @@ ifeq ($(OS),Darwin)
 	FONT := Palatino
 else
 	ASPELLPATH := "/usr/bin/aspell"
-	FONT := Liberation Sans
+	FONT := Noto Sans
 	EPUB_FONTS := 'static/fonts/Liberation*.ttf'
 endif
 

@@ -38,7 +38,7 @@ do not want a permanent installation of Subgraph OS
 When the Subgraph OS ISO starts, you will be presented with different options.
 To start the live mode, select `Live (amd64)`.
 
-![Subgraph OS boot screen](static/subgraph_splash.png)
+![Subgraph OS boot screen](static/images/subgraph_splash.png)
 
 Please note that the user password on the live image is: `live`.
 

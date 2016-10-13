@@ -60,7 +60,7 @@ $(BUILD_DIR)/sgos_handbook.xml: $(BOOK_CH4) $(BOOK_CH5) metadata.yaml
 	pandoc -s -r markdown -t docbook -o $@ $^
 
 docbook_fix_links_dev:
-	sed -i 's/<imagedata fileref="static/<imagedata fileref="..\/static/g' $(BUILD_DIR)/sgos_handbook.xml
+	sed -i 's/<imagedata fileref="static\/images/<imagedata fileref="..\/static\/images/g' $(BUILD_DIR)/sgos_handbook.xml
 
 html: $(BUILD_DIR)/sgos_handbook.html 
 $(BUILD_DIR)/sgos_handbook.html: $(BOOK_CH_ALL) metadata.yaml

@@ -141,7 +141,7 @@
         <para>
           <inlinemediaobject>
             <imageobject>
-              <imagedata fileref="static/oz_menu_zebra.png" id="id" role="class" width="60px" depth="60px" />
+              <imagedata fileref="../static/images/oz_menu_zebra.png" id="id" role="class" width="60px" depth="60px" />
             </imageobject>
           </inlinemediaobject> The following actions may be performed
           using the Oz menu:
@@ -174,7 +174,7 @@
         <title>Oz menu - Add file</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="static/oz_menu_addfiles_menu.png" />
+            <imagedata fileref="../static/images/oz_menu_addfiles_menu.png" />
           </imageobject>
           <textobject><phrase>Oz menu - Add file</phrase></textobject>
         </mediaobject>
@@ -188,7 +188,7 @@
         <title>Oz menu - Select files or directories</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="static/oz_menu_addfiles_prompt.png" />
+            <imagedata fileref="../static/images/oz_menu_addfiles_prompt.png" />
           </imageobject>
           <textobject><phrase>Oz menu - Select files or
           directories</phrase></textobject>
@@ -246,7 +246,7 @@
         <title>CoyIM - Encrypt configuration file</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="static/CoyIM_encrypt_config.png" />
+            <imagedata fileref="../static/images/CoyIM_encrypt_config.png" />
           </imageobject>
           <textobject><phrase>CoyIM - Encrypt configuration
           file</phrase></textobject>
@@ -263,7 +263,7 @@
         <title>CoyIM - Configure master password</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="static/CoyIM_configure_master_password.png" />
+            <imagedata fileref="../static/images/CoyIM_configure_master_password.png" />
           </imageobject>
           <textobject><phrase>CoyIM - Configure master
           password</phrase></textobject>
@@ -277,7 +277,7 @@
         <title>CoyIM - Account details: basic configuration</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="static/CoyIM_account_details_basic.png" />
+            <imagedata fileref="../static/images/CoyIM_account_details_basic.png" />
           </imageobject>
           <textobject><phrase>CoyIM - Account details: basic
           configuration</phrase></textobject>
@@ -292,7 +292,7 @@
         <title>CoyIM - Successful connection</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="static/CoyIM_connected.png" />
+            <imagedata fileref="../static/images/CoyIM_connected.png" />
           </imageobject>
           <textobject><phrase>CoyIM - Successful
           connection</phrase></textobject>

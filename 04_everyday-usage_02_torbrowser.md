@@ -75,7 +75,7 @@ from this directory, you must use the Oz menu to add it to the Tor Browser
 sandbox. The Oz menu is denoted by the little zebra icon at the top-right corner 
 of the screen.
 
-> ![Oz menu - icon](static/oz_menu_zebra.png){#id .class width=60 height=60px}
+> ![Oz menu - icon](static/images/oz_menu_zebra.png){#id .class width=60 height=60px}
 > The following actions may be performed using the Oz menu:
 >
 > - Add files to sandbox
@@ -88,13 +88,13 @@ of the screen.
 
 Click on the little zebra and then click `Add file...`.  
 
-![Oz menu - Add file](static/oz_menu_addfiles_menu.png)
+![Oz menu - Add file](static/images/oz_menu_addfiles_menu.png)
 
 You may add more than one file at a time. You may
 also choose to make these files `read-only`, meaning that they can only be 
 read and not written to while in the sandbox.
 
-![Oz menu - Select files or directories](static/oz_menu_addfiles_prompt.png)
+![Oz menu - Select files or directories](static/images/oz_menu_addfiles_prompt.png)
 
 \clearpage
 

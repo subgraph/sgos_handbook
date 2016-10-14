@@ -18,11 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: 01_intro_01_preface.md:3 01_intro_01_preface.md:26 02_faq_01_faq.md:4 02_faq_01_faq.md:28 02_faq_01_faq.md:91 03_installation_01_installation.md:4 03_installation_01_installation.md:8 03_installation_01_installation.md:12 03_installation_01_installation.md:16 03_installation_01_installation.md:20 03_installation_01_installation.md:37 03_installation_01_installation.md:46 03_installation_01_installation.md:50 03_installation_01_installation.md:53 04_everyday-usage_01_intro.md:21 04_everyday-usage_02_torbrowser.md:41 04_everyday-usage_03_pdfs.md:14 04_everyday-usage_04_coyim.md:33 04_everyday-usage_05_ricochet.md:4 04_everyday-usage_06_onionshare.md:4 04_everyday-usage_07_subgraph_firewall.md:4 04_everyday-usage_01_intro.md:21 04_everyday-usage_02_torbrowser.md:41 04_everyday-usage_03_pdfs.md:14 04_everyday-usage_04_coyim.md:33 04_everyday-usage_05_ricochet.md:4 04_everyday-usage_06_onionshare.md:4 04_everyday-usage_07_subgraph_firewall.md:4 05_features_and_advanced_usage_01_oz.md:6 05_features_and_advanced_usage_01_oz.md:10 05_features_and_advanced_usage_02_tor.md:7 05_features_and_advanced_usage_03_metaproxy.md:25 05_features_and_advanced_usage_04_grsecurity.md:10 05_features_and_advanced_usage_05_macouflage.md:20 05_features_and_advanced_usage_06_usblockout.md:4 05_features_and_advanced_usage_07_virtualmachines.md:128
-msgid "\\newpage"
-msgstr ""
-
-#. type: Plain text
 #: 01_intro_01_preface.md:5
 msgid "# Preface"
 msgstr ""
@@ -513,11 +508,6 @@ msgid ""
 "> ![Oz menu - icon](static/images/oz_menu_zebra.png){#id .class width=60 "
 "height=60px} > The following actions may be performed using the Oz menu: > > "
 "- Add files to sandbox > > - Open terminal in sandbox > > - Shutdown sandbox"
-msgstr ""
-
-#. type: Plain text
-#: 04_everyday-usage_02_torbrowser.md:88 04_everyday-usage_02_torbrowser.md:100 04_everyday-usage_02_torbrowser.md:88 04_everyday-usage_02_torbrowser.md:100
-msgid "\\clearpage"
 msgstr ""
 
 #. type: Plain text

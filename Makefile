@@ -30,6 +30,7 @@ VERSION := $(shell git describe --tags)
 POTHEADER:= --msgid-bugs-address $(EMAIL) --copyright-holder $(COPYRIGHT) --package-name $(PACKAGE) --package-version $(VERSION)
 
 all: clean spellcheck readability contents sgos_handbook
+pot_all: pot po4a_fixup
 docbook_dev: docbook docbook_fix_links_dev
 
 # requires aspell, aspell-en
@@ -74,6 +75,10 @@ html: $(BUILD_DIR)/sgos_handbook.html
 $(BUILD_DIR)/sgos_handbook.html: $(BOOK_CH_ALL) metadata.yaml
 	pandoc -s -r markdown -t html -o $@ $^
 
+po4a_fixup: $(PODIR)/$(BOOKNAME)_fixed.pot
+$(PODIR)/$(BOOKNAME)_fixed.pot: $(PODIR)/$(BOOKNAME).pot 
+	awk -f scripts/po4a_fixup.awk $^ > $@
+
 .PHONY: pot
 pot: $(PODIR)/$(BOOKNAME).pot
 
@@ -82,6 +87,7 @@ $(PODIR)/$(BOOKNAME).pot: $(foreach chap,$(BOOK_CH_ALL), $(chap))
 
 $(PODIR)/%.po: $(foreach chap,$(BOOK_CH_ALL), $(chap))
 	@po4a-update $(POTHEADER) -f text -M -utf-8 $(foreach chap,$(BOOK_CH_ALL),-m $(chap)) -p $@
+
 
 clean:
 	rm -f $(BUILD_DIR)/*.pdf $(BUILD_DIR)/*.txt

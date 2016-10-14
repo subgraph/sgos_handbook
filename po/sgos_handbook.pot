@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Subgraph OS Handbook v1-2-g25a606d\n"
+"Project-Id-Version: Subgraph OS Handbook v1-4-gd7d90a8\n"
 "Report-Msgid-Bugs-To: mckinney@subgraph.com\n"
-"POT-Creation-Date: 2016-10-13 20:42-0400\n"
+"POT-Creation-Date: 2016-10-14 13:26-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: 01_intro_01_preface.md:3 01_intro_01_preface.md:26 02_faq_01_faq.md:4 02_faq_01_faq.md:28 02_faq_01_faq.md:91 03_installation_01_installation.md:4 03_installation_01_installation.md:8 03_installation_01_installation.md:12 03_installation_01_installation.md:16 03_installation_01_installation.md:20 03_installation_01_installation.md:37 03_installation_01_installation.md:46 03_installation_01_installation.md:50 03_installation_01_installation.md:53 04_everyday-usage_01_intro.md:21 04_everyday-usage_02_torbrowser.md:41 04_everyday-usage_03_pdfs.md:14 04_everyday-usage_04_coyim.md:33 04_everyday-usage_05_ricochet.md:4 04_everyday-usage_06_onionshare.md:4 04_everyday-usage_07_subgraph_firewall.md:4 04_everyday-usage_01_intro.md:21 04_everyday-usage_02_torbrowser.md:41 04_everyday-usage_03_pdfs.md:14 04_everyday-usage_04_coyim.md:33 04_everyday-usage_05_ricochet.md:4 04_everyday-usage_06_onionshare.md:4 04_everyday-usage_07_subgraph_firewall.md:4 05_features_and_advanced_usage_01_oz.md:6 05_features_and_advanced_usage_01_oz.md:10 05_features_and_advanced_usage_02_tor.md:7 05_features_and_advanced_usage_03_metaproxy.md:25 05_features_and_advanced_usage_04_grsecurity.md:10 05_features_and_advanced_usage_05_macouflage.md:20 05_features_and_advanced_usage_06_usblockout.md:4 05_features_and_advanced_usage_07_virtualmachines.md:128
+#: 01_intro_01_preface.md:3 01_intro_01_preface.md:26 02_faq_01_faq.md:4 02_faq_01_faq.md:28 02_faq_01_faq.md:91 03_installation_01_installation.md:4 03_installation_01_installation.md:8 03_installation_01_installation.md:12 03_installation_01_installation.md:16 03_installation_01_installation.md:20 03_installation_01_installation.md:37 03_installation_01_installation.md:46 03_installation_01_installation.md:50 03_installation_01_installation.md:53 04_everyday-usage_01_intro.md:21 04_everyday-usage_02_torbrowser.md:41 04_everyday-usage_03_pdfs.md:14 04_everyday-usage_04_coyim.md:33 04_everyday-usage_05_ricochet.md:4 04_everyday-usage_06_onionshare.md:4 04_everyday-usage_07_subgraph_firewall.md:4 04_everyday-usage_01_intro.md:21 04_everyday-usage_02_torbrowser.md:41 04_everyday-usage_03_pdfs.md:14 04_everyday-usage_04_coyim.md:33 04_everyday-usage_05_ricochet.md:4 04_everyday-usage_06_onionshare.md:4 04_everyday-usage_07_subgraph_firewall.md:4 05_features_and_advanced_usage_01_oz.md:6 05_features_and_advanced_usage_01_oz.md:10 05_features_and_advanced_usage_02_tor.md:4 05_features_and_advanced_usage_02_tor.md:8 05_features_and_advanced_usage_03_metaproxy.md:25 05_features_and_advanced_usage_04_grsecurity.md:10 05_features_and_advanced_usage_05_macouflage.md:20 05_features_and_advanced_usage_06_usblockout.md:4 05_features_and_advanced_usage_07_virtualmachines.md:128
 msgid "\\newpage"
 msgstr ""
 
@@ -688,12 +688,12 @@ msgid "### Securing sandboxed applications with Oz seccomp"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_02_tor.md:3
-msgid "## Anonymizing communications with Tor \\newpage"
+#: 05_features_and_advanced_usage_02_tor.md:2
+msgid "## Anonymizing communications with Tor"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_02_tor.md:5
+#: 05_features_and_advanced_usage_02_tor.md:6
 msgid "### Securing the Tor control port with roflcoptor"
 msgstr ""
 

@@ -310,11 +310,6 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 03_installation_01_installation.md:42
-msgid "![Subgraph OS boot screen](static/images/subgraph_splash.png)"
-msgstr ""
-
-#. type: Plain text
 #: 03_installation_01_installation.md:44
 msgid "Please note that the user password on the live image is: `live`."
 msgstr ""
@@ -516,11 +511,6 @@ msgid "Click on the little zebra and then click `Add file...`."
 msgstr ""
 
 #. type: Plain text
-#: 04_everyday-usage_02_torbrowser.md:92 04_everyday-usage_02_torbrowser.md:92
-msgid "![Oz menu - Add file](static/images/oz_menu_addfiles_menu.png)"
-msgstr ""
-
-#. type: Plain text
 #: 04_everyday-usage_02_torbrowser.md:96 04_everyday-usage_02_torbrowser.md:96
 msgid ""
 "You may add more than one file at a time. You may also choose to make these "
@@ -640,11 +630,6 @@ msgid ""
 "Once you had added your account details, you can connect your account. If "
 "you have successfully connected to the chat network, a green dot will appear "
 "to the left of your username."
-msgstr ""
-
-#. type: Plain text
-#: 04_everyday-usage_04_coyim.md:31 04_everyday-usage_04_coyim.md:31
-msgid "![CoyIM - Successful connection](static/images/CoyIM_connected.png)"
 msgstr ""
 
 #. type: Plain text

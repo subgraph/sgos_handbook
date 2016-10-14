@@ -11,7 +11,8 @@ BEGIN {
 # LaTeX directives we specify in the regular expressions below
 
 !/msgid "\\\\newpage"/ && \
-!/msgid "\\\\clearpage"/ \
+!/msgid "\\\\clearpage"/ && \
+!/msgid "!\[.+\]\(.+.png\)"/ \
 {	
 	# We print the #. type: row for every record past the first
 	if (NR>1) {

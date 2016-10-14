@@ -88,6 +88,14 @@ $(PODIR)/$(BOOKNAME).pot: $(foreach chap,$(BOOK_CH_ALL), $(chap))
 $(PODIR)/%.po: $(foreach chap,$(BOOK_CH_ALL), $(chap))
 	@po4a-updatepo $(POTHEADER) -f text -M -utf-8 $(foreach chap,$(BOOK_CH_ALL),-m $(chap)) -p $@
 
+# This is a proof-of-concept as we don't have anything to translate.
+translate:
+	po4a-translate -f text -M utf-8 -m $(PODIR)/$(BOOKNAME)_fixed.pot -p $(PODIR)/$(BOOKNAME)_fixed_fr.po -k 20 -l $(BOOKNAME)_fr.md
+
+# When we start doing real translations, they will be performed on
+# individual chapters and not a merged book. The code will look
+# # something like this:
+#  $(foreach chap,$(BOOK_CH_ALL), po4a-translate -f text -M utf-8 -m $(chap) -p $(PODIR)/$*.po -k 20 -l $(shell basename -s .md $(chap))-$*.md ; )
 
 clean:
 	rm -f $(BUILD_DIR)/*.pdf $(BUILD_DIR)/*.txt

@@ -86,7 +86,7 @@ $(PODIR)/$(BOOKNAME).pot: $(foreach chap,$(BOOK_CH_ALL), $(chap))
 	po4a-gettextize $(POTHEADER) -f text -M utf-8 $(foreach pot,$(BOOK_CH_ALL),-m $(pot)) -p $@
 
 $(PODIR)/%.po: $(foreach chap,$(BOOK_CH_ALL), $(chap))
-	@po4a-update $(POTHEADER) -f text -M -utf-8 $(foreach chap,$(BOOK_CH_ALL),-m $(chap)) -p $@
+	@po4a-updatepo $(POTHEADER) -f text -M -utf-8 $(foreach chap,$(BOOK_CH_ALL),-m $(chap)) -p $@
 
 
 clean:

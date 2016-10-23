@@ -43,7 +43,7 @@ endif
 
 # requires diction
 readability: $(BUILD_DIR)/readability.txt
-$(BUILD_DIR)/readability.txt: *.md
+$(BUILD_DIR)/readability.txt: $(BOOK_CH_ALL)
 ifdef STYLE
 	style -p $^ > $@
 else 

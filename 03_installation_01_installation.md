@@ -1,6 +1,7 @@
 # Installing Subgraph OS
 
 \newpage
+
 ## System requirements
 
 Subgraph OS runs on Intel 64-bit computers. These are the system
@@ -95,22 +96,96 @@ are now ready to try it out!
 
 \newpage
 
-## Installation methods
+## Installing from a USB drive on a Linux computer
+
+This section describes how to create a USB installer using Linux. One of these
+methods will work on any Linux computer (even on Subgraph OS). To create an
+installer you will need a USB drive with a capacity a 2GB or more.
+
+### Creating a USB installer using Gnome Disks
+
+If you have a Linux computer that is running the Gnome Desktop, you can use the 
+**Gnome Disks** application to create a USB installer.
+
+The following steps show how to make a USB installer using **Gnome Disks**:
+
+1. Insert a USB drive into your Linux computer
+
+2. Open the **Gnome Disks** application
+
+3. Select your USB drive
+
+![Gnome Disks - select USB drive](static/images/Gnome_Disks_select.png)
+
+\newpage 
+
+4. Select the **Format Disk** option in the top right corner of **Gnome Disks**
+
+![Gnome Disks - Format Disks... option](static/images/Gnome_Disks_menu_format.png)
+
+\newpage 
+
+5. *Format* the USB drive
+
+![Gnome Disks - Format dialog](static/images/Gnome_Disks_dialog_format.png)
+
+\newpage 
+
+6. Select the **Restore Disk Image** option in the top right corner of **Gnome
+   Disks**
+
+![Gnome Disks - Restore Disk Image... option](static/images/Gnome_Disks_menu_restore.png)
 
 \newpage
 
-### Installing from a CD or DVD
+7. Choose the ISO file you want to *restore* (copy) to the USB drive
+
+8. *Restore* the ISO to the USB drive
+
+![Gnome Disks - Restore dialog](static/images/Gnome_Disks_dialog_restore.png)
 
 \newpage
 
-### Installing from a USB key
+It should take a few minutes to copy the ISO to the USB drive. 
 
 \newpage
 
-### Booting from a USB key (Live mode)
+### Creating a USB installer using dd
+
+If your Linux computer is not running Gnome Desktop or you want to create the
+installer from the command-line, you can use the **dd** utility.
+
+The following steps show how to make a USB installer using **dd**:
+
+1. Insert a USB drive into your computer
+
+2. Open a terminal and run the following command to identify the name of the USB
+   drive: 
+```{bash}
+$ lsblk
+```
+    **NOTE**: You should see a name such as **/dev/sdx** for your drive, for
+    example: **/dev/sdb**. It is important to use only the name without the 
+    partition number. If you see something like **/dev/sdb1**, you can omit 
+    the **1** at the end. The **dd** command uses the name without the partition 
+    number.
+
+3. In the same terminal, run the following command:
+```{bash}
+$ dd bs=4M if=subgraph-os-alpha_2016-06-16_2.iso of=/dev/sdx status=progress && sync
+```
+   **NOTE**: Replace the path of the ISO with the path of the ISO you have
+   downloaded and verified. Replace **/dev/sdx** with the name of your USB
+   drive, for example: **/dev/sdb**.
+
+Copying the ISO to the USB drive should take a few minutes.
+
+\newpage
+
+## Booting from a USB drive (Live mode)
 
 Subgraph OS also features a 'live' mode. Subgraph OS live mode runs in memory, 
-directly from the USB stick. While running in live mode, nothing
+directly from the USB drive. While running in live mode, nothing
 will be saved to your hard-drive. When the live session ends, any data created
 during your session will disappear, leaving no traces behind on the hard-disk. 
 \
@@ -129,14 +204,7 @@ To start the live mode, select `Live (amd64)`.
 
 ![Subgraph OS boot screen](static/images/subgraph_splash.png)
 
-Please note that the user password on the live image is: `live`.
+Please note that the user password on the live image is: *live*.
 
 \newpage
 
-## Installing, step\-by\-step
-
-\newpage
-
-## After the First Boot
-
-\newpage

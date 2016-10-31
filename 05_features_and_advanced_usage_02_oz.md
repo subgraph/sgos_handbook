@@ -1,5 +1,3 @@
-# Features and advanced usage
-
 ## Sandboxing applications with Subgraph Oz
 
 Subgraph OS runs desktop applications inside of our security sandbox (Oz). The 

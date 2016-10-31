@@ -1,4 +1,4 @@
-# Securing the Tor control port with ROFLCopTor
+## Securing the Tor control port with ROFLCopTor
 
 The Tor service is managed by a control protocol. This lets users perform
 various actions such as querying information about Tor connections, starting
@@ -26,7 +26,7 @@ require access to the Tor control port. The policies work without modification
 for most use-cases. This section describes how to profile applications to create
 new policies or modify existing ones.
 
-## Profiling applications with ROFLCopTor
+### Profiling applications with ROFLCopTor
 
 *ROFLCopTor* can profile applications to determine the Tor control commands that
 they run on a regular basis. This makes it easier to create or edit policies.
@@ -67,7 +67,7 @@ restart *ROFLCopTor*:
 $ sudo systemctl restart roflcoptor
 ```
 
-## Editing ROFLCopTor policies
+### Editing ROFLCopTor policies
 
 Once you have a list of commands required by an application, you can create or
 edit a policy.

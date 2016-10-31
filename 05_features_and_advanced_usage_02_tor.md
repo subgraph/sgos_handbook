@@ -2,7 +2,3 @@
 
 \newpage
 
-### Securing the Tor control port with roflcoptor
-
-\newpage
-

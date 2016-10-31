@@ -7,20 +7,19 @@ We have created this handbook as an instructional manual on how to use the
 Subgraph operating system. This handbook also introduces various security
 and privacy enhancing technologies that we have developed at Subgraph.
 
-This handbook is intended for new users of Subgraph OS, including users
-who are already familiar with other Linux-based operating systems. It also 
-includes users who are just getting started with Linux. We hope that this 
-handbook helps to ease the transition for both groups of users.
+We wrote this book for new users of Subgraph OS. Whether you are new to Linux 
+or coming from another Linux-based operating system, we want to ease your 
+transition to Subgraph OS.
 
-The first section of this book describes how to perform common tasks such as
+In the first section, we describe how to perform common tasks such as
 installing Subgraph OS and using the various applications that are included.
-Users who want to get up and running as quickly as possible should start here. 
+Start here to get up and running with Subgraph OS as quickly as possible. 
 
-In the next section, we describe the various features of Subgraph OS that 
-distinguish it from other operating systems. This is intended for users who are 
-interested in learning in\-depth about the various security and privacy 
-enhancements that we have implemented. Advanced users will find this section 
-useful for configuring operating system features and Subgraph applications.
+The next section describes the various features of Subgraph OS that 
+distinguish it from other operating systems. Users can refer to this section to 
+learn the various security and privacy features. Advanced users will find this 
+section useful for configuring operating system features and Subgraph 
+applications.
 
 \newpage
 

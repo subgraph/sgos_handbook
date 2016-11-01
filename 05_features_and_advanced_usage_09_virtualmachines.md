@@ -1,125 +1,248 @@
 ## Using virtual machines in Subgraph OS
 
-Contrary to popular belief, there is nothing that stops the use of virtual machines in Subgraph OS.
-While there are, as of this writing, some known incompatibilities with VirtualBox, Qemu/KVM works as expected.
+Contrary to popular belief, there is nothing that stops the use of virtual 
+machines in Subgraph OS. While the *Grsecurity* kernel is not compatible with 
+VirtualBox, **Qemu/KVM** works as expected. However, you must install 
+**Qemu/KVM** yourself if you want to run virtual machines.
 
-Qemu/KVM can be obtained by installing it the normal way: `sudo apt install qemu-system qemu-kvm qemu-utils`
-
-### Creating a virtual machine with Qemu.
-
-The following are simple starter guides to using Qemu. For more detailed information regarding the operation of Qemu/KVM virtual machine see the official [Qemu manual](http://wiki.qemu.org/Manual).
-
-There are also multiple user interfaces that allow interfacing with Qemu/KVM with various degrees of complexity and flexibility such as:
-
-* [gnome-boxes](https://wiki.gnome.org/Apps/Boxes)
-* [virt-manager](http://virt-manager.et.redhat.com/)
-* [qemuctl](http://qemuctl.sourceforge.net/)
-* [virtualbricks](https://launchpad.net/virtualbrick)
-
-#### Simple virtual machine creation
-
-To create a virtual machine you will, if required, create a hard drive image for it:
-
-```
-qemu-img create -f qcow2 disk.qcow2 8G
+Running the following command with install **Qemu/KVM**:
+```{bash}
+$ sudo apt install qemu-system qemu-kvm qemu-utils
 ```
 
-Your virtual machine drive is now ready for use. You may launch a virtual machine using this drive like so:
+### Creating a virtual machine with Qemu
 
+The following sections are recipes  on how to use **Qemu/KVM** in Subgraph OS. 
+They are similar to our own workflows for developing and testing Subgraph OS. 
+**Qemu/KVM** supports many more options than what we use in these tutorials. 
+For more detailed information regarding the operation of **Qemu/KVM**
+virtual machines, see the official **Qemu** manual:
+
+http://wiki.qemu.org/Manual
+
+There are multiple third-party graphical user interfaces for **Qemu/KVM**. These 
+may make it easier to configure and manage virtual machines. You can explore the
+various options by visiting these pages:
+
+* https://wiki.gnome.org/Apps/Boxes
+* http://virt-manager.et.redhat.com
+* http://qemuctl.sourceforge.net
+* https://launchpad.net/virtualbrick
+
+### Creating a basic Linux virtual machine
+
+Prior to creating the virtual machine, you should create a virtual hard-drive 
+image for it:
+
+```{bash}
+$ qemu-img create -f qcow2 disk.qcow2 8G
 ```
-qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 -m 4096
+
+Your virtual hard-drive is now ready for use. Run the following command to
+test a virtual machine with the hard-drive:
+
+```{bash}
+$ qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 -m 4096
 ```
 
-Where `-enable-kvm` enables KVM virtualisation instead of using emulation; `-hda ./disk.qcow2` attaches the disk image; and `-m 4096` allocates 4096MB of RAM to the virtual machine.
+To start a virtual machine with an operating system ISO attached to the virtual 
+CDROM, run the following command:
 
-To attach a cdrom image, for example to install an operating system:
-
-```
-qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 -m 4096 -cdrom ./subgraph-os-alpha_2016-06-16_2.iso -boot d
-```
-
-#### Advanced virtual machine creation
-
-For more control and easier installation of Debian releases inside of a virtual machine, one may use debootstrap to create pre installed images without going through the installer process.
-
-Let's start by creating an 8GB raw sparse image for our VM, then format and mount it:
-
-```
-truncate --size 8G ./disk.img
-# Here you could decide to create a proper partition table if you wanted... or not...
-/sbin/mkfs.ext4 ./disk.img
-sudo mount -o loop ./disk.img /mnt
+```{bash}
+$ qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 -m 4096 -cdrom ./subgraph-os-alpha_2016-06-16_2.iso -boot d
 ```
 
-It's worth nothing that you should have enough free disk space for the image you create (and possible twice as much if you want to convert it later on).
+> **Qemu/KVM options**
+>
+> *-enable-kvm*: enables **KVM** virtualisation, which is faster than 
+> **Qemu's** emulation
+>
+> *-hda*:  This attaches the virtual hard-drive you created
+>
+> *-m*: This allocates RAM to the virtual machine (4096MB in the example)
+> 
+> *-cdrom*: The path to the operation system ISO
+>
+> *-boot*: This specifies the boot order for the virtual machine, *d* is the
+> virtual CDROM
 
-However, the truncated image will only take as much as space as required:
+This example can be adapted to run the Linux distribution of your choice inside of
+a virtual machine.
 
+\newpage
+
+### Creating an advanced Debian Stretch virtual machine using debootstrap
+
+To have more control over the installation of Debian inside of a virtual
+machine, you can use **debootstrap** to install the operating system. Another
+advantage of this approach is that you can avoid all of the installation dialogs
+of the **Debian installer**.
+
+This section will show how to install Debian Stretch with the *Grsecurity* 
+kernel from Subgraph OS.
+
+#### Create a virtual hard-drive image for the operating system
+
+To begin the install, you must set up a virtual hard-drive image. Follow these
+steps to set it up:
+
+1. Run the following command to create a sparse virtual hard-drive image:
+```{bash}
+$ truncate --size 8G ./disk.img
 ```
-du -sh disk.img
+
+2. To format the virtual hard-drive run the following command:
+```{bash}
+$ /sbin/mkfs.ext4 ./disk.img
+```
+After formatting the hard-drive, you can create a proper partition table. We
+will skip this step in the tutorial as it is not strictly necessary to run the
+virtual machine.
+
+3. Mount the virtual hard-drive:
+```{bash}
+$ sudo mount -o loop ./disk.img /mnt
+```
+
+**NOTE:** You should ensure there is enough free space in the image you
+create. You may want to allocate twice as much if you want to convert the image
+later on.
+
+
+The sparse virtual hard-drive image you created will only use as much space as
+it requires.
+
+Run the following command to show how much space is used by the image:
+
+```{bash}
+$ du -sh disk.img
+```
+
+The amount shown is a fraction of the total amount specified in the *truncate*
+command:
+```
 189M	disk.img
-du --apparent-size -sh disk.img
+```
+
+To verify the total amount that was specified in the *truncate* command, run
+this command:
+```{bash}
+$ du --apparent-size -sh disk.img
+```
+
+The total amount should correspond with what was specified when you ran  
+*truncate*:
+```
 8.0G	disk.img
-```
-
-Now that we have an image created and mounted, we can use debootstrap to expand a basic install into it:
 
 ```
-sudo debootstrap --variant=mintbase --include=systemd-sysv stretch /mnt
 
-# And set a root password
-sudo chroot /mnt passwd
+#### Installing the operating system with deboostrap
 
-# Create a standard fstab
-sudo tee /mnt/etc/fstab << EOL
+Now that the virtual disk-image is created, we can now use **debootstrap** to
+install Debian Stretch. Follow these steps to install it:
+
+1. Run **debootstrap** to install the operating system:
+```{bash}
+$ sudo debootstrap --variant=mintbase --include=systemd-sysv stretch /mnt
+```
+
+2. Set a *root* password for the installed operating system:
+```{bash}
+$ sudo chroot /mnt passwd
+```
+
+3. Create a standard fstab configuration:
+```{bash}
+$ sudo tee /mnt/etc/fstab << EOL
 /dev/sda	/	ext4	defaults,errors=remount-ro	0	1
 EOL
+```
 
-# Let's download the subgraph grsec kernel and install it
-cd /tmp
-apt-get download linux-{image,headers}-grsec-amd64-subgraph linux-{image,headers}-$(uname -r)
-sudo cp ./linux-{image,headers}-$(uname -r) /mnt/tmp
-sudo chroot /mnt
+#### Installing the Grsecurity kernel in the operating system
+
+Run the following commands to install the Subgraph OS *Grsecurity* kernel in 
+your virtual machine:
+```{bash}
+$ cd /tmp
+$ apt-get download linux-{image,headers}-grsec-amd64-subgraph linux-{image,headers}-$(uname -r)
+$ sudo cp ./linux-{image,headers}-$(uname -r) /mnt/tmp
+$ sudo chroot /mnt
 $ dpkg -i /tmp/linux-{image,headers}-*
 $ update-initramfs -u -k all
 $ exit
-
-# Now we grab a copy of the kernel and initramfs we just installed to boot the system
-cp /mnt/boot/vmlinuz-<version>-amd64 /mnt/boot/initrd.img-<version>-amd64 /home/user/path/to/vm
-
-# After, we will sync and umount
-sync
-sudo umount /mnt
 ```
 
-Once done, we can use it as is with Qemu/KVM, or if you prefer it can be converted to a qcow2 image for convenience:
 
-```
-qemu-img convert -f raw -O qcow2 ./disk.img ./disk.qcow2
+The kernel and initramfs are inside of your mounted virtual hard-drive image. 
+You must copy them to a directory on your computer to boot the virtual machine
+using these files. Run the following command to copy the files to the directory
+you want to start the virtual machine from:
+```{bash}
+$ cp /mnt/boot/vmlinuz-<version>-amd64 /mnt/boot/initrd.img-<version>-amd64 /home/user/path/to/vm
 ```
 
-We can now launch our image:
+#### Finalizing the installation of the operating system
 
+As the final step, we will sync the filesystem and unmount the virtual
+hard-drive image:
+```{bash}
+$ sync
+$ sudo umount /mnt
 ```
-qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 \
+
+(Optional) If you prefer, you may convert the virtual hard-drive image to the
+*qcow2* format:
+
+```{bash}
+$ qemu-img convert -f raw -O qcow2 ./disk.img ./disk.qcow2
+```
+
+#### Starting the Debian Stretch virtual machine
+
+Now you are ready to start the virtual machine. Run the following command to
+start it:
+
+```{bash}
+$ qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 \
 	-kernel ./vmlinuz-<version>-amd64 \
 	-initrd ./initrd.img-<version>-amd64 \
 	-append root=/dev/sda
 ```
+**NOTE:** This assumes you converted the virtual hard-drive image to the
+*qcow2*. If not, replace **disk.qcow2** with the correct name of your image.
 
-If you want to install grub to keep the kernel and initrd images inside the virtual machine you'll have to create a full partition table, and potentially a separate /boot partition. But this is out of scope for this short tutorial.
+> **Qemu/KVM options**
+> 
+> This section uses some new options for **Qemu/KVM**.
+>
+> *-kernel*: This is the operating system kernel to boot when starting a virtual
+> machine
+>
+> *-initrd*: This is the initramfs to boot when starting a virtual machine
+>
+> *-append*: These are options to append to the kernel command line when
+> starting a virtual machine
 
-#### Simple networking
 
-By default, Qemu will transparently NAT your virtual machines to the host network. This can be disabled by using the `-net none` flag.
+If you want to install grub to keep the kernel and initrd images inside the 
+virtual machine you'll have to create a full partition table. You may also need
+to create a separate **/boot** partition. But this is out of scope for this 
+tutorial.
 
-Alternatively, you can also open simple tunnels between the host and the virtual machine using the port redirection mechanism with the `-redir` flag:
+### Setting up simple networking in Qemu/KVM
+
+By default, **Qemu** will transparently *NAT* your virtual machines to the host 
+network. This can be disabled by using the **-net none** flag.
+
+Alternatively, you can also open simple tunnels between the host and the 
+virtual machine using the port redirection mechanism with the **-redir** flag:
 
 ```
 -redir tcp:55700::55700
 ```
 
-For more on networking in Qemu/KVM see:
+For more on networking in **Qemu/KVM** see:
 
 * http://wiki.qemu.org/Documentation/Networking
 * https://en.wikibooks.org/wiki/QEMU/Networking

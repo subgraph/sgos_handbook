@@ -45,7 +45,7 @@ endif
 readability: $(BUILD_DIR)/readability.txt
 $(BUILD_DIR)/readability.txt: $(BOOK_CH_ALL)
 ifdef STYLE
-	style -p $^ > $@
+	style $^ > $@
 else 
 	echo "/usr/bin/style is missing -- no readability check possible"
 endif

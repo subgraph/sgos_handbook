@@ -19,7 +19,8 @@ BOOK_CH2 := $(sort $(wildcard 02_*))
 BOOK_CH3 := $(sort $(wildcard 03_*))
 BOOK_CH4 := $(sort $(wildcard 04_*))
 BOOK_CH5 := $(sort $(wildcard 05_*))
-BOOK_CH_ALL := $(BOOK_CH1) $(BOOK_CH2) $(BOOK_CH3) $(BOOK_CH4) $(BOOK_CH4) $(BOOK_CH5)
+BOOK_CH6 := $(sort $(wildcard 06_*))
+BOOK_CH_ALL := $(BOOK_CH1) $(BOOK_CH2) $(BOOK_CH3) $(BOOK_CH4) $(BOOK_CH4) $(BOOK_CH5) $(BOOK_CH6)
 
 PODIR := po
 BOOKNAME := sgos_handbook
@@ -28,6 +29,9 @@ COPYRIGHT := Subgraph
 PACKAGE := 'Subgraph OS Handbook'
 VERSION := $(shell git describe --tags)
 POTHEADER:= --msgid-bugs-address $(EMAIL) --copyright-holder $(COPYRIGHT) --package-name $(PACKAGE) --package-version $(VERSION)
+
+KERNEL_VERSION:=$(shell uname -r)
+LINUX_HEADERS:=/usr/src/linux-headers-$(KERNEL_VERSION)
 
 all: clean spellcheck readability contents sgos_handbook
 pot_all: pot po4a_fixup
@@ -74,6 +78,10 @@ docbook_fix_links_dev:
 html: $(BUILD_DIR)/sgos_handbook.html 
 $(BUILD_DIR)/sgos_handbook.html: $(BOOK_CH_ALL) metadata.yaml
 	pandoc -s -r markdown -t html -o $@ $^
+
+syscall_table: 06_appendix_02_syscalls_02.md
+06_appendix_02_syscalls_02.md: $(LINUX_HEADERS)/arch/x86/include/generated/uapi/asm/unistd_64.h
+	awk -f scripts/syscall_table.awk $^ > $@
 
 po4a_fixup: $(PODIR)/$(BOOKNAME)_fixed.pot
 $(PODIR)/$(BOOKNAME)_fixed.pot: $(PODIR)/$(BOOKNAME).pot 

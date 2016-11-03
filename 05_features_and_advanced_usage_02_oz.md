@@ -253,6 +253,10 @@ The Oz generic **blacklist** is located here:
 In Subgraph OS, we try to create **whitelist** policies for all of our supported
 applications.
 
+See the Appendix for a complete list of system calls in Subgraph OS. You can use
+this reference to look up system call numbers when writing or debugging
+*seccomp* policies.
+
 \newpage
 
 ### Profiling applications with oz-seccomp-tracer

@@ -50,6 +50,8 @@ Lastly, the sandbox limits other types of actions through a Linux feature called
 >
 > System calls are critical to security because they provide an interface for 
 > lower-privileged applications to send input to the kernel. 
+>
+> See the Appendix for a complete list of system calls in Subgraph OS.
 
 Sandboxed applications in Subgraph OS include a set of policies called a 
 *seccomp whitelist*. If an attacker compromises an application, this security 

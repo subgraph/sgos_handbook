@@ -33,13 +33,14 @@ they run on a regular basis. This makes it easier to create or edit policies.
 
 Before profiling applications, you should stop the currently running version of
 *ROFLCopTor*:
-```{bash}
+```{.bash}
 $ sudo systemctl stop roflcoptor
 ```
 
 To begin profiling, you must start *ROFLCopTor* in *watch* mode:
-```{bash}
-$ sudo -u roflcoptor roflcoptor watch -log_level DEBUG -config /etc/roflcoptor/roflcoptor_config.json  
+```{.bash}
+$ sudo -u roflcoptor roflcoptor watch -log_level DEBUG \
+-config /etc/roflcoptor/roflcoptor_config.json  
 
 ```
 
@@ -63,7 +64,7 @@ process/pid]
 Press **Ctrl-C** to stop the *ROFLCopTor* watch process. Make sure to restart 
 *ROFLCopTor* normally after you are done profiling. Run the following command to 
 restart *ROFLCopTor*:
-```{bash}
+```{.bash}
 $ sudo systemctl restart roflcoptor
 ```
 
@@ -80,7 +81,7 @@ directory on Subgraph OS:
 
 The following is a simple policy for the Tor Status Gnome shell extension in
 Subgraph OS:
-```{javascript}
+```{.javascript}
 {
     "Name": "gnome-shell-torstatus",
     "AuthNetAddr" : "tcp",

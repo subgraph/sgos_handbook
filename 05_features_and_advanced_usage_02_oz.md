@@ -67,7 +67,7 @@ manually enable a profile, you can do so by running the **oz-setup** command to
 *install* the profile. 
 
 The following example installs the profile for **evince**:
-```{bash}
+```{.bash}
 $ sudo oz-setup install evince
 ```
 
@@ -83,7 +83,7 @@ must disable its profile. To disable a profile, run the **oz-setup** command
 with the *remove* option.
 
 The following example removes the profile for **evince**:
-```{bash}
+```{.bash}
 $ sudo oz-setup remove evince
 ```
 
@@ -95,7 +95,7 @@ program will not run in the Oz sandbox the next time it is started.
 The status of a program can also be viewed with the **oz-setup** command.
 
 The following example shows the status of **evince**:
-```{bash}
+```{.bash}
 $ sudo oz-setup status /usr/bin/evince
 ```
 
@@ -122,7 +122,7 @@ In this section, we will walk through some of the options in a basic profile.
 Oz profiles are written in JSON.
 
 The following is the Oz profile for the **eog** image viewer:
-```{javascript}
+```{.javascript}
 {
  "name": "eog"
  , "path": "/usr/bin/eog"
@@ -263,8 +263,9 @@ determine the system calls that they use. This tool will generate a seccomp
 `whitelist` after it exits.  
 
 To profile Firefox using **oz-seccomp-tracer**, run the following command:
-```{bash}
-$ oz-seccomp-tracer -trace -output firefox-whitelist.seccomp /usr/bin/firefox 2>firefox_syscalls.txt
+```{.bash}
+$ oz-seccomp-tracer -trace -output firefox-whitelist.seccomp /usr/bin/firefox \ 
+2>firefox_syscalls.txt
 ```
 
 You can then use Firefox as you normally would. When you are finished, a seccomp
@@ -286,25 +287,27 @@ Using Firefox as an example, the following snippets from
 
 First, the seccomp policy file must be added to the list of files allowed in
 the sandbox:
-```{javascript}
- , "whitelist": [
-         , {"path":"/var/lib/oz/cells.d/firefox-whitelist.seccomp", "read_only": true}
+```{.javascript}
+"whitelist": [
+        , {"path":"/var/lib/oz/cells.d/firefox-whitelist.seccomp", 
+                "read_only": true}
+]
 ```
 
 Then the seccomp policy needs to be enabled to run in *enforce* mode:
-```{javascript}
- , "seccomp": {
+```{.javascript}
+"seccomp": {
          "mode":"whitelist"
          ,
 "whitelist":"/var/lib/oz/cells.d/firefox-whitelist.seccomp"
          , "enforce": true
- }
+}
 ```
 
 Lastly, the Oz daemon must be restarted to load the seccomp policy. You
 should save your work at this point as restarting Oz will close all of the open
 sandboxes. To restart the Oz daemon, run the following command:
-```{bash}
+```{.bash}
 $ sudo systemctl restart oz-daemon.service 
 ```
 

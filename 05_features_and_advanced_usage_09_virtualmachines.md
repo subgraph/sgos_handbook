@@ -6,7 +6,7 @@ VirtualBox, **Qemu/KVM** works as expected. However, you must install
 **Qemu/KVM** yourself if you want to run virtual machines.
 
 Running the following command with install **Qemu/KVM**:
-```{bash}
+```{.bash}
 $ sudo apt install qemu-system qemu-kvm qemu-utils
 ```
 
@@ -34,22 +34,23 @@ various options by visiting these pages:
 Prior to creating the virtual machine, you should create a virtual hard-drive 
 image for it:
 
-```{bash}
+```{.bash}
 $ qemu-img create -f qcow2 disk.qcow2 8G
 ```
 
 Your virtual hard-drive is now ready for use. Run the following command to
 test a virtual machine with the hard-drive:
 
-```{bash}
+```{.bash}
 $ qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 -m 4096
 ```
 
 To start a virtual machine with an operating system ISO attached to the virtual 
 CDROM, run the following command:
 
-```{bash}
-$ qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 -m 4096 -cdrom ./subgraph-os-alpha_2016-06-16_2.iso -boot d
+```{.bash}
+$ qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 -m 4096 \
+-cdrom ./subgraph-os-alpha_2016-06-16_2.iso -boot d
 ```
 
 > **Qemu/KVM options**
@@ -87,12 +88,12 @@ To begin the install, you must set up a virtual hard-drive image. Follow these
 steps to set it up:
 
 1. Run the following command to create a sparse virtual hard-drive image:
-```{bash}
+```{.bash}
 $ truncate --size 8G ./disk.img
 ```
 
 2. To format the virtual hard-drive run the following command:
-```{bash}
+```{.bash}
 $ /sbin/mkfs.ext4 ./disk.img
 ```
 After formatting the hard-drive, you can create a proper partition table. We
@@ -100,7 +101,7 @@ will skip this step in the tutorial as it is not strictly necessary to run the
 virtual machine.
 
 3. Mount the virtual hard-drive:
-```{bash}
+```{.bash}
 $ sudo mount -o loop ./disk.img /mnt
 ```
 
@@ -114,7 +115,7 @@ it requires.
 
 Run the following command to show how much space is used by the image:
 
-```{bash}
+```{.bash}
 $ du -sh disk.img
 ```
 
@@ -126,7 +127,7 @@ command:
 
 To verify the total amount that was specified in the *truncate* command, run
 this command:
-```{bash}
+```{.bash}
 $ du --apparent-size -sh disk.img
 ```
 
@@ -143,17 +144,17 @@ Now that the virtual disk-image is created, we can now use **debootstrap** to
 install Debian Stretch. Follow these steps to install it:
 
 1. Run **debootstrap** to install the operating system:
-```{bash}
+```{.bash}
 $ sudo debootstrap --variant=mintbase --include=systemd-sysv stretch /mnt
 ```
 
 2. Set a *root* password for the installed operating system:
-```{bash}
+```{.bash}
 $ sudo chroot /mnt passwd
 ```
 
 3. Create a standard fstab configuration:
-```{bash}
+```{.bash}
 $ sudo tee /mnt/etc/fstab << EOL
 /dev/sda	/	ext4	defaults,errors=remount-ro	0	1
 EOL
@@ -163,7 +164,7 @@ EOL
 
 Run the following commands to install the Subgraph OS *Grsecurity* kernel in 
 your virtual machine:
-```{bash}
+```{.bash}
 $ cd /tmp
 $ apt-get download linux-{image,headers}-grsec-amd64-subgraph linux-{image,headers}-$(uname -r)
 $ sudo cp ./linux-{image,headers}-$(uname -r) /mnt/tmp
@@ -178,15 +179,16 @@ The kernel and initramfs are inside of your mounted virtual hard-drive image.
 You must copy them to a directory on your computer to boot the virtual machine
 using these files. Run the following command to copy the files to the directory
 you want to start the virtual machine from:
-```{bash}
-$ cp /mnt/boot/vmlinuz-<version>-amd64 /mnt/boot/initrd.img-<version>-amd64 /home/user/path/to/vm
+```{.bash}
+$ cp /mnt/boot/vmlinuz-<version>-amd64 /mnt/boot/initrd.img-<version>-amd64 \
+/home/user/path/to/vm
 ```
 
 #### Finalizing the installation of the operating system
 
 As the final step, we will sync the filesystem and unmount the virtual
 hard-drive image:
-```{bash}
+```{.bash}
 $ sync
 $ sudo umount /mnt
 ```
@@ -194,7 +196,7 @@ $ sudo umount /mnt
 (Optional) If you prefer, you may convert the virtual hard-drive image to the
 *qcow2* format:
 
-```{bash}
+```{.bash}
 $ qemu-img convert -f raw -O qcow2 ./disk.img ./disk.qcow2
 ```
 
@@ -203,7 +205,7 @@ $ qemu-img convert -f raw -O qcow2 ./disk.img ./disk.qcow2
 Now you are ready to start the virtual machine. Run the following command to
 start it:
 
-```{bash}
+```{.bash}
 $ qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 \
 	-kernel ./vmlinuz-<version>-amd64 \
 	-initrd ./initrd.img-<version>-amd64 \

@@ -23,7 +23,8 @@ See the following page page for more information about the Grsecurity *Deny New
 USB* feature:
 
 ```
-https://en.wikibooks.org/wiki/Grsecurity/Appendix/Grsecurity_and_PaX_Configuration_Options#Deny_new_USB_connections_after_toggle
+https://en.wikibooks.org/wiki/Grsecurity/Appendix/
+Grsecurity_and_PaX_Configuration_Options#Deny_new_USB_connections_after_toggle
 ```
 ### Enabling/disabling USB Lockout
 
@@ -31,12 +32,12 @@ While **USB Lockout** runs automatically in the background, you can manually
 *enable* or *disable* it.
 
 Run the following command to *enable* **USB Lockout**:
-```{bash}
+```{.bash}
 $ usblockout --enable
 ```
 
 Run the following command to *disable* **USB Lockout**:
-```{bash}
+```{.bash}
 $ usblockout --disable
 ```
 

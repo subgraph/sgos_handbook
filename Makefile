@@ -53,7 +53,7 @@ endif
 # requires texlive, texlive-xetex, lmodern, pdftk
 contents: $(BUILD_DIR)/contents.pdf
 $(BUILD_DIR)/contents.pdf:  $(BOOK_CH_ALL) metadata.yaml
-	pandoc -r markdown  -o $@ -H templates/style.tex --template=templates/sgos_handbook.latex --toc --listings --latex-engine=xelatex -V mainfont="$(FONT)" $^
+	pandoc -r markdown  -o $@ -H templates/style.tex --template=templates/sgos_handbook.latex --toc --highlight-style=haddock --latex-engine=xelatex -V mainfont="$(FONT)" $^
 
 sgos_handbook: $(BUILD_DIR)/sgos_handbook.pdf
 $(BUILD_DIR)/sgos_handbook.pdf: static/sgos_handbook_cover.pdf build/contents.pdf 

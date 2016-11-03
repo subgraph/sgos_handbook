@@ -62,7 +62,7 @@ checksum, and the signature for the checksum.
 The first step is to download our public key, Our public key can be downloaded
 with the following command:
 
-```
+```{.bash}
 $ gpg --recv-key B55E70A95AC79474504C30D0DA11364B4760E444
 ```
 
@@ -70,8 +70,9 @@ The second step is to verify the `authenticity` of the signature for the
 checksum. Run the following command to verify the signature (note: replace the
 filenames with the names of the files you downloaded):
 
-```
-$ gpg --verify subgraph-os-alpha_2016-06-16_2.iso.sha256.sig subgraph-os-alpha_2016-06-16_2.iso.sha256
+```{.bash}
+$ gpg --verify subgraph-os-alpha_2016-06-16_2.iso.sha256.sig \
+subgraph-os-alpha_2016-06-16_2.iso.sha256
 ```
 
 After running this command, you should see a `Good Signature` message. If you
@@ -81,7 +82,7 @@ The third step is to verify the `integrity` of the ISO using the SHA256 checksum
 Run the following command to verify the checksum (note: replace the filenames with the
 names of the files you downloaded):
 
-```
+```{.bash}
 $ sha256sum -c subgraph-os-alpha_2016-06-16_2.iso.sha256
 ```
 
@@ -161,7 +162,7 @@ The following steps show how to make a USB installer using **dd**:
 
 2. Open a terminal and run the following command to identify the name of the USB
    drive: 
-```{bash}
+```{.bash}
 $ lsblk
 ```
     **NOTE**: You should see a name such as **/dev/sdx** for your drive, for
@@ -171,8 +172,9 @@ $ lsblk
     number.
 
 3. In the same terminal, run the following command:
-```{bash}
-$ dd bs=4M if=subgraph-os-alpha_2016-06-16_2.iso of=/dev/sdx status=progress && sync
+```{.bash}
+$ dd bs=4M if=subgraph-os-alpha_2016-06-16_2.iso of=/dev/sdx \
+status=progress && sync
 ```
    **NOTE**: Replace the path of the ISO with the path of the ISO you have
    downloaded and verified. Replace **/dev/sdx** with the name of your USB

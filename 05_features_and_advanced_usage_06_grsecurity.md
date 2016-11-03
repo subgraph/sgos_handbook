@@ -73,7 +73,7 @@ following directory:
 ```
 
 The following is a snippet of a *PaX flag* configuration for **Tor Browser**:
-```{javascript}
+```{.javascript}
 "/home/user/.local/share/torbrowser/tbb/x86_64/tor-browser_en-US/Browser/firefox":
 {
     "flags": "m",

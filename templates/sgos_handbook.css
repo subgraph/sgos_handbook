@@ -17,3 +17,8 @@ body {
         font-family: 'Noto Sans','Lato',sans-serif !important;
 }
 
+pre {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+

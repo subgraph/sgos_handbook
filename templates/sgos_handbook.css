@@ -2,3 +2,11 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+
+blockquote {
+	background: #d9d9ff;
+	border-left: 1px dashed #ccc;
+	margin: 30px;
+	padding: 30px;
+}
+

@@ -22,3 +22,28 @@ pre {
 	margin-right: 1em;
 }
 
+table {
+	border-collapse: collapse;
+	border: 1px solid;
+}
+
+th {
+	border: 2px solid;
+	padding:10px;
+	background: #d9d9ff;
+}
+
+td {
+	border: 1px dotted black;
+	padding:15px;
+	width:100px;
+}
+
+tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}

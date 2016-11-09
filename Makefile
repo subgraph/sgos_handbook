@@ -29,7 +29,7 @@ COPYRIGHT := Subgraph
 PACKAGE := 'Subgraph OS Handbook'
 VERSION := $(shell git describe --tags)
 POTHEADER:= --msgid-bugs-address $(EMAIL) --copyright-holder $(COPYRIGHT) --package-name $(PACKAGE) --package-version $(VERSION)
-HTMLOPTIONS:= --toc --highlight-style haddock --section-divs --number-sections --self-contained
+HTMLOPTIONS:= --toc --highlight-style haddock --section-divs --number-sections --self-contained --css templates/sgos_handbook.css
 
 KERNEL_VERSION:=$(shell uname -r)
 LINUX_HEADERS:=/usr/src/linux-headers-$(KERNEL_VERSION)

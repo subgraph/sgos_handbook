@@ -10,3 +10,10 @@ blockquote {
 	padding: 30px;
 }
 
+body {
+        padding-top: 0px !important;
+        color: rgb(100, 100, 100);
+        font-style: normal;
+        font-family: 'Noto Sans','Lato',sans-serif !important;
+}
+

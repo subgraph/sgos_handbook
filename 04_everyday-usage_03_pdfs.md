@@ -94,7 +94,7 @@ Clicking on a PDF in the file explorer will automatically open the PDF using
 ### Adding PDFs to Evince from the Oz menu
 
 If the PDF reader is already open, the PDF can be added to the sandbox by
-clicking on *Add file...* option of the **Oz** menu for **Evince**.
+clicking on *Add file...* option of the *Oz menu* for **Evince**.
 
 ![Oz menu - Add file](static/images/Oz_menu_addfiles_pdf.png)
 
@@ -127,8 +127,8 @@ This message indicates that **Oz** has received the request to launch *Evince*.
 
 You may be surprised that opening the PDF from the terminal also opens it in the
 sandbox. This is because **Oz** re-routes the commands so that they run in the 
-sandbox. For any application that runs in Oz, you may launch it from the desktop 
-*or* the command-line terminal.
+sandbox. For any application that runs in **Oz**, you may launch it from the 
+desktop *or* the command-line terminal.
 
 \newpage 
 

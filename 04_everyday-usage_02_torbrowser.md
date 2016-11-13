@@ -10,7 +10,7 @@ individual users by their browser fingerprint
 * A security slider that lets users disable browser features that may pose 
 security and privacy risks
 
-The Tor Browser runs inside a security sandbox, managed by Subgraph Oz. Web
+The Tor Browser runs inside a security sandbox, managed by Subgraph **Oz**. Web
 browsers represent some of the most complex software available. With complexity
 comes increased risk to security and privacy. This is what we call the `attack
 surface` of an application. Tor Browser is no different than other browsers in
@@ -41,16 +41,16 @@ visit the website using lowered security and privacy settings.
 
 ### Downloading and saving files in the Tor Browser
 
-The Tor Browser runs inside of Oz, our application sandbox. When files are 
+The Tor Browser runs inside of **Oz**, our application sandbox. When files are 
 downloaded by a sandboxed application such as the Tor Browser, they are saved 
-within the sandbox. When you close the Tor Browser, Oz will cleanup the sandbox,
-causing files saved in the sandbox to be destroyed. 
+within the sandbox. When you close the Tor Browser, **Oz** will cleanup the 
+sandbox, causing files saved in the sandbox to be destroyed. 
 
 To allow the Tor Browser to download that can persist after the application is 
-closed, Oz makes a special exception. This special exception is a `shared
+closed, **Oz** makes a special exception. This special exception is a `shared
 directory` where files can be saved and retrieved later, without being destroyed 
 when Tor Browser is closed. `Shared directory`, in this case, means a directory
-that is shared inside and outside of the Oz sandbox. Oz sets up the the 
+that is shared inside and outside of the **Oz** sandbox. **Oz** sets up the the 
 following shared directory for saving downloaded files:
 ```
 ~/Downloads/TorBrowser
@@ -68,15 +68,15 @@ Tor Browser.
 
 ### Uploading files in the Tor Browser
 
-When the Tor Browser starts, the Oz sandbox limits its access to files and
+When the Tor Browser starts, the **Oz** sandbox limits its access to files and
 directories on the computer. For example, a photo from the `Pictures` directory
 will not be visible in the sandbox by default. If you want to upload a photo
-from this directory, you must use the Oz menu to add it to the Tor Browser
-sandbox. The Oz menu is denoted by the little zebra icon at the top-right corner 
-of the screen.
+from this directory, you must use the *Oz menu* to add it to the Tor Browser
+sandbox. The **Oz** menu is denoted by the little zebra icon at the top-right 
+corner of the screen.
 
 > ![Oz menu - icon](static/images/oz_menu_zebra.png){#id .class width=60 height=60px}
-> The following actions may be performed using the Oz menu:
+> The following actions may be performed using the *Oz menu*:
 >
 > - Add files to sandbox
 >

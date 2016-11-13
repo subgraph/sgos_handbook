@@ -27,7 +27,7 @@ use **CoyIM**, so choose something strong but memorable!
 
 ![CoyIM - Configure master password](static/images/CoyIM_configure_master_password.png)
 
-To begin using CoyIM, you must first add an existing account from an *XMPP*
+To begin using **CoyIM**, you must first add an existing account from an *XMPP*
 network. 
 
 ![CoyIM - Account details: basic configuration](static/images/CoyIM_account_details_basic.png)

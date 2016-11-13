@@ -129,7 +129,7 @@ The most common configuration task is to add new commands and responses to the
 
 More documentation on configuring and using ROFLCopTor is located on the
 following page:
-https://github.com/subgraph/roflcoptor
+<https://github.com/subgraph/roflcoptor>
 
 \newpage
 

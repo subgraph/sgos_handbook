@@ -50,7 +50,7 @@ the same display server, they cannot interact.
 For more technical details about Oz and its security features, see the following
 page:
 
-https://github.com/subgraph/oz/wiki/Oz-Technical-Details
+<https://github.com/subgraph/oz/wiki/Oz-Technical-Details>
 
 
 \newpage
@@ -199,7 +199,7 @@ applications are located in the profiles directory:
 
 Complete documentation for creating Oz profiles can be found here:
 
-https://github.com/subgraph/oz 
+<https://github.com/subgraph/oz>
 
 \newpage
 

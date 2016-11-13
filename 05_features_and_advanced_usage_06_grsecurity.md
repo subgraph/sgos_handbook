@@ -7,7 +7,7 @@ with **Grsecurity**.
 
 For more information about **Grsecurity**, see the following page:
 
-https://grsecurity.net/
+<https://grsecurity.net/>
 
 ### Configuring PaX flags with Paxrat
 
@@ -41,7 +41,7 @@ applications on the computer.
 >
 > More information about *PaX* can be found here:
 >
-> https://pax.grsecurity.net/
+> <https://pax.grsecurity.net/>
 
 *PaX* works by killing applications that violate its security policies. This
 *proactively* prevents attacks from succeeding. However, as part of their normal
@@ -120,7 +120,7 @@ represented by a lower-case letter such as **m**. Upper-case letters such as
 >
 > A detailed description of these flags can be found on the following page:
 >
-> https://en.wikibooks.org/wiki/Grsecurity/Appendix/PaX_Flags
+> <https://en.wikibooks.org/wiki/Grsecurity/Appendix/PaX_Flags>
 
 Working examples can be found in the Subgraph OS **Paxrat** configuration files:
 ```

@@ -60,7 +60,7 @@ from accessing your shared files. Once files are shared, people with the
 
 More information about **OnionShare** is on the following website:
 
-https://github.com/micahflee/onionshare
+<https://github.com/micahflee/onionshare>
 
 \newpage
 

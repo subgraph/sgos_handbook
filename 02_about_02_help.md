@@ -11,7 +11,7 @@ are not addressed in this handbook, you can contact us through other means.
 >
 > Our IRC channel is also available through webchat at:
 >
-> https://webchat.oftc.net/?channels=#subgraph
+> <https://webchat.oftc.net/?channels=#subgraph>
 >
 > *Twitter*: Our Twitter is **@subgraph**, send us a message
 
@@ -22,7 +22,7 @@ in the mailing list.
 
 Further information about **Secure Desktops** can be found here:
 
-https://secure-os.org/desktops/charter/
+<https://secure-os.org/desktops/charter/>
 
 \newpage
 
@@ -32,11 +32,11 @@ If you find a bug in Subgraph OS, you can report it to us on Github.
 
 Our issue tracker for Subgraph OS is:
 
-https://github.com/subgraph/subgraph-os-issues
+<https://github.com/subgraph/subgraph-os-issues>
 
 You can also find our individual software repositories at:
 
-https://github.com/subgraph
+<https://github.com/subgraph>
 
 \newpage
 
@@ -44,11 +44,11 @@ https://github.com/subgraph
 
 Up-to-date versions of this handbook can be found on the following page:
 
-https://github.com/subgraph/sgos_handbook
+<https://github.com/subgraph/sgos_handbook>
 
 The PDF can be downloaded here:
 
-https://github.com/subgraph/sgos_handbook/raw/master/build/sgos_handbook.pdf
+<https://github.com/subgraph/sgos_handbook/raw/master/build/sgos_handbook.pdf>
 
 Subgraph OS will also include versions of this handbook in different formats.
 

@@ -29,7 +29,7 @@ detail in other sections of this book.
 
 More information about Tor can be found here:
 
-https://www.torproject.org/about/overview
+<https://www.torproject.org/about/overview>
 
 \newpage
 

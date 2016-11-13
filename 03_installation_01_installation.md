@@ -17,7 +17,7 @@ requirements:
 
 Subgraph OS can be downloaded from our website:
 
-https://subgraph.com/sgos/download/index.en.html
+<https://subgraph.com/sgos/download/index.en.html>
 
 The Subgraph OS download page always has the most up-to-date download links and
 instructions. You can download the ISO directly from the website or over a Tor 

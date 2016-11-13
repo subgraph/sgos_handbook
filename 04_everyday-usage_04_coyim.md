@@ -9,7 +9,7 @@ alternative to chat software such as **Pidgin** and **Adium**.
 
 More information about **CoyIM** can be found here:
 
-https://coy.im/
+<https://coy.im/>
 
 \newpage
 

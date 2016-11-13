@@ -18,16 +18,16 @@ They are similar to our own workflows for developing and testing Subgraph OS.
 For more detailed information regarding the operation of **Qemu/KVM**
 virtual machines, see the official **Qemu** manual:
 
-http://wiki.qemu.org/Manual
+<http://wiki.qemu.org/Manual>
 
 There are multiple third-party graphical user interfaces for **Qemu/KVM**. These 
 may make it easier to configure and manage virtual machines. You can explore the
 various options by visiting these pages:
 
-* https://wiki.gnome.org/Apps/Boxes
-* http://virt-manager.et.redhat.com
-* http://qemuctl.sourceforge.net
-* https://launchpad.net/virtualbrick
+* <https://wiki.gnome.org/Apps/Boxes>
+* <http://virt-manager.et.redhat.com>
+* <http://qemuctl.sourceforge.net>
+* <https://launchpad.net/virtualbrick>
 
 ### Creating a basic Linux virtual machine
 
@@ -246,8 +246,8 @@ virtual machine using the port redirection mechanism with the **-redir** flag:
 
 For more on networking in **Qemu/KVM** see:
 
-* http://wiki.qemu.org/Documentation/Networking
-* https://en.wikibooks.org/wiki/QEMU/Networking
+* <http://wiki.qemu.org/Documentation/Networking>
+* <https://en.wikibooks.org/wiki/QEMU/Networking>
 
 \newpage
 

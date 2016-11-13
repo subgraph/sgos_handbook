@@ -42,7 +42,7 @@ that are private and secure.
 >
 > More information about the hidden services protocol can be found here:
 >
-> https://www.torproject.org/docs/hidden-services.html.en
+> <https://www.torproject.org/docs/hidden-services.html.en>
 
 In **Ricochet**, each user has a *contact ID* that maps to a Tor hidden service
 that is hosted on their computer. The application manages all of the plumbing of
@@ -51,8 +51,8 @@ contacts via their hidden services.
 
 More information about Ricochet can be found on the following pages:
 
-* https://ricochet.im/
-* https://github.com/ricochet-im/ricochet/blob/master/doc/design.md
+* <https://ricochet.im/>
+* <https://github.com/ricochet-im/ricochet/blob/master/doc/design.md>
 
 \newpage
 

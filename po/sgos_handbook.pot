@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Subgraph OS Handbook v1-4-gd7d90a8\n"
+"Project-Id-Version: Subgraph OS Handbook v1-42-gf8b1b9f\n"
 "Report-Msgid-Bugs-To: mckinney@subgraph.com\n"
-"POT-Creation-Date: 2016-10-14 13:26-0400\n"
+"POT-Creation-Date: 2016-11-17 11:14-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: 01_intro_01_preface.md:3 01_intro_01_preface.md:26 02_faq_01_faq.md:4 02_faq_01_faq.md:28 02_faq_01_faq.md:91 03_installation_01_installation.md:4 03_installation_01_installation.md:8 03_installation_01_installation.md:12 03_installation_01_installation.md:16 03_installation_01_installation.md:20 03_installation_01_installation.md:37 03_installation_01_installation.md:46 03_installation_01_installation.md:50 03_installation_01_installation.md:53 04_everyday-usage_01_intro.md:21 04_everyday-usage_02_torbrowser.md:41 04_everyday-usage_03_pdfs.md:14 04_everyday-usage_04_coyim.md:33 04_everyday-usage_05_ricochet.md:4 04_everyday-usage_06_onionshare.md:4 04_everyday-usage_07_subgraph_firewall.md:4 04_everyday-usage_01_intro.md:21 04_everyday-usage_02_torbrowser.md:41 04_everyday-usage_03_pdfs.md:14 04_everyday-usage_04_coyim.md:33 04_everyday-usage_05_ricochet.md:4 04_everyday-usage_06_onionshare.md:4 04_everyday-usage_07_subgraph_firewall.md:4 05_features_and_advanced_usage_01_oz.md:6 05_features_and_advanced_usage_01_oz.md:10 05_features_and_advanced_usage_02_tor.md:4 05_features_and_advanced_usage_02_tor.md:8 05_features_and_advanced_usage_03_metaproxy.md:25 05_features_and_advanced_usage_04_grsecurity.md:10 05_features_and_advanced_usage_05_macouflage.md:20 05_features_and_advanced_usage_06_usblockout.md:4 05_features_and_advanced_usage_07_virtualmachines.md:128
+#: 01_intro_01_preface.md:3 01_intro_01_preface.md:25 02_about_01_intro.md:4 02_about_01_intro.md:28 02_about_01_intro.md:93 02_about_02_help.md:28 02_about_02_help.md:42 02_about_02_help.md:55 03_installation_01_installation.md:4 03_installation_01_installation.md:15 03_installation_01_installation.md:99 03_installation_01_installation.md:122 03_installation_01_installation.md:128 03_installation_01_installation.md:134 03_installation_01_installation.md:141 03_installation_01_installation.md:149 03_installation_01_installation.md:153 03_installation_01_installation.md:186 03_installation_01_installation.md:203 03_installation_01_installation.md:212 04_everyday-usage_01_intro.md:21 04_everyday-usage_02_torbrowser.md:41 04_everyday-usage_03_pdfs.md:87 04_everyday-usage_03_pdfs.md:102 04_everyday-usage_03_pdfs.md:134 04_everyday-usage_04_coyim.md:15 04_everyday-usage_05_ricochet.md:58 04_everyday-usage_05_ricochet.md:68 04_everyday-usage_05_ricochet.md:86 04_everyday-usage_06_onionshare.md:66 04_everyday-usage_06_onionshare.md:75 04_everyday-usage_06_onionshare.md:120 04_everyday-usage_07_subgraph_firewall.md:86 04_everyday-usage_07_subgraph_firewall.md:95 04_everyday-usage_07_subgraph_firewall.md:101 04_everyday-usage_07_subgraph_firewall.md:118 04_everyday-usage_01_intro.md:21 04_everyday-usage_02_torbrowser.md:41 04_everyday-usage_03_pdfs.md:87 04_everyday-usage_03_pdfs.md:102 04_everyday-usage_03_pdfs.md:134 04_everyday-usage_04_coyim.md:15 04_everyday-usage_05_ricochet.md:58 04_everyday-usage_05_ricochet.md:68 04_everyday-usage_05_ricochet.md:86 04_everyday-usage_06_onionshare.md:66 04_everyday-usage_06_onionshare.md:75 04_everyday-usage_06_onionshare.md:120 04_everyday-usage_07_subgraph_firewall.md:86 04_everyday-usage_07_subgraph_firewall.md:95 04_everyday-usage_07_subgraph_firewall.md:101 04_everyday-usage_07_subgraph_firewall.md:118 05_features_and_advanced_usage_01_intro.md:18 05_features_and_advanced_usage_02_oz.md:37 05_features_and_advanced_usage_02_oz.md:58 05_features_and_advanced_usage_02_oz.md:118 05_features_and_advanced_usage_02_oz.md:206 05_features_and_advanced_usage_02_oz.md:262 05_features_and_advanced_usage_02_oz.md:320 05_features_and_advanced_usage_03_tor.md:35 05_features_and_advanced_usage_03_tor.md:56 05_features_and_advanced_usage_04_metaproxy.md:32 05_features_and_advanced_usage_05_roflcoptor.md:135 05_features_and_advanced_usage_06_grsecurity.md:138 05_features_and_advanced_usage_07_macouflage.md:20 05_features_and_advanced_usage_08_usblockout.md:44 05_features_and_advanced_usage_09_virtualmachines.md:74 05_features_and_advanced_usage_09_virtualmachines.md:253 06_appendix_01_intro.md:6 06_appendix_02_syscalls_02.md:333
 msgid "\\newpage"
 msgstr ""
 
@@ -36,85 +36,88 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 01_intro_01_preface.md:14
+#: 01_intro_01_preface.md:13
 msgid ""
-"This handbook is intended for new users of Subgraph OS, including users who "
-"are already familiar with other Linux-based operating systems. It also "
-"includes users who are just getting started with Linux. We hope that this "
-"handbook helps to ease the transition for both groups of users."
+"We wrote this book for new users of Subgraph OS. Whether you are new to "
+"Linux or coming from another Linux-based operating system, we want to ease "
+"your transition to Subgraph OS."
 msgstr ""
 
 #. type: Plain text
-#: 01_intro_01_preface.md:18
+#: 01_intro_01_preface.md:17
 msgid ""
-"The first section of this book describes how to perform common tasks such as "
+"In the first section, we describe how to perform common tasks such as "
 "installing Subgraph OS and using the various applications that are "
-"included.  Users who want to get up and running as quickly as possible "
-"should start here."
+"included.  Start here to get up and running with Subgraph OS as quickly as "
+"possible."
 msgstr ""
 
 #. type: Plain text
-#: 01_intro_01_preface.md:24
+#: 01_intro_01_preface.md:23
 msgid ""
-"In the next section, we describe the various features of Subgraph OS that "
-"distinguish it from other operating systems. This is intended for users who "
-"are interested in learning in\\-depth about the various security and privacy "
-"enhancements that we have implemented. Advanced users will find this section "
-"useful for configuring operating system features and Subgraph applications."
+"The next section describes the various features of Subgraph OS that "
+"distinguish it from other operating systems. Users can refer to this section "
+"to learn the various security and privacy features. Advanced users will find "
+"this section useful for configuring operating system features and Subgraph "
+"applications."
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:2
+#: 02_about_01_intro.md:2
 msgid "# Subgraph OS"
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:6
+#: 02_about_01_intro.md:6
 msgid "## What is Subgraph OS?"
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:12
-msgid ""
-"Subgraph OS is an adversary resistant computing platform. The main purpose "
-"of Subgraph OS is to empower people to communicate, share, and collaborate "
-"without fear of surveillance and interference. What this means in practical "
-"terms is that users of Subgraph OS can safely perform their day-to-day tasks "
-"securely and privately."
+#: 02_about_01_intro.md:8
+msgid "Subgraph OS is an *adversary resistant computing* platform."
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:18
+#: 02_about_01_intro.md:12
+msgid ""
+"Subgraph OS empowers people to communicate, share, and collaborate without "
+"fear of surveillance and interference. We designed it so that our users can "
+"safely perform their day-to-day tasks securely and privately."
+msgstr ""
+
+#. type: Plain text
+#: 02_about_01_intro.md:18
 msgid ""
 "In some ways, Subgraph OS is like other operating systems -- it is derived "
-"from Debian GNU/Linux and uses the GNOME desktop environment as its "
-"graphical user interface. Many applications found in other Linux "
-"distributions are also available in Subgraph OS. Therefore, users who are "
-"already familiar to Linux and particularly the GNOME desktop environment "
-"will find Subgraph OS easy to use."
+"from Debian GNU/Linux. It provides the familiar GNOME desktop environment as "
+"its graphical user interface. Subgraph OS includes applications found in "
+"other Linux distributions. These similarities make Subgraph OS easy to "
+"adopt, especially for users with prior Linux experience."
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:21
+#: 02_about_01_intro.md:21
 msgid ""
 "Subgraph OS also has key differences from conventional Linux operating "
 "systems.  In particular:"
 msgstr ""
 
 #. type: Bullet: '1. '
-#: 02_faq_01_faq.md:26
+#: 02_about_01_intro.md:26
 msgid ""
 "Subgraph OS anonymizes Internet traffic by sending it through the Tor "
 "network"
 msgstr ""
 
 #. type: Bullet: '2. '
-#: 02_faq_01_faq.md:26
-msgid "Subgraph OS is hardened against common security vulnerabilities"
+#: 02_about_01_intro.md:26
+msgid ""
+"Security hardening makes Subgraph OS more resistant to security "
+"vulnerabilities"
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:26
+#: 02_about_01_intro.md:26
 #, no-wrap
 msgid ""
 "3. Subgraph runs many desktop applications in a security sandbox to limit "
@@ -123,20 +126,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:30
+#: 02_about_01_intro.md:30
 msgid "## What do we mean by security and privacy?"
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:34
+#: 02_about_01_intro.md:34
 msgid ""
-"Security and privacy can have many different meanings. In computer security, "
-"a secure system is one that assures the `confidentiality, integrity, and "
-"availability` of information it stores, processes, or communicates."
+"People attach different meanings to the words security and privacy. In "
+"computer security, a secure system is one that assures the `confidentiality, "
+"integrity, and availability` of information it stores, processes, or "
+"communicates."
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:40
+#: 02_about_01_intro.md:40
 msgid ""
 ">`Confidentiality` assures that information is not revealed to anybody who "
 "is not authorized > >`Integrity` assures that information cannot be modified "
@@ -145,107 +149,208 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:43
+#: 02_about_01_intro.md:47
 msgid ""
 "Privacy is similar to confidentiality. Privacy also relies heavily on the "
-"integrity of communications. But we think about in a broader sense as well."
+"integrity of communications. Our computers and other devices gather a great "
+"deal of information about our thoughts, our lives, and our social "
+"networks. They transmit this information over the Internet without our "
+"knowledge and consent.  We have no way to trust the systems and networks "
+"that relay our communications over the Internet."
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:50
+#: 02_about_01_intro.md:52
 msgid ""
-"We believe it as a fundamental right for people to communicate with each "
-"other privately. We also believe that people should not be required to "
-"reveal information about themselves or their social network without explicit "
-"consent.  This is an ongoing challenge because our devices and the "
-"applications we use reveal a great deal of information about "
-"us. Additionally, they communicate this private information over networks "
-"that are untrustworthy and hostile."
+"We designed Subgraph OS with these concerns in mind. We did this because we "
+"believe people should be able to communicate with each other privately. We "
+"also believe that people should not be required to reveal information about "
+"themselves or their social network without explicit consent."
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:52
-msgid "We designed Subgraph OS with these privacy concerns in mind."
-msgstr ""
-
-#. type: Plain text
-#: 02_faq_01_faq.md:54
+#: 02_about_01_intro.md:54
 msgid "## What is adversary resistant computing?"
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:58
+#: 02_about_01_intro.md:58
 msgid ""
-"Subgraph OS has been designed from the ground up to defend against threats "
-"to security and privacy. We aim to provide our users with a computing "
-"platform that is `adversary resistant`."
+"We designed Subgraph from the ground up to defend against threats to "
+"security and privacy. We aim to provide our users with a computing platform "
+"that is *adversary resistant*."
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:61
+#: 02_about_01_intro.md:61
 msgid ""
-"We when use the term `adversary`, we are referring to an actual or "
+"We when use the term *adversary*, we are referring to an actual or "
 "hypothetical threat to the confidentiality, integrity, and availability of "
 "information."
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:64
+#: 02_about_01_intro.md:64
 msgid ""
-"A hacker exploiting a vulnerability in an application is one type of "
-"adversary.  This is an actual and often active threat to security and "
-"privacy."
+"Hackers who exploit software vulnerabilities are a type of adversary.  This "
+"is an actual and often active threat to security and privacy."
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:68
+#: 02_about_01_intro.md:67
 msgid ""
-"Passive or indirect threats also exist. A passive or indirect threat may be "
-"an adversary conducting surveillance by intercepting and analyzing network "
-"traffic."
+"Adversaries present passive or indirect threats as well. An adversary may be "
+"passively gathering network traffic to conduct surveillance on users."
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:73
+#: 02_about_01_intro.md:73
 msgid ""
-"Lastly, adversaries may present a theoretical or impractical threat. For "
-"example, a cryptography algorithm may have a theoretical weakness. As "
-"technology and attack methods improve, the weakness is no longer theoretical "
-"and may be practically exploited."
+"Lastly, adversaries may present theoretical or impractical threats. For "
+"example, a cryptography algorithm may have a theoretical weakness. At the "
+"time the weakness is discovered, the threat may not *practical* in the real "
+"world.  As technology and attack methods improve, the weakness ceases to be "
+"theoretical and real world attacks emerge."
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:75
-msgid "We use the term `adversary` to cover all of the above possibilities."
+#: 02_about_01_intro.md:75
+msgid "We use the term *adversary* to cover all of the above possibilities."
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:77
+#: 02_about_01_intro.md:77
 msgid "Secure systems should be resistant to all of these types of threats."
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:82
+#: 02_about_01_intro.md:84
 msgid ""
 "While no computing platform can anticipate and defend against all possible "
 "threats by all possible adversaries, we aspire to make such attacks "
-"extremely difficult for adversaries. And in making these attacks difficult, "
-"they also become more expensive for adversaries to scale."
+"extremely difficult for adversaries. By making these attacks difficult, they "
+"also become more expensive for adversaries. Adversaries must bear the cost "
+"at scale if a large number of users deploy strong security and privacy "
+"defenses. Through Subgraph OS, we aim to make these defenses freely "
+"available and easy to deploy."
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:87
+#: 02_about_01_intro.md:89
 msgid ""
 "Some of our users have critical security and privacy needs. Subgraph OS "
-"affords them strong security and privacy to conduct their activities "
-"safely. Casual users are afforded the same security and privacy without "
-"having to sacrifice the usability and maintainability afforded by other "
-"operating systems."
+"grants them strong security and privacy to conduct their activities "
+"safely. Casual users also gain the same security and privacy benefits "
+"without having to sacrifice usability and maintainability."
 msgstr ""
 
 #. type: Plain text
-#: 02_faq_01_faq.md:89
-msgid "This is the `adversary resistant computing` paradigm."
+#: 02_about_01_intro.md:91
+msgid "This is *adversary resistant computing*."
+msgstr ""
+
+#. type: Plain text
+#: 02_about_02_help.md:2
+msgid "## Getting help with Subgraph OS"
+msgstr ""
+
+#. type: Plain text
+#: 02_about_02_help.md:5
+msgid ""
+"We hope to address most concerns with this handbook. If you have questions "
+"that are not addressed in this handbook, you can contact us through other "
+"means."
+msgstr ""
+
+#. type: Plain text
+#: 02_about_02_help.md:17
+msgid ""
+"> **Contacting Subgraph** > > *Email*: Our email address is info \\<at\\> "
+"subgraph.com > > *IRC*: You can join our IRC channel #subgraph on the OFTC "
+"network > > Our IRC channel is also available through webchat at: > > "
+"<https://webchat.oftc.net/?channels=#subgraph> > > *Twitter*: Our Twitter is "
+"**@subgraph**, send us a message"
+msgstr ""
+
+#. type: Plain text
+#: 02_about_02_help.md:22
+msgid ""
+"We are also involved in running the **Secure Desktops** mailing list. This "
+"discussion group covers the topic of **Secure Desktop** operating systems "
+"such as Subgraph OS, Qubes OS, and Tails. Developers from these projects "
+"participate in the mailing list."
+msgstr ""
+
+#. type: Plain text
+#: 02_about_02_help.md:24
+msgid "Further information about **Secure Desktops** can be found here:"
+msgstr ""
+
+#. type: Plain text
+#: 02_about_02_help.md:26
+msgid "<https://secure-os.org/desktops/charter/>"
+msgstr ""
+
+#. type: Plain text
+#: 02_about_02_help.md:30
+msgid "### Reporting bugs"
+msgstr ""
+
+#. type: Plain text
+#: 02_about_02_help.md:32
+msgid "If you find a bug in Subgraph OS, you can report it to us on Github."
+msgstr ""
+
+#. type: Plain text
+#: 02_about_02_help.md:34
+msgid "Our issue tracker for Subgraph OS is:"
+msgstr ""
+
+#. type: Plain text
+#: 02_about_02_help.md:36
+msgid "<https://github.com/subgraph/subgraph-os-issues>"
+msgstr ""
+
+#. type: Plain text
+#: 02_about_02_help.md:38
+msgid "You can also find our individual software repositories at:"
+msgstr ""
+
+#. type: Plain text
+#: 02_about_02_help.md:40
+msgid "<https://github.com/subgraph>"
+msgstr ""
+
+#. type: Plain text
+#: 02_about_02_help.md:44
+msgid "### Getting the Subgraph OS Handbook"
+msgstr ""
+
+#. type: Plain text
+#: 02_about_02_help.md:46
+msgid "Up-to-date versions of this handbook can be found on the following page:"
+msgstr ""
+
+#. type: Plain text
+#: 02_about_02_help.md:48
+msgid "<https://github.com/subgraph/sgos_handbook>"
+msgstr ""
+
+#. type: Plain text
+#: 02_about_02_help.md:50
+msgid "The PDF can be downloaded here:"
+msgstr ""
+
+#. type: Plain text
+#: 02_about_02_help.md:52
+msgid "<https://github.com/subgraph/sgos_handbook/raw/master/build/sgos_handbook.pdf>"
+msgstr ""
+
+#. type: Plain text
+#: 02_about_02_help.md:54
+msgid ""
+"Subgraph OS will also include versions of this handbook in different "
+"formats."
 msgstr ""
 
 #. type: Plain text
@@ -255,34 +360,343 @@ msgstr ""
 
 #. type: Plain text
 #: 03_installation_01_installation.md:6
+msgid "## System requirements"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:9
+msgid ""
+"Subgraph OS runs on Intel 64-bit computers. These are the system "
+"requirements:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 03_installation_01_installation.md:13
+msgid "Intel 64-bit processor (Core2 Duo or later)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 03_installation_01_installation.md:13
+msgid "2GB of RAM (4GB recommended)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 03_installation_01_installation.md:13
+msgid "At least 20GB of hard-disk space"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:17
 msgid "## Downloading and verifying the Subgraph OS ISO"
 msgstr ""
 
 #. type: Plain text
-#: 03_installation_01_installation.md:10
-msgid "## Installation methods"
+#: 03_installation_01_installation.md:19
+msgid "Subgraph OS can be downloaded from our website:"
 msgstr ""
 
 #. type: Plain text
-#: 03_installation_01_installation.md:14
-msgid "### Installing from a CD or DVD"
+#: 03_installation_01_installation.md:21
+msgid "<https://subgraph.com/sgos/download/index.en.html>"
 msgstr ""
 
 #. type: Plain text
-#: 03_installation_01_installation.md:18
-msgid "### Installing from a USB key"
+#: 03_installation_01_installation.md:25
+msgid ""
+"The Subgraph OS download page always has the most up-to-date download links "
+"and instructions. You can download the ISO directly from the website or over "
+"a Tor hidden service."
 msgstr ""
 
 #. type: Plain text
-#: 03_installation_01_installation.md:22
-msgid "### Booting from a USB key (Live mode)"
+#: 03_installation_01_installation.md:29
+msgid ""
+"You should always verify that the ISO you downloaded is the official "
+"version.  To verify the ISO, we have included a checksum that is "
+"cryptographically signed by our developers."
 msgstr ""
 
 #. type: Plain text
-#: 03_installation_01_installation.md:30
+#: 03_installation_01_installation.md:56
+msgid ""
+"> *What is a checksum?* > > A checksum (or hash) is a string that uniquely "
+"identifies some piece of data > as being different from another piece of "
+"data. It is computed using a special > hash algorithm (SHA256 in our "
+"case). When data is passed to the hash > algorithm, the algorithm will "
+"return a shortened string (the checksum) that > uniquely identifies the "
+"data. Checksums are often used to ensure the `integrity` > of a "
+"file. `Integrity` in this case means that the file has not been corrupted > "
+"or tampered with during the download.  > > *What is a cryptographic "
+"signature?* > > A cryptographic (or digital) signature is a method of "
+"authenticating a piece > of data. Data is signed with the `private` signing "
+"key of a person who has > created or is sending the data. The signature can "
+"then be verified by the > recipient using the `public` key of the sender. If "
+"the verification is > successful, this ensures that the data was created or "
+"sent by the person who > signed it and not somebody else. This "
+"`authenticates` the identify of the > creator or sender.  > > *Why do we "
+"cryptographically sign the checksum?* > > The checksum is used to verify the "
+"`integrity` the ISO you have downloaded.  > However, how do you verify that "
+"the checksum on our website was provided by > us? By cryptographically "
+"signing the checksum with our `private` key, you can > verify the "
+"`authenticity` of the checksum."
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:58
+msgid "### Verifying the ISO on a Linux computer"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:61
+msgid ""
+"To verify the ISO on a Linux computer, you will need to download the ISO, "
+"SHA256 checksum, and the signature for the checksum."
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:64
+msgid ""
+"The first step is to download our public key, Our public key can be "
+"downloaded with the following command:"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:68
+msgid "```{.bash} $ gpg --recv-key B55E70A95AC79474504C30D0DA11364B4760E444 ```"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:72
+msgid ""
+"The second step is to verify the `authenticity` of the signature for the "
+"checksum. Run the following command to verify the signature (note: replace "
+"the filenames with the names of the files you downloaded):"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:77
+msgid ""
+"```{.bash} $ gpg --verify subgraph-os-alpha_2016-06-16_2.iso.sha256.sig \\ "
+"subgraph-os-alpha_2016-06-16_2.iso.sha256 ```"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:80
+msgid ""
+"After running this command, you should see a `Good Signature` message. If "
+"you have seen this message then you can proceed to the next step."
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:84
+msgid ""
+"The third step is to verify the `integrity` of the ISO using the SHA256 "
+"checksum.  Run the following command to verify the checksum (note: replace "
+"the filenames with the names of the files you downloaded):"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:88
+msgid "```{.bash} $ sha256sum -c subgraph-os-alpha_2016-06-16_2.iso.sha256 ```"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:90
+msgid "After running the command, you should see:"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:94
+msgid "``` subgraph-os-alpha_2016-06-16_2.iso: OK ```"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:97
+msgid ""
+"Congratulations, you have now downloaded and verified the Subgraph OS "
+"ISO. You are now ready to try it out!"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:101
+msgid "## Installing from a USB drive on a Linux computer"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:105
+msgid ""
+"This section describes how to create a USB installer using Linux. One of "
+"these methods will work on any Linux computer (even on Subgraph OS). To "
+"create an installer you will need a USB drive with a capacity a 2GB or more."
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:107
+msgid "### Creating a USB installer using Gnome Disks"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:110
+msgid ""
+"If you have a Linux computer that is running the Gnome Desktop, you can use "
+"the **Gnome Disks** application to create a USB installer."
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:112
+msgid "The following steps show how to make a USB installer using **Gnome Disks**:"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: 03_installation_01_installation.md:114
+msgid "Insert a USB drive into your Linux computer"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: 03_installation_01_installation.md:116
+msgid "Open the **Gnome Disks** application"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: 03_installation_01_installation.md:118
+msgid "Select your USB drive"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:120
+msgid "![Gnome Disks - select USB drive](static/images/Gnome_Disks_select.png)"
+msgstr ""
+
+#. type: Bullet: '4. '
+#: 03_installation_01_installation.md:124
+msgid "Select the **Format Disk** option in the top right corner of **Gnome Disks**"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:126
+msgid ""
+"![Gnome Disks - Format "
+"Disks... option](static/images/Gnome_Disks_menu_format.png)"
+msgstr ""
+
+#. type: Bullet: '5. '
+#: 03_installation_01_installation.md:130
+msgid "*Format* the USB drive"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:132
+msgid "![Gnome Disks - Format dialog](static/images/Gnome_Disks_dialog_format.png)"
+msgstr ""
+
+#. type: Bullet: '6. '
+#: 03_installation_01_installation.md:137
+msgid ""
+"Select the **Restore Disk Image** option in the top right corner of **Gnome "
+"Disks**"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:139
+msgid ""
+"![Gnome Disks - Restore Disk "
+"Image... option](static/images/Gnome_Disks_menu_restore.png)"
+msgstr ""
+
+#. type: Bullet: '7. '
+#: 03_installation_01_installation.md:143
+msgid "Choose the ISO file you want to *restore* (copy) to the USB drive"
+msgstr ""
+
+#. type: Bullet: '8. '
+#: 03_installation_01_installation.md:145
+msgid "*Restore* the ISO to the USB drive"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:147
+msgid ""
+"![Gnome Disks - Restore "
+"dialog](static/images/Gnome_Disks_dialog_restore.png)"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:151
+msgid "It should take a few minutes to copy the ISO to the USB drive."
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:155
+msgid "### Creating a USB installer using dd"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:158
+msgid ""
+"If your Linux computer is not running Gnome Desktop or you want to create "
+"the installer from the command-line, you can use the **dd** utility."
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:160
+msgid "The following steps show how to make a USB installer using **dd**:"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: 03_installation_01_installation.md:162
+msgid "Insert a USB drive into your computer"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:173
+#, no-wrap
+msgid ""
+"2. Open a terminal and run the following command to identify the name of the "
+"USB\n"
+"   drive: \n"
+"```{.bash}\n"
+"$ lsblk\n"
+"```\n"
+"    **NOTE**: You should see a name such as **/dev/sdx** for your drive, "
+"for\n"
+"    example: **/dev/sdb**. It is important to use only the name without the "
+"\n"
+"    partition number. If you see something like **/dev/sdb1**, you can omit "
+"\n"
+"    the **1** at the end. The **dd** command uses the name without the "
+"partition \n"
+"    number.\n"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:182
+#, no-wrap
+msgid ""
+"3. In the same terminal, run the following command:\n"
+"```{.bash}\n"
+"$ dd bs=4M if=subgraph-os-alpha_2016-06-16_2.iso of=/dev/sdx \\\n"
+"status=progress && sync\n"
+"```\n"
+"   **NOTE**: Replace the path of the ISO with the path of the ISO you have\n"
+"   downloaded and verified. Replace **/dev/sdx** with the name of your USB\n"
+"   drive, for example: **/dev/sdb**.\n"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:184
+msgid "Copying the ISO to the USB drive should take a few minutes."
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:188
+msgid "## Booting from a USB drive (Live mode)"
+msgstr ""
+
+#. type: Plain text
+#: 03_installation_01_installation.md:196
 msgid ""
 "Subgraph OS also features a 'live' mode. Subgraph OS live mode runs in "
-"memory, directly from the USB stick. While running in live mode, nothing "
+"memory, directly from the USB drive. While running in live mode, nothing "
 "will be saved to your hard-drive. When the live session ends, any data "
 "created during your session will disappear, leaving no traces behind on the "
 "hard-disk.  \\ \\ People normally run in live mode for the following "
@@ -290,17 +704,17 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '1. '
-#: 03_installation_01_installation.md:35
+#: 03_installation_01_installation.md:201
 msgid "They want to demo Subgraph OS"
 msgstr ""
 
 #. type: Bullet: '2. '
-#: 03_installation_01_installation.md:35
+#: 03_installation_01_installation.md:201
 msgid "They want to test Subgraph OS with their particular hardware"
 msgstr ""
 
 #. type: Plain text
-#: 03_installation_01_installation.md:35
+#: 03_installation_01_installation.md:201
 #, no-wrap
 msgid ""
 "3. They want to perform certain tasks with extra security and privacy but\n"
@@ -308,30 +722,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 03_installation_01_installation.md:40
+#: 03_installation_01_installation.md:206
 msgid ""
 "When the Subgraph OS ISO starts, you will be presented with different "
 "options.  To start the live mode, select `Live (amd64)`."
 msgstr ""
 
 #. type: Plain text
-#: 03_installation_01_installation.md:42
+#: 03_installation_01_installation.md:208
 msgid "![Subgraph OS boot screen](static/images/subgraph_splash.png)"
 msgstr ""
 
 #. type: Plain text
-#: 03_installation_01_installation.md:44
-msgid "Please note that the user password on the live image is: `live`."
-msgstr ""
-
-#. type: Plain text
-#: 03_installation_01_installation.md:48
-msgid "## Installing, step\\-by\\-step"
-msgstr ""
-
-#. type: Plain text
-#: 03_installation_01_installation.md:52
-msgid "## After the First Boot"
+#: 03_installation_01_installation.md:210
+msgid "Please note that the user password on the live image is: *live*."
 msgstr ""
 
 #. type: Plain text
@@ -352,21 +756,21 @@ msgstr ""
 #: 04_everyday-usage_01_intro.md:11 04_everyday-usage_01_intro.md:11
 msgid ""
 "Subgraph OS is also unique because the applications we have included are run "
-"inside of a security sandbox. We call this sandbox Oz. Oz helps protect the "
-"operating system and your personal files in case an application is "
-"compromised by a security vulnerability."
+"inside of a security sandbox. We call this sandbox **Oz**. **Oz** helps "
+"protect the operating system and your personal files in case an application "
+"is compromised by a security vulnerability."
 msgstr ""
 
 #. type: Plain text
 #: 04_everyday-usage_01_intro.md:19 04_everyday-usage_01_intro.md:19
 msgid ""
-"Each application described in this chapter runs inside an Oz sandbox. This "
-"means that they can only access the files and directories that they need "
-"to.  Each of the applications is isolated from each other. They are also "
-"isolated from the system itself. Because the applications are isolated, they "
-"cannot access common directories such as `Pictures` or `Downloads` in the "
-"usual way.  This chapter shows you how to manage your files in Oz, with some "
-"examples for each application."
+"Each application described in this chapter runs inside an **Oz** "
+"sandbox. This means that they can only access the files and directories that "
+"they need to.  Each of the applications is isolated from each other. They "
+"are also isolated from the system itself. Because the applications are "
+"isolated, they cannot access common directories such as `Pictures` or "
+"`Downloads` in the usual way.  This chapter shows you how to manage your "
+"files in **Oz**, with some examples for each application."
 msgstr ""
 
 #. type: Plain text
@@ -400,14 +804,14 @@ msgstr ""
 #. type: Plain text
 #: 04_everyday-usage_02_torbrowser.md:21 04_everyday-usage_02_torbrowser.md:21
 msgid ""
-"The Tor Browser runs inside a security sandbox, managed by Subgraph Oz. Web "
-"browsers represent some of the most complex software available. With "
-"complexity comes increased risk to security and privacy. This is what we "
-"call the `attack surface` of an application. Tor Browser is no different "
-"than other browsers in that it has a lot of attack surface. A successful "
-"compromise of Tor Browser could let an attacker gain access to things such "
-"as SSH keys, GPG encryption keys, personal files, email, etc. Our security "
-"sandbox technology helps to mitigate these risks."
+"The Tor Browser runs inside a security sandbox, managed by Subgraph "
+"**Oz**. Web browsers represent some of the most complex software "
+"available. With complexity comes increased risk to security and "
+"privacy. This is what we call the `attack surface` of an application. Tor "
+"Browser is no different than other browsers in that it has a lot of attack "
+"surface. A successful compromise of Tor Browser could let an attacker gain "
+"access to things such as SSH keys, GPG encryption keys, personal files, "
+"email, etc. Our security sandbox technology helps to mitigate these risks."
 msgstr ""
 
 #. type: Plain text
@@ -453,26 +857,26 @@ msgstr ""
 #. type: Plain text
 #: 04_everyday-usage_02_torbrowser.md:48 04_everyday-usage_02_torbrowser.md:48
 msgid ""
-"The Tor Browser runs inside of Oz, our application sandbox. When files are "
-"downloaded by a sandboxed application such as the Tor Browser, they are "
-"saved within the sandbox. When you close the Tor Browser, Oz will cleanup "
-"the sandbox, causing files saved in the sandbox to be destroyed."
+"The Tor Browser runs inside of **Oz**, our application sandbox. When files "
+"are downloaded by a sandboxed application such as the Tor Browser, they are "
+"saved within the sandbox. When you close the Tor Browser, **Oz** will "
+"cleanup the sandbox, causing files saved in the sandbox to be destroyed."
 msgstr ""
 
 #. type: Plain text
 #: 04_everyday-usage_02_torbrowser.md:57 04_everyday-usage_02_torbrowser.md:57
 msgid ""
 "To allow the Tor Browser to download that can persist after the application "
-"is closed, Oz makes a special exception. This special exception is a `shared "
-"directory` where files can be saved and retrieved later, without being "
-"destroyed when Tor Browser is closed. `Shared directory`, in this case, "
-"means a directory that is shared inside and outside of the Oz sandbox. Oz "
-"sets up the the following shared directory for saving downloaded files: ``` "
-"~/Downloads/TorBrowser"
+"is closed, **Oz** makes a special exception. This special exception is a "
+"`shared directory` where files can be saved and retrieved later, without "
+"being destroyed when Tor Browser is closed. `Shared directory`, in this "
+"case, means a directory that is shared inside and outside of the **Oz** "
+"sandbox. **Oz** sets up the the following shared directory for saving "
+"downloaded files: ``` ~/Downloads/TorBrowser"
 msgstr ""
 
 #. type: Plain text
-#: 04_everyday-usage_02_torbrowser.md:59 04_everyday-usage_02_torbrowser.md:59
+#: 04_everyday-usage_02_torbrowser.md:59 04_everyday-usage_02_torbrowser.md:59 05_features_and_advanced_usage_05_roflcoptor.md:46 05_features_and_advanced_usage_09_virtualmachines.md:140
 msgid "```"
 msgstr ""
 
@@ -499,24 +903,25 @@ msgstr ""
 #. type: Plain text
 #: 04_everyday-usage_02_torbrowser.md:77 04_everyday-usage_02_torbrowser.md:77
 msgid ""
-"When the Tor Browser starts, the Oz sandbox limits its access to files and "
-"directories on the computer. For example, a photo from the `Pictures` "
+"When the Tor Browser starts, the **Oz** sandbox limits its access to files "
+"and directories on the computer. For example, a photo from the `Pictures` "
 "directory will not be visible in the sandbox by default. If you want to "
-"upload a photo from this directory, you must use the Oz menu to add it to "
-"the Tor Browser sandbox. The Oz menu is denoted by the little zebra icon at "
-"the top-right corner of the screen."
+"upload a photo from this directory, you must use the *Oz menu* to add it to "
+"the Tor Browser sandbox. The **Oz** menu is denoted by the little zebra icon "
+"at the top-right corner of the screen."
 msgstr ""
 
 #. type: Plain text
 #: 04_everyday-usage_02_torbrowser.md:86 04_everyday-usage_02_torbrowser.md:86
 msgid ""
 "> ![Oz menu - icon](static/images/oz_menu_zebra.png){#id .class width=60 "
-"height=60px} > The following actions may be performed using the Oz menu: > > "
-"- Add files to sandbox > > - Open terminal in sandbox > > - Shutdown sandbox"
+"height=60px} > The following actions may be performed using the *Oz menu*: > "
+"> - Add files to sandbox > > - Open terminal in sandbox > > - Shutdown "
+"sandbox"
 msgstr ""
 
 #. type: Plain text
-#: 04_everyday-usage_02_torbrowser.md:88 04_everyday-usage_02_torbrowser.md:100 04_everyday-usage_02_torbrowser.md:88 04_everyday-usage_02_torbrowser.md:100
+#: 04_everyday-usage_02_torbrowser.md:88 04_everyday-usage_02_torbrowser.md:100 04_everyday-usage_03_pdfs.md:109 04_everyday-usage_04_coyim.md:42 04_everyday-usage_07_subgraph_firewall.md:40 04_everyday-usage_07_subgraph_firewall.md:125 04_everyday-usage_02_torbrowser.md:88 04_everyday-usage_02_torbrowser.md:100 04_everyday-usage_03_pdfs.md:109 04_everyday-usage_04_coyim.md:42 04_everyday-usage_07_subgraph_firewall.md:40 04_everyday-usage_07_subgraph_firewall.md:125
 msgid "\\clearpage"
 msgstr ""
 
@@ -560,8 +965,8 @@ msgstr ""
 #. type: Plain text
 #: 04_everyday-usage_03_pdfs.md:5 04_everyday-usage_03_pdfs.md:5
 msgid ""
-"PDFs can present security and privacy risks to users. Subgraph OS sandboxes "
-"PDFs in a safe environment, minimizing those risks."
+"PDFs present security and privacy risks to users. Subgraph OS sandboxes PDFs "
+"in a safe environment, minimizing those risks."
 msgstr ""
 
 #. type: Plain text
@@ -569,17 +974,201 @@ msgstr ""
 msgid "PDFs are affected by the following security and privacy risks:"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '1. '
 #: 04_everyday-usage_03_pdfs.md:13 04_everyday-usage_03_pdfs.md:13
+msgid ""
+"PDF readers have security vulnerabilities that can be exploited by opening a "
+"malicious PDF"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: 04_everyday-usage_03_pdfs.md:13 04_everyday-usage_03_pdfs.md:13
+msgid ""
+"PDFs may make outgoing connections to the Internet, compromising the user's "
+"privacy either by sending personally identifiable information or network "
+"traffic that can be correlated with the user's other activities"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:18 04_everyday-usage_03_pdfs.md:18
+msgid ""
+"To address the first problem, the security hardening in Subgraph OS makes it "
+"much more difficult to exploit security vulnerabilities in the PDF reader "
+"(**Evince**)."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:23 04_everyday-usage_03_pdfs.md:23
+msgid ""
+"If a malicious PDF bypasses the security hardening in Subgraph OS, it "
+"compromises the PDF reader. However, because **Evince** runs inside of a "
+"sandbox, this limits what an attacker can do. The sandbox in Subgraph OS is "
+"called **Oz**."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:28 04_everyday-usage_03_pdfs.md:28
+msgid ""
+"The sandbox prevents **Evince** from accessing sensitive files on the "
+"computer, such as your encryption keys, email, personal documents, etc.  "
+"**Evince** only requires access to the PDF(s) it is reading and some other "
+"files it needs to operate normally."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:32 04_everyday-usage_03_pdfs.md:32
 #, no-wrap
 msgid ""
-"1. Security vulnerabilities in the PDF reader software may allow "
-"adversaries\n"
-"to compromise a user who opens a malicious PDF\n"
-"2. Privacy may be compromised if the PDF makes an outgoing connection to "
-"the\n"
-"Internet, such as when the user clicks on a link within the document or if\n"
-"the document automatically opens a link\n"
+"**Oz** also prevents **Evince** from connecting to the Internet. This can "
+"prevent \n"
+"malicious code from communicating with the outside world. Privacy is also \n"
+"preserved since **Evince** cannot send data that can *fingerprint* the "
+"user.\n"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:35 04_everyday-usage_03_pdfs.md:35
+msgid ""
+"Lastly, the sandbox limits other types of actions through a Linux feature "
+"called *seccomp*."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:55 04_everyday-usage_03_pdfs.md:55
+msgid ""
+"> *What is a system call?* > > System calls provide a way for applications, "
+"which run in *user-space*, to > ask the kernel (running in *kernel-space*) "
+"to do things such as read and write > files, communicate over the network, "
+"etc.  > > When a *user-space* application makes a system call to do "
+"something such as > open a file, the kernel must perform a number of "
+"low-level actions. The > kernel may be responsible for the file system "
+"implementation, authorizing the > application to access the file, reading "
+"the file contents from the hard-drive, > etc. The kernel must run with "
+"*elevated privileges* in relation to the > application to perform these "
+"low-level actions. System calls let applications > cross the boundary "
+"between *user-space* and *kernel-space* without requiring > the application "
+"to run with kernel-level privileges.  > > System calls are critical to "
+"security because they provide an interface for > lower-privileged "
+"applications to send input to the kernel.  > > See the Appendix for a "
+"complete list of system calls in Subgraph OS."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:59 04_everyday-usage_03_pdfs.md:59
+msgid ""
+"Sandboxed applications in Subgraph OS include a set of policies called a "
+"*seccomp whitelist*. If an attacker compromises an application, this "
+"security feature can prevent them from gaining elevated privileges on your "
+"computer."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:85 04_everyday-usage_03_pdfs.md:85
+msgid ""
+"> *What is seccomp?* > > *Seccomp* is a security feature of Linux that can "
+"restrict access to > system calls. If an application tries to run one of the "
+"system calls > restricted by *seccomp*, it will be killed instead of "
+"allowing the > system call to run. This can prevent privilege escalation in "
+"case malicious > code tries to exploit kernel vulnerabilities through system "
+"calls. System > calls are often used as a *payload* in malicious code to do "
+"some things as > read files or open network connections. *Seccomp* can also "
+"prevent *payloads* > from running if they use system calls are that blocked "
+"by the policy.  > > *What is a seccomp whitelist?* > > A *seccomp whitelist* "
+"is a list of allowed system calls. If the application > tries to call any "
+"system call *not* on this list, it is killed by *seccomp*.  > > *What is a "
+"seccomp blacklist?* > > A *seccomp blacklist* is a list of forbidden system "
+"calls. If the application > tries to call any system call *on* this list, it "
+"will be killed by *seccomp*.  > This is in contract to the whitelist, which "
+"blocks the calls *not* on the > list.  > > The **Oz** sandbox in Subgraph OS "
+"supports both *seccomp whitelists* and > *seccomp blacklists*."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:89 04_everyday-usage_03_pdfs.md:89
+msgid "### Opening PDFs with Evince in the file explorer"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:93 04_everyday-usage_03_pdfs.md:93
+msgid ""
+"Clicking on a PDF in the file explorer will automatically open the PDF using "
+"**Evince** in the **Oz** sandbox."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:95 04_everyday-usage_03_pdfs.md:95
+msgid "### Adding PDFs to Evince from the Oz menu"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:98 04_everyday-usage_03_pdfs.md:98
+msgid ""
+"If the PDF reader is already open, the PDF can be added to the sandbox by "
+"clicking on *Add file...* option of the *Oz menu* for **Evince**."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:100 04_everyday-usage_03_pdfs.md:100
+msgid "![Oz menu - Add file](static/images/Oz_menu_addfiles_pdf.png)"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:105 04_everyday-usage_03_pdfs.md:105
+msgid ""
+"You may add multiple files. You can also make these files *read-only*, "
+"meaning that they cannot be modified in the sandbox."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:107 04_everyday-usage_03_pdfs.md:107
+msgid ""
+"![Oz menu - Select files or "
+"directories](static/images/Oz_menu_addfiles_pdf_prompt.png)"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:111 04_everyday-usage_03_pdfs.md:111
+msgid "### Opening PDFs from the command-line terminal"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:113 04_everyday-usage_03_pdfs.md:113
+msgid "PDFs may also be opened from the terminal."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:116 04_everyday-usage_03_pdfs.md:116
+msgid ""
+"For example, to open this handbook using **Evince** in the terminal, run the "
+"following command:"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:120 04_everyday-usage_03_pdfs.md:120
+msgid "```{.bash} $ evince sgos_handbook.pdf ```"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:125 04_everyday-usage_03_pdfs.md:125
+msgid ""
+"After running the command, you will see the following message: ``` ok "
+"received ```"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:127 04_everyday-usage_03_pdfs.md:127
+msgid ""
+"This message indicates that **Oz** has received the request to launch "
+"*Evince*."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_03_pdfs.md:132 04_everyday-usage_03_pdfs.md:132
+msgid ""
+"You may be surprised that opening the PDF from the terminal also opens it in "
+"the sandbox. This is because **Oz** re-routes the commands so that they run "
+"in the sandbox. For any application that runs in **Oz**, you may launch it "
+"from the desktop *or* the command-line terminal."
 msgstr ""
 
 #. type: Plain text
@@ -589,71 +1178,92 @@ msgstr ""
 
 #. type: Plain text
 #: 04_everyday-usage_04_coyim.md:6 04_everyday-usage_04_coyim.md:6
+#, no-wrap
 msgid ""
-"CoyIM is the default instant messaging application in Subgraph OS. CoyIM "
-"supports the XMPP instant messaging protocol. All chats are end-to-end "
-"encrypted using OTR (Off-the-Record) Messaging."
+"**CoyIM** is one of the instant messaging clients in Subgraph "
+"OS. **CoyIM**\n"
+"supports the *Jabber/XMPP* instant messaging protocol. All chats are "
+"end-to-end\n"
+"encrypted using *OTR* (Off-the-Record) Messaging.\n"
 msgstr ""
 
 #. type: Plain text
-#: 04_everyday-usage_04_coyim.md:8 04_everyday-usage_04_coyim.md:8
-msgid "### Adding an XMPP account to CoyIM"
+#: 04_everyday-usage_04_coyim.md:9 04_everyday-usage_04_coyim.md:9
+#, no-wrap
+msgid ""
+"**CoyIM** is developed by the *ThoughtWorks STRIKE* team as a more secure\n"
+"alternative to chat software such as **Pidgin** and **Adium**.\n"
 msgstr ""
 
 #. type: Plain text
 #: 04_everyday-usage_04_coyim.md:11 04_everyday-usage_04_coyim.md:11
-msgid ""
-"When CoyIM opens for the first time, it asks you if you want to encrypt your "
-"configuration file. We recommend that you encrypt your configuration."
+msgid "More information about **CoyIM** can be found here:"
 msgstr ""
 
 #. type: Plain text
 #: 04_everyday-usage_04_coyim.md:13 04_everyday-usage_04_coyim.md:13
+msgid "<https://coy.im/>"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_04_coyim.md:17 04_everyday-usage_04_coyim.md:17
+msgid "### Adding an XMPP account to CoyIM"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_04_coyim.md:20 04_everyday-usage_04_coyim.md:20
+msgid ""
+"When **CoyIM** opens for the first time, it asks you if you want to encrypt "
+"your configuration file. We recommend that you encrypt your configuration."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_04_coyim.md:22 04_everyday-usage_04_coyim.md:22
 msgid ""
 "![CoyIM - Encrypt configuration "
 "file](static/images/CoyIM_encrypt_config.png)"
 msgstr ""
 
 #. type: Plain text
-#: 04_everyday-usage_04_coyim.md:18 04_everyday-usage_04_coyim.md:18
+#: 04_everyday-usage_04_coyim.md:27 04_everyday-usage_04_coyim.md:27
 msgid ""
 "If you have decided to encrypt your configuration file, you will be prompted "
 "to configure the master password that will be used to encrypt your "
 "configuration file. You will need to re-enter this password each time you "
-"use CoyIM, so choose something strong but memorable!"
+"use **CoyIM**, so choose something strong but memorable!"
 msgstr ""
 
 #. type: Plain text
-#: 04_everyday-usage_04_coyim.md:20 04_everyday-usage_04_coyim.md:20
+#: 04_everyday-usage_04_coyim.md:29 04_everyday-usage_04_coyim.md:29
 msgid ""
 "![CoyIM - Configure master "
 "password](static/images/CoyIM_configure_master_password.png)"
 msgstr ""
 
 #. type: Plain text
-#: 04_everyday-usage_04_coyim.md:23 04_everyday-usage_04_coyim.md:23
+#: 04_everyday-usage_04_coyim.md:32 04_everyday-usage_04_coyim.md:32
 msgid ""
-"To begin using CoyIM, you must first add an existing account from an XMPP "
-"network."
+"To begin using **CoyIM**, you must first add an existing account from an "
+"*XMPP* network."
 msgstr ""
 
 #. type: Plain text
-#: 04_everyday-usage_04_coyim.md:25 04_everyday-usage_04_coyim.md:25
+#: 04_everyday-usage_04_coyim.md:34 04_everyday-usage_04_coyim.md:34
 msgid ""
 "![CoyIM - Account details: basic "
 "configuration](static/images/CoyIM_account_details_basic.png)"
 msgstr ""
 
 #. type: Plain text
-#: 04_everyday-usage_04_coyim.md:29 04_everyday-usage_04_coyim.md:29
+#: 04_everyday-usage_04_coyim.md:38 04_everyday-usage_04_coyim.md:38
 msgid ""
 "Once you had added your account details, you can connect your account. If "
-"you have successfully connected to the chat network, a green dot will appear "
-"to the left of your username."
+"you have successfully connected to the chat network, a *green* dot will "
+"appear to the left of your username."
 msgstr ""
 
 #. type: Plain text
-#: 04_everyday-usage_04_coyim.md:31 04_everyday-usage_04_coyim.md:31
+#: 04_everyday-usage_04_coyim.md:40 04_everyday-usage_04_coyim.md:40
 msgid "![CoyIM - Successful connection](static/images/CoyIM_connected.png)"
 msgstr ""
 
@@ -663,8 +1273,387 @@ msgid "## Chatting over Tor with Ricochet"
 msgstr ""
 
 #. type: Plain text
+#: 04_everyday-usage_05_ricochet.md:8 04_everyday-usage_05_ricochet.md:8
+#, no-wrap
+msgid ""
+"**Ricochet** is an anonymous peer-to-peer instant messaging application.\n"
+"**Ricochet** lets people chat directly with each other over Tor. Unlike "
+"other\n"
+"chat services, no intermediate servers are required. This means that\n"
+"**Ricochet** does not store your contact lists and chat histories on a "
+"server\n"
+"somewhere in the cloud.\n"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_05_ricochet.md:12 04_everyday-usage_05_ricochet.md:12
+#, no-wrap
+msgid ""
+"**Ricochet** is built on top of Tor hidden services. Tor hidden services "
+"provide\n"
+"anonymity and end-to-end encryption. This enables people to have "
+"conversations\n"
+"that are private and secure.\n"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_05_ricochet.md:46 04_everyday-usage_05_ricochet.md:46
+#, no-wrap
+msgid ""
+"> *What is a Tor hidden service?*\n"
+">\n"
+"> Tor hidden services provides a means of hosting services on the Tor "
+"network.\n"
+"> Any type of network service may be hosted as a hidden service (such as "
+"web\n"
+"> servers, file shares, and instant messaging servers).\n"
+">\n"
+"> Instead of using an IP address or domain name, Tor hidden services are\n"
+"> accessed by their *.onion* address. The *.onion* address is an "
+"automatically \n"
+"> generated name that is derived from the public key of the hidden "
+"service. \n"
+">\n"
+"> *.onion* addresses are only accessible over Tor. **Tor Browser** is one "
+"way to \n"
+"> access *.onion* addresses. In Subgraph OS, any application can access "
+"*.onion*\n"
+"> addresses because all applications are routed through Tor.  \n"
+"> \n"
+"> Tor hidden services provide privacy and anonymity for both the server and "
+"the \n"
+"> client. Tor hidden services have the following benefits over\n"
+"> regular network services:\n"
+">\n"
+"> 1. Neither the client nor the server need to know the network location "
+"(IP\n"
+">    address) of each other. Tor routes traffic through a series of "
+"rendezvous\n"
+">    points that hide the client IP address from the server. The server's\n"
+">    network location (IP address) is also hidden from the client, who "
+"connects\n"
+">    to the *.onion* address of the server.\n"
+"> 2. All traffic between the client and server is end-to-end "
+"encrypted. Traffic\n"
+">    never leaves the Tor network, meaning that it is only decrypted on "
+"either\n"
+">    end of the transaction. When Tor is used to connect to the regular\n"
+">    Internet, traffic is only encrypted until the *exit-node*. Without "
+"using\n"
+">    another layer of encryption such as HTTPS, exit nodes can observe "
+"traffic.\n"
+">    Tor hidden services are not affected by this limitation.\n"
+">\n"
+"> More information about the hidden services protocol can be found here:\n"
+">\n"
+"> <https://www.torproject.org/docs/hidden-services.html.en>\n"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_05_ricochet.md:51 04_everyday-usage_05_ricochet.md:51
+msgid ""
+"In **Ricochet**, each user has a *contact ID* that maps to a Tor hidden "
+"service that is hosted on their computer. The application manages all of the "
+"plumbing of creating the hidden service on your computer and communicating "
+"with your contacts via their hidden services."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_05_ricochet.md:53 04_everyday-usage_05_ricochet.md:53
+msgid "More information about Ricochet can be found on the following pages:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 04_everyday-usage_05_ricochet.md:56 04_everyday-usage_05_ricochet.md:56
+msgid "<https://ricochet.im/>"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 04_everyday-usage_05_ricochet.md:56 04_everyday-usage_05_ricochet.md:56
+msgid "<https://github.com/ricochet-im/ricochet/blob/master/doc/design.md>"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_05_ricochet.md:60 04_everyday-usage_05_ricochet.md:60
+msgid "### Chatting in Ricochet"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_05_ricochet.md:64 04_everyday-usage_05_ricochet.md:64
+#, no-wrap
+msgid ""
+"**Ricochet** is similar to other instant messaging clients. The "
+"application\n"
+"shows the contacts that are online. You can open chat sessions with your \n"
+"contacts and switch between those sessions like in any other instant "
+"messager.\n"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_05_ricochet.md:66 04_everyday-usage_05_ricochet.md:66
+msgid "![Ricochet - Chatting](static/images/Ricochet_chatting.png)"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_05_ricochet.md:70 04_everyday-usage_05_ricochet.md:70
+msgid "### Adding a contact in Ricochet"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_05_ricochet.md:74 04_everyday-usage_05_ricochet.md:74
+msgid ""
+"If you know the *contact ID* of another user, you can add them as a "
+"contact. To add a contact, click the **+** button in the top-left corner of "
+"the application window."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_05_ricochet.md:76 04_everyday-usage_05_ricochet.md:76
+msgid "![Ricochet - Adding a contact](static/images/Ricochet_add_contact.png)"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_05_ricochet.md:84 04_everyday-usage_05_ricochet.md:84
+msgid ""
+"> **Ricochet contact options** > > *ID*: The *contact ID* of the contact you "
+"want to add > > *Name*: A nickname for the contact you want to add > > "
+"*Message*: The message you want to send when adding the contact"
+msgstr ""
+
+#. type: Plain text
 #: 04_everyday-usage_06_onionshare.md:2 04_everyday-usage_06_onionshare.md:2
 msgid "## Sharing files with OnionShare"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_06_onionshare.md:5 04_everyday-usage_06_onionshare.md:5
+#, no-wrap
+msgid ""
+"**OnionShare** is a anonymous, peer-to-peer file sharing application. It "
+"lets people \n"
+"share files of any size private and securely. \n"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_06_onionshare.md:9 04_everyday-usage_06_onionshare.md:9
+#, no-wrap
+msgid ""
+"**OnionShare** is built on top of Tor hidden services. There are a number "
+"of\n"
+"security and privacy advantages to sharing files over Tor hidden services "
+"using\n"
+"**OnionShare**.\n"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: 04_everyday-usage_06_onionshare.md:20 04_everyday-usage_06_onionshare.md:20
+msgid ""
+"Tor hidden service connections are end-to-end encrypted, meaning that the "
+"file transfer is encrypted at every point between the client and server."
+msgstr ""
+
+#. type: Bullet: '2. '
+#: 04_everyday-usage_06_onionshare.md:20 04_everyday-usage_06_onionshare.md:20
+msgid ""
+"Tor hidden service connections are anonymous. File transfers can occur "
+"without the either the client or the server knowing the IP address of each "
+"other. The server is hidden behind an *.onion* address on the Tor network.  "
+"The client is hidden because it connects to the hidden service through "
+"different rendezvous points."
+msgstr ""
+
+#. type: Bullet: '3. '
+#: 04_everyday-usage_06_onionshare.md:20 04_everyday-usage_06_onionshare.md:20
+msgid ""
+"*OnionShare* file shares are designed to be short-lived. They can shut down "
+"after the file transfer occurs, meaning the server stops listening and the "
+"*.onion* address disappears from the Tor network."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_06_onionshare.md:25 04_everyday-usage_06_onionshare.md:25
+#, no-wrap
+msgid ""
+"Subgraph OS enhances the security of **OnionShare** by sandboxing it with\n"
+" **Oz**. File shares exist in their own sandbox, without access to other \n"
+"sensitive files on the computer. If **OnionShare** is affected by a security "
+"\n"
+"vulnerability, running it **Oz** limits the consequences of the "
+"vulnerability.\n"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_06_onionshare.md:32 04_everyday-usage_06_onionshare.md:32
+msgid ""
+"When a user shares files, **OnionShare** starts a hidden service with its "
+"own *.onion* address. The user then sends the *.onion* address to the people "
+"they wish to share files with. The *.onion* address should be sent over a "
+"*secure communication channel*. This is important to prevent unwanted "
+"parties from accessing your shared files. Once files are shared, people with "
+"the *.onion address* can download the files using the **Tor Browser**."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_06_onionshare.md:60 04_everyday-usage_06_onionshare.md:60
+msgid ""
+"> *What is a secure communication channel?* > > A communication channel is "
+"secure if people can communicate with some > expectation that their "
+"conversation cannot be intercepted or tampered with.  > Ideally, all "
+"communications should be encrypted along with their metadata.  > Metadata "
+"includes things such as the time, date, and frequency of the > "
+"conversations. It can also include the identities and location of the people "
+"> who are communicating. Even without the content of a conversation, "
+"metadata > can reveal a lot about the nature of the communication.  > > "
+"Establishing *truly* secure communications channels is difficult. Many > "
+"communications tools rely on third-parties, making them privy to > "
+"communications metadata. This may include the third-party servers themselves "
+"> or intermediary servers that pass on the communications. Communications, > "
+"even encrypted ones, often leak metadata as they travel to their final > "
+"destination.  > > Subgraph OS includes applications to help our users "
+"communicate over secure > channels. These examples are ranked according to "
+"the amount of metadata they > reveal: > > * Ricochet instant messager (uses "
+"Tor hidden services for anonymity and > end-to-end encryption, no metadata, "
+"no third-party servers required)  > * CoyIM instant messager (uses the XMPP "
+"protocol, some metadata, requires > third-party servers)  > * Encrypted "
+"email using Icedove/Torbirdy (uses the SMTP protocol, lots of > metadata, "
+"requires third-party servers)"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_06_onionshare.md:62 04_everyday-usage_06_onionshare.md:62
+msgid "More information about **OnionShare** is on the following website:"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_06_onionshare.md:64 04_everyday-usage_06_onionshare.md:64
+msgid "<https://github.com/micahflee/onionshare>"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_06_onionshare.md:68 04_everyday-usage_06_onionshare.md:68
+msgid "### Share via OnionShare"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_06_onionshare.md:71 04_everyday-usage_06_onionshare.md:71
+#, no-wrap
+msgid ""
+"**OnionShare** is integrated into the file explorer of Subgraph OS. To share "
+"a file,\n"
+"*right-click* on the file and select *Share via OnionShare*.\n"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_06_onionshare.md:73 04_everyday-usage_06_onionshare.md:73
+msgid ""
+"![OnionShare - Share via "
+"OnionShare](static/images/OnionShare_select_file.png)"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_06_onionshare.md:79 04_everyday-usage_06_onionshare.md:79
+#, no-wrap
+msgid ""
+"Selecting *Share via OnionShare* will start **OnionShare** and open the\n"
+" **onionshare-gui**. It may take a few seconds for OnionShare to create the "
+"\n"
+"hidden service. The status indicator will turn *green* when it is ready.\n"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_06_onionshare.md:81 04_everyday-usage_06_onionshare.md:81
+msgid "![OnionShare - onionshare-gui](static/images/OnionShare_onionshare-gui.png)"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_06_onionshare.md:83 04_everyday-usage_06_onionshare.md:83
+#, no-wrap
+msgid "**onionshare-gui** includes the following options to manage shared files:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 04_everyday-usage_06_onionshare.md:88 04_everyday-usage_06_onionshare.md:88
+msgid "Add Files"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 04_everyday-usage_06_onionshare.md:88 04_everyday-usage_06_onionshare.md:88
+msgid "Add Folder"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 04_everyday-usage_06_onionshare.md:88 04_everyday-usage_06_onionshare.md:88
+msgid "Delete (Files and Folders)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 04_everyday-usage_06_onionshare.md:88 04_everyday-usage_06_onionshare.md:88
+msgid "Stop Sharing (all files and folders, this closes **OnionShare**)"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_06_onionshare.md:93 04_everyday-usage_06_onionshare.md:93
+msgid ""
+"OnionShare runs inside of the **Oz** sandbox. To add files and folders after "
+"OnionShare has started, they must be added through the **Oz** menu at the "
+"top right corner of the desktop. See the section on *Viewing PDFs* for "
+"further information on adding files and folders to an application in the "
+"**Oz** sandbox."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_06_onionshare.md:98 04_everyday-usage_06_onionshare.md:98
+msgid ""
+"The URL for the hidden service (the *.onion* address) is provided along with "
+"a button to *Copy URL* to the clipboard. This URL should be sent over a "
+"*secure communication channel* to the people you want to share files with."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_06_onionshare.md:102 04_everyday-usage_06_onionshare.md:102
+msgid ""
+"The *Stop sharing automatically* checkbox determines whether **OnionShare** "
+"will close automatically after the file is downloaded by a user. Un-check "
+"this option if you are sharing files with multiple users."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_06_onionshare.md:104 04_everyday-usage_06_onionshare.md:104
+msgid "### Download files from OnionShare"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_06_onionshare.md:109 04_everyday-usage_06_onionshare.md:109
+#, no-wrap
+msgid ""
+"**OnionShare** runs as a Tor hidden service. To download files over \n"
+"**OnionShare**, you can use the **Tor Browser**. Paste the *.onion* \n"
+"address for the file share into the address bar of **Tor Browser**. This "
+"will \n"
+"open the web interface for **OnionShare**. \n"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_06_onionshare.md:111 04_everyday-usage_06_onionshare.md:111
+msgid ""
+"![OnionShare - web interface in Tor "
+"Browser](static/images/OnionShare_TorBrowser.png)"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_06_onionshare.md:118 04_everyday-usage_06_onionshare.md:118
+#, no-wrap
+msgid ""
+"**NOTE**: In this screenshot, **OnionShare** (the server) and **Tor "
+"Browser**\n"
+"(the client) are both running on the same computer. Because the "
+"**OnionShare**\n"
+"server is only accessible over a Tor hidden service, **Tor Browser** "
+"connects\n"
+"to the file share over Tor. This is the case even if they are running on "
+"the\n"
+"same computer. Of course, normally the server and the client would run on\n"
+"different computers\n"
 msgstr ""
 
 #. type: Plain text
@@ -673,100 +1662,1379 @@ msgid "## Monitoring outgoing connections with Subgraph Firewall"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_01_oz.md:2
+#: 04_everyday-usage_07_subgraph_firewall.md:8 04_everyday-usage_07_subgraph_firewall.md:8
+#, no-wrap
+msgid ""
+"**Subgraph Firewall** is an *application firewall* that is included in "
+"Subgraph \n"
+"OS. While most firewalls are designed to handle incoming network "
+"communications, \n"
+"an *application firewall* can handle outgoing network "
+"communications. **Subgraph\n"
+"Firewall** can apply policies to outgoing connections on a per-application "
+"\n"
+"basis.\n"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:14 04_everyday-usage_07_subgraph_firewall.md:14
+#, no-wrap
+msgid ""
+"*Application firewalls* are useful for monitoring unexpected connections "
+"from\n"
+"applications. For example, some applications may *phone home* to the "
+"vendor's\n"
+"website. Often this activity is legitimate (non-malicious) but it still "
+"may\n"
+"violate the user's privacy or expectations of how the software operates.\n"
+"Subgraph Firewall gives users the choice to allow or deny these "
+"connections.\n"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:18 04_everyday-usage_07_subgraph_firewall.md:18
+msgid ""
+"Malicious code may also *phone home* to a website or server that is operated "
+"by the hacker or malicious code author. Subgraph Firewall can also alert the "
+"user of these connections so that they can be denied."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:23 04_everyday-usage_07_subgraph_firewall.md:23
+#, no-wrap
+msgid ""
+"*Application firewalls* cannot prevent all malicious code from connecting to "
+"the\n"
+"Internet. Sophisticated malicious code can subvert the *allowed* connections "
+"to\n"
+"bypass the firewall. However, the firewall may alert the user of "
+"connection\n"
+"attempts by less sophisticated malicious code. \n"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:29 04_everyday-usage_07_subgraph_firewall.md:29
+msgid ""
+"Our *application firewall* makes Subgraph OS unique. It is not found in "
+"other Linux distributions. Normally, applications will make outgoing network "
+"connections without the knowledge or consent of the user. Subgraph OS helps "
+"mitigate these security and privacy risks by making users aware and giving "
+"them the power to decide how applications connect to the Internet."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:31 04_everyday-usage_07_subgraph_firewall.md:31
+msgid "### Allowing or denying connections in Subgraph Firewall"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:37 04_everyday-usage_07_subgraph_firewall.md:37
+msgid ""
+"When Subgraph Firewall sees a connection it does not have a policy for, it "
+"prompts the user to *allow* or *deny* the connection. The prompt includes "
+"options to define the duration of the policy and the scope. By scope, we "
+"mean apply the policy for the application to a specific destination or to "
+"any connection made by the application."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:51 04_everyday-usage_07_subgraph_firewall.md:51
+msgid ""
+"> While developing Subgraph Firewall, we noticed some unusual behavior from "
+"> **Gnome Calculator**. We didn't expect that a calculator would need to "
+"connect > to the Internet and so we were surprised to see a prompt from "
+"**Subgraph > Firewall**. **Gnome Calculator** connects to various bank "
+"websites to fetch > the exchange rates for currency conversions.  > > This "
+"type of unexpected behavior is one of the reasons we created **Subgraph > "
+"Firewall**. **Gnome Calculator** doesn't give the user the choice to fetch "
+"the > exchange rates. **Subgraph Firewall** puts that choice back in the "
+"hands of > the user."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:53 04_everyday-usage_07_subgraph_firewall.md:53
+msgid ""
+"![Subgraph Firewall - allow/deny "
+"prompt](static/images/Subgraph_Firewall_alert.png)"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:84 04_everyday-usage_07_subgraph_firewall.md:84
+msgid ""
+"> **Subgraph Firewall Allow/Deny prompt options** > > At the top of the "
+"prompt is the name of the application making the connection > as well the "
+"destination hostname and port.  > > *IP address*: The destination IP address "
+"> > *Path*: The path to the application that is making the connection > > "
+"*Process ID*: The process ID of the application that is making the "
+"connection > > *User*: The user who started the application that is making "
+"the connection > > *Allow/Deny* duration > > *Forever*: *Allow* or *Deny* "
+"the connection forever (this can be changed > afterwards in the Subgraph "
+"Firewall settings)  > > *Session*: *Allow* or *Deny* the connection until "
+"logging out of the desktop > session > > *Once*: *Allow* or *Deny* the "
+"connection once (the prompt will re-appear if > the application attempts the "
+"connection again)  > > *Allow/Deny* scope > > *Only hostname on port*: "
+"Allow/Deny the connection for this application > only for the *hostname* and "
+"*port* listed at the top of the firewall prompt > > *Any Connection*: "
+"Allow/Deny any connection made by the application"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:88 04_everyday-usage_07_subgraph_firewall.md:88
+msgid "### Configuring firewall rules in Subgraph Firewall"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:91 04_everyday-usage_07_subgraph_firewall.md:91
+msgid ""
+"To configure the firewall rules, select the **Firewall -> Firewall "
+"Settings** option from the *Gnome User Menu* at the top right corner of the "
+"desktop."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:93 04_everyday-usage_07_subgraph_firewall.md:93
+msgid ""
+"![Gnome User Menu - Firewall -> Firewall "
+"Settings](static/images/Subgraph_Firewall_menu.png)"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:97 04_everyday-usage_07_subgraph_firewall.md:97
+msgid "This will open the **Firewall Settings** configuration window."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:99 04_everyday-usage_07_subgraph_firewall.md:99
+msgid "![Subgraph Firewall Settings](static/images/Subgraph_Firewall_settings.png)"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:103 04_everyday-usage_07_subgraph_firewall.md:103
+msgid "The configuration window shows all of the existing rules."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:105 04_everyday-usage_07_subgraph_firewall.md:105
+msgid "Each rule has the following columns:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 04_everyday-usage_07_subgraph_firewall.md:109 04_everyday-usage_07_subgraph_firewall.md:109
+msgid "Application name"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 04_everyday-usage_07_subgraph_firewall.md:109 04_everyday-usage_07_subgraph_firewall.md:109
+msgid "A policy setting of *ALLOW* or *DENY*"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 04_everyday-usage_07_subgraph_firewall.md:109 04_everyday-usage_07_subgraph_firewall.md:109
+msgid "The scope of the policy"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:111 04_everyday-usage_07_subgraph_firewall.md:111
+msgid "The last two options are to *Edit* or *Delete* a firewall rule."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:114 04_everyday-usage_07_subgraph_firewall.md:114
+msgid ""
+"If you click the *Edit* button (the button with the wrench), you will be "
+"prompted to edit the *Allow/Deny* policy and its scope."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:116 04_everyday-usage_07_subgraph_firewall.md:116
+msgid ""
+"![Subgraph Firewall Settings - Edit "
+"Rule](static/images/Subgraph_Firewall_edit_rule.png)"
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:121 04_everyday-usage_07_subgraph_firewall.md:121
+msgid ""
+"The *Options* tab of the **Firewall Settings** window lets you configure "
+"general options for **Subgraph Firewall**."
+msgstr ""
+
+#. type: Plain text
+#: 04_everyday-usage_07_subgraph_firewall.md:123 04_everyday-usage_07_subgraph_firewall.md:123
+msgid ""
+"![Subgraph Firewall Settings "
+"-Options](static/images/Subgraph_Firewall_options.png)"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_01_intro.md:2
 msgid "# Features and advanced usage"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_01_oz.md:4
+#: 05_features_and_advanced_usage_01_intro.md:6
+msgid ""
+"This chapter describes the unique features of Subgraph OS. These are "
+"features that distinguish it from other operating systems. This is where you "
+"can find more information about the design of Subgraph OS."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_01_intro.md:11
+msgid ""
+"As an *adversary resistant computing* platform, Subgraph OS is designed to "
+"resist threats to security and privacy. This chapter includes more "
+"information about how our design addresses these threats. We also provide "
+"links to external sources where more in-depth technical information is "
+"available."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_01_intro.md:16
+msgid ""
+"This chapter also provides documentation for some advanced use-cases in "
+"Subgraph OS. This content is more technical than previous chapters in the "
+"Subgraph OS Handbook. It contains *how-tos* and reference materials intended "
+"for users who are comfortable running commands in the terminal and editing "
+"configuring files."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:2
 msgid "## Sandboxing applications with Subgraph Oz"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_01_oz.md:8
-msgid "### Securing sandboxed applications with Oz seccomp"
+#: 05_features_and_advanced_usage_02_oz.md:10
+msgid ""
+"Subgraph OS runs desktop applications inside of our security sandbox "
+"(**Oz**).  The security sandbox is an additional layer of security, above "
+"and beyond the othersecurity features of Subgraph OS. Subgraph OS is "
+"hardened to make it very difficult for an attacker to compromise "
+"applications. However, it is impossible to prevent every vulnerability. If "
+"an attacker compromises an application, **Oz** can help to protect the "
+"computer and the user's sensitive files against further compromise."
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_02_tor.md:2
+#: 05_features_and_advanced_usage_02_oz.md:12
+#, no-wrap
+msgid "**Oz** can provide the following protections to sandboxed applications:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 05_features_and_advanced_usage_02_oz.md:18
+msgid "Restrict the files that the application has access to"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 05_features_and_advanced_usage_02_oz.md:18
+msgid "Restrict network access"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 05_features_and_advanced_usage_02_oz.md:18
+msgid "Restrict audio playback"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 05_features_and_advanced_usage_02_oz.md:18
+msgid "Restrict the system calls the application can make (using **seccomp**)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 05_features_and_advanced_usage_02_oz.md:18
+msgid "Restrict malicious interactions between X11 applications (using **xpra**)"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:20
+msgid ""
+"Each sandboxed application has its own policies to restrict its "
+"capabilities."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:22
+msgid "The following table shows some of the sandbox policies in Subgraph OS:"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:35
+#, no-wrap
+msgid ""
+"Application    Category           Network?    Audio?\n"
+"-----------   --------           --------    ------\n"
+"Tor Browser    Browser            Proxy port  Yes\n"
+"Icedove\t       Email client       Proxy port  No\n"
+"CoyIM          Instant messager   Proxy port  No\n"
+"Ricochet       Instant messager   Proxy port  No\n"
+"Hexchat\t       IRC client         Proxy port  No\n"
+"OnionShare     File sharing       Proxy port  No\n"
+"VLC            Video player       No          Yes\n"
+"LibreOffice    Office suite       No          No\n"
+"Evince         PDF reader         No          No\n"
+"Eog            Image Viewer       No          No\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:42
+#, no-wrap
+msgid ""
+"**Oz** also sandboxes desktop applications from each other. Normally, \n"
+"applications running under the X11 display server can interact with each "
+"other. \n"
+"This means that one application can intercept or inject events into another "
+"\n"
+"application.\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:50
+msgid ""
+"Without **Oz** or an alternate display server, there is no way to securely "
+"prevent applications from interacting with each other. An attacker could "
+"abuse this to perform malicious actions such as intercepting the keystrokes "
+"from another desktop application. To prevent these attacks, **Oz** sandboxes "
+"use **xpra** to render applications on the desktop. **Xpra** isolates "
+"applications by using a separate display server to render each "
+"application. Since the applications do not share the same display server, "
+"they cannot interact."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:53
+msgid ""
+"For more technical details about **Oz** and its security features, see the "
+"following page:"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:55
+msgid "<https://github.com/subgraph/oz/wiki/Oz-Technical-Details>"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:60
+msgid "### Enabling an Oz profile"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:65
+#, no-wrap
+msgid ""
+"**Oz** profiles can be found in the following directory:\n"
+"```\n"
+"/var/lib/oz/cells.d\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:69
+#, no-wrap
+msgid ""
+"**Oz** automatically enables profiles in this directory. However, if you "
+"need to\n"
+"manually enable a profile, you can do so by running the **oz-setup** command "
+"to\n"
+"*install* the profile. \n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:74
+msgid ""
+"The following example installs the profile for **evince**: ```{.bash} $ sudo "
+"oz-setup install evince ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:79
+msgid ""
+"When the profile is installed, **Oz** will *divert* the path of the program "
+"executable. Instead of the program running directly, diverting it lets "
+"**Oz** start the program. So the next time it is started, the program will "
+"be sandboxed by **Oz**."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:81
+msgid "### Disabling an Oz profile"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:85
+msgid ""
+"If you want to run a previously sandboxed program outside of the sandbox, "
+"you must disable its profile. To disable a profile, run the **oz-setup** "
+"command with the *remove* option."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:90
+msgid ""
+"The following example removes the profile for **evince**: ```{.bash} $ sudo "
+"oz-setup remove evince ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:93
+msgid ""
+"When the profile is removed, **Oz** will undo the *divert* of the program "
+"path.  The program will not run in the **Oz** sandbox the next time it is "
+"started."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:95
+msgid "### Viewing the status of an Oz profile"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:97
+msgid "The status of a program can also be viewed with the **oz-setup** command."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:102
+msgid ""
+"The following example shows the status of **evince**: ```{.bash} $ sudo "
+"oz-setup status /usr/bin/evince ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:109
+#, no-wrap
+msgid ""
+"The command prints the following when **evince** profile is installed:\n"
+"```\n"
+"Package divert is installed for:     /usr/bin/evince\n"
+"Package divert is installed for:     /usr/bin/evince-thumbnailer\n"
+"Package divert is installed for:     /usr/bin/evince-previewer\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:116
+msgid ""
+"When the **evince** profile is not installed, the command prints the "
+"following: ``` Package divert is not installed for: /usr/bin/evince Package "
+"divert is not installed for: /usr/bin/evince-thumbnailer Package divert is "
+"not installed for: /usr/bin/evince-previewer ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:120
+msgid "### Creating an Oz profile"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:122
+msgid ""
+"In this section, we will walk through some of the options in a basic "
+"profile."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:124
+#, no-wrap
+msgid "**Oz** profiles are written in JSON.\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:156
+#, no-wrap
+msgid ""
+"The following is the **Oz** profile for the **eog** image viewer:\n"
+"```{.javascript}\n"
+"{\n"
+" \"name\": \"eog\"\n"
+" , \"path\": \"/usr/bin/eog\"\n"
+" , \"allow_files\": true\n"
+" , \"xserver\": {\n"
+"         \"enabled\": true\n"
+"         , \"enable_tray\": false\n"
+"         , "
+"\"tray_icon\":\"/usr/share/icons/hicolor/scalable/apps/eog.svg\"\n"
+" }\n"
+" , \"networking\":{\n"
+"         \"type\":\"empty\"\n"
+" }\n"
+" , \"whitelist\": [\n"
+"         {\"path\":\"/var/lib/oz/cells.d/eog-whitelist.seccomp\", "
+"\"read_only\": true}\n"
+" ]\n"
+" , \"blacklist\": [\n"
+" ]\n"
+" , \"environment\": [\n"
+"         {\"name\":\"GTK_THEME\", \"value\":\"Adwaita:dark\"}\n"
+"         , {\"name\":\"GTK2_RC_FILES\",\n"
+"\"value\":\"/usr/share/themes/Darklooks/gtk-2.0/gtkrc\"}\n"
+" ]\n"
+" , \"seccomp\": {\n"
+"         \"mode\":\"whitelist\"\n"
+"         , \"enforce\": true\n"
+"         , \"whitelist\":\"/var/lib/oz/cells.d/eog-whitelist.seccomp\"\n"
+" }\n"
+" }\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:194
+msgid ""
+"> **Example Oz profile configuration options** > > *name*: The name of the "
+"profile > > *path*: The path to the program executable > > *allow_files*: "
+"Allow files to be passed as arguments to the program (such as > image files "
+"for **eog**)  > > *xserver -> enabled*: Enable the use of the Xserver "
+"(**xpra**)  > > *xserver -> enable_tray*: Enable the **xpra** diagnostic "
+"tray (defaults to > `false`, enabling it requires extra software)  > > "
+"*xserver -> tray_icon*: The path to the tray icon > > *networking -> type*: "
+"The networking configuration type, *empty* disables > networking entirely > "
+"> *whitelist -> path*: The path of a file to add to the sandbox, in this "
+"case it > is the *seccomp whitelist* for **eog** > > *whitelist -> path -> "
+"read_only*: Whether or not the allowed file is > *read-only*, should be "
+"*true* in most cases > > *blacklist*: Removes access to a file in the "
+"sandbox, accepts the *path* > argument > > *environment -> name, value*: "
+"Adds environment variables by name and value to > the sandbox > > *seccomp "
+"-> mode*: Adds a seccomp policy (either *whitelist* or *blacklist*)  > to "
+"the sandbox > > *seccomp -> enforce*\": The seccomp enforcement mode > > "
+"*seccomp -> whitelist*: The path to the whitelist policy"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:200
+#, no-wrap
+msgid ""
+"**Oz** supports a number of different profile configurations. More examples "
+"for \n"
+"real applications are located in the profiles directory:\n"
+"```\n"
+"/var/lib/oz/cells.d\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:202
+msgid "Complete documentation for creating **Oz** profiles can be found here:"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:204
+msgid "<https://github.com/subgraph/oz>"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:208
+msgid "### Securing system calls with seccomp in Oz"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:213
+#, no-wrap
+msgid ""
+"*Seccomp* is a feature of the Linux kernel to limit exposed system "
+"calls. As\n"
+"system calls provide a user interface to the kernel, they expose it to "
+"attacks.\n"
+"These attacks can let an attacker elevate their privileges on the "
+"computer. The\n"
+"**Oz** sandbox uses *seccomp* to protect against this type of attack.\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:218
+#, no-wrap
+msgid ""
+"**Oz** supports *seccomp* policies on a per-application basis. *Seccomp* "
+"kills\n"
+"applications whenever they violate a policy. This protects the computer in "
+"cases\n"
+"where an attacker tries to exploit a vulnerability in the kernel that "
+"depends on \n"
+"the blocked system call. \n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:223
+msgid ""
+"Some attacks also use system calls as part of their *payload*. A *payload* "
+"is the malicious code that runs as a result of a successful exploit. The "
+"*seccomp* policies in **Oz** can prevent *payloads* from running if they use "
+"a blocked system call."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:228
+#, no-wrap
+msgid ""
+"**Oz** supports **whitelist** or **blacklist** policies. Whitelist policies "
+"are \n"
+"*default deny*. This means that only system calls that are explicitly "
+"permitted \n"
+"will be allowed. All other system calls (those not on the **whitelist**) "
+"cause \n"
+"the application to be killed. \n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:232
+#, no-wrap
+msgid ""
+"**Blacklist** policies are *default allow*. This means that seccomp blocks "
+"system\n"
+"calls in the blacklist policy but allows all others (those not on the\n"
+"**blacklist**). \n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:240
+#, no-wrap
+msgid ""
+"**Whitelist** policies are appropriate when the application is well "
+"understood.\n"
+"By well understood, we mean that the behavior of the application is "
+"predictable\n"
+"enough to create a precise profile of allowed system calls. This is more "
+"secure\n"
+"than a **blacklist** because known behavior of the application is allowed "
+"but\n"
+"unknown behavior is blocked. The disadvantage of this approach is that the\n"
+"**whitelists** must be updated regularly to reflect the known behavior of "
+"the\n"
+"application.\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:244
+#, no-wrap
+msgid ""
+"**Blacklist** policies are appropriate for applications that are not as "
+"well\n"
+"understood. We use them prior to the creation of a **whitelist** or if there "
+"is\n"
+"some other reason a **whitelist** cannot be created. \n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:248
+#, no-wrap
+msgid ""
+"**Oz** includes a generic **blacklist** that will work out-of-the-box with "
+"many \n"
+"applications. This policy blocks unusual or exotic system calls that \n"
+"applications do not normally use.\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:253
+msgid ""
+"The **Oz** generic **blacklist** is located here: ``` "
+"/var/lib/oz/cells.d/generic-blacklist.seccomp ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:256
+msgid ""
+"In Subgraph OS, we try to create **whitelist** policies for all of our "
+"supported applications."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:260
+msgid ""
+"See the Appendix for a complete list of system calls in Subgraph OS. You can "
+"use this reference to look up system call numbers when writing or debugging "
+"*seccomp* policies."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:264
+msgid "### Profiling applications with oz-seccomp-tracer"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:269
+#, no-wrap
+msgid ""
+"**Oz** includes a tool to help with the creation and maintenance of "
+"seccomp\n"
+"**whitelists**. The **oz-seccomp-tracer** profiles applications as they run "
+"to\n"
+"determine the system calls that they use. This tool will generate a "
+"seccomp\n"
+"`whitelist` after it exits.  \n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:275
+msgid ""
+"To profile Firefox using **oz-seccomp-tracer**, run the following command: "
+"```{.bash} $ oz-seccomp-tracer -trace -output firefox-whitelist.seccomp "
+"/usr/bin/firefox \\ 2>firefox_syscalls.txt ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:282
+msgid ""
+"You can then use Firefox as you normally would. When you are finished, a "
+"seccomp **whitelist** will be saved to **firefox-whitelist.seccomp**.  "
+"**oz-seccomp-tracer** prints all of the system calls from the application to "
+"**stdout**. So we also advise you to redirect this output to a separate "
+"file.  We use **firefox_syscalls.txt** in this example. You could also "
+"redirect this output to **/dev/null** if you don't want to save it."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:284
+msgid "### Adding a seccomp policy to an Oz application profile"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:292
+msgid ""
+"Once you are satisfied with the **whitelist**, you can copy it to the "
+"following directory: ``` /var/lib/oz/cells.d ``` Using Firefox as an "
+"example, the following snippets from */var/lib/oz/cells.d/firefox.json* show "
+"how to apply the policy."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:301
+#, no-wrap
+msgid ""
+"First, the seccomp policy file must be added to the list of files allowed "
+"in\n"
+"the sandbox:\n"
+"```{.javascript}\n"
+"\"whitelist\": [\n"
+"        , {\"path\":\"/var/lib/oz/cells.d/firefox-whitelist.seccomp\", \n"
+"                \"read_only\": true}\n"
+"]\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:311
+#, no-wrap
+msgid ""
+"Then the seccomp policy needs to be enabled to run in *enforce* mode:\n"
+"```{.javascript}\n"
+"\"seccomp\": {\n"
+"         \"mode\":\"whitelist\"\n"
+"         ,\n"
+"\"whitelist\":\"/var/lib/oz/cells.d/firefox-whitelist.seccomp\"\n"
+"         , \"enforce\": true\n"
+"}\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_02_oz.md:318
+msgid ""
+"Lastly, the **Oz** daemon must be restarted to load the seccomp policy. You "
+"should save your work at this point as restarting **Oz** will close all of "
+"the open sandboxes. To restart the **Oz** daemon, run the following command: "
+"```{.bash} $ sudo systemctl restart oz-daemon.service ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_03_tor.md:2
 msgid "## Anonymizing communications with Tor"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_02_tor.md:6
-msgid "### Securing the Tor control port with roflcoptor"
+#: 05_features_and_advanced_usage_03_tor.md:6
+#, no-wrap
+msgid ""
+"*Tor* is an essential privacy tool that provides anonymity to its "
+"users. In\n"
+"particular, Tor hides the location of its users. By location, we mean your "
+"IP\n"
+"address (which can also be used to geo-locate your computer).\n"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_03_metaproxy.md:2
+#: 05_features_and_advanced_usage_03_tor.md:16
+msgid ""
+"Tor hides your location by relaying your traffic through a random series of "
+"network connections (called a *circuit*). While your traffic passes through "
+"the *hops* in this circuit, the source and destination of the traffic are "
+"hidden. The traffic eventually leaves the *circuit* through an *exit "
+"node*. The *exit node* relays the traffic to its final destination but is "
+"also unaware of the source.  They are called *exit nodes* because they are "
+"the point where the traffic leaves the Tor network to reach its destination "
+"on the regular Internet. *Exit nodes* may observe or tamper with the traffic "
+"en-route to its destination, unless an additional layer of encryption is "
+"applied such as *TLS*."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_03_tor.md:21
+msgid ""
+"Due to the possibility that some *exit nodes* are malicious, we strongly "
+"advise you to use Tor with an additional layer of encryption. This means "
+"connecting to websites over *HTTPS* only, using TLS with applications such "
+"as **Icedove** or **Hexchat**, etc."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_03_tor.md:29
+#, no-wrap
+msgid ""
+"**NOTE**: Tor hidden services provide a way to send network traffic *only* "
+"\n"
+"through the Tor network. This eliminates the risks involved when the traffic "
+"\n"
+"passes through an *exit node* to the regular Internet. However, this "
+"requires \n"
+"that the destination service is configured to run as a hidden service. It "
+"also \n"
+"adds more latency to the network traffic because it must pass through more "
+"\n"
+"*hops* to reach the hidden service. Tor hidden services are discussed in "
+"further \n"
+"detail in other sections of this book.\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_03_tor.md:31
+msgid "More information about Tor can be found here:"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_03_tor.md:33
+msgid "<https://www.torproject.org/about/overview>"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_03_tor.md:37
+msgid "### Tor integration in Subgraph OS"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_03_tor.md:40
+msgid ""
+"Subgraph OS is integrated with the Tor anonymity network. We include many "
+"applications that are designed to be used with Tor. These include:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 05_features_and_advanced_usage_03_tor.md:47
+msgid ""
+"**Tor Browser** for browsing the web anonymously and accessing Tor hidden "
+"service websites"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 05_features_and_advanced_usage_03_tor.md:47
+msgid "**OnionShare** for sharing files anonymously over Tor"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 05_features_and_advanced_usage_03_tor.md:47
+msgid "**Ricochet** for chatting anonymously of Tor"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 05_features_and_advanced_usage_03_tor.md:47
+msgid ""
+"**CoyIM** instant messager, which supports connecting to the *.onion* "
+"addresses for *XMPP/Jabber* chat servers"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_03_tor.md:54
+msgid ""
+"Other parts of Subgraph OS are engineered to integrate with Tor "
+"seamlessly. The **Metaproxy** routes non-Tor applications over Tor. Our "
+"**Oz** sandbox also lets applications work seamlessly with Tor. We also "
+"include a Gnome Shell extension that monitors that status of connections to "
+"the Tor network. Lastly, **ROFLCopTor** is a filter for the Tor control port "
+"that enforces security policies on applications that run Tor control "
+"commands."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_04_metaproxy.md:2
 msgid "## Routing applications through Tor with Subgraph Metaproxy"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_03_metaproxy.md:7
+#: 05_features_and_advanced_usage_04_metaproxy.md:7
 msgid ""
-"The Metaproxy is an important part of Subgraph OS. It is a service that runs "
-"in the background to help applications connect through the Tor network. This "
-"is done transparently, even with applications that are not configured or "
+"The **Metaproxy** is an important part of Subgraph OS. It runs in the "
+"background to help applications connect through the Tor network. This is "
+"done transparently, even with applications that are not configured or "
 "designed to work with Tor."
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_03_metaproxy.md:15
+#: 05_features_and_advanced_usage_04_metaproxy.md:14
 msgid ""
-"On a typical operating system, users must configure each application to "
-"connect to the Internet through Tor. This normally requires the user to "
-"configure the proxy settings of the application to use one of Tor's built-in "
-"proxies or to `torify` the application. Since Subgraph OS blocks outgoing "
-"connections that are not routed through Tor, this may pose a problem for "
-"applications that try to connect to the Internet but have not been manually "
-"`torified` or otherwise configured to work with Tor."
+"On other operating systems, users must specifically configure applications "
+"to connect to the Internet through Tor. This normally requires the user to "
+"configure proxy settings of the application to connect through Tor's "
+"built-in proxies. Some applications do not support or honor proxy "
+"settings. To use Tor with these applications, users often run them with "
+"using a command-line helper called **torsocks** to *torify* the "
+"application. This is a lot of work for users."
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_03_metaproxy.md:19
+#: 05_features_and_advanced_usage_04_metaproxy.md:22
 msgid ""
-"The Metaproxy addresses this problem by automatically relaying outgoing "
+"Configuring proxies or *torifying* applications by hand is not an adequate "
+"solution for Subgraph OS. Usability and maintainability are issues with this "
+"approach. In Subgraph OS, some applications simply would not work if there "
+"is no easy way to route them through Tor. This is because Subgraph OS blocks "
+"outgoing connections that are not routed through Tor. This is to prevent "
+"accidental privacy leaks. If an application has no way to communicate over "
+"Tor, it may not be able to access the network at all."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_04_metaproxy.md:26
+msgid ""
+"The **Metaproxy** addresses this problem by automatically relaying outgoing "
 "connections through Tor. When we say this is done transparently, we mean the "
 "following two things:"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_03_metaproxy.md:24
+#: 05_features_and_advanced_usage_04_metaproxy.md:31
 #, no-wrap
 msgid ""
-"1. Users do not have to manually `torify` their applications or otherwise\n"
-"configuration them to use Tor\n"
+"1. Users do not have to manually *torify* their applications or otherwise\n"
+"configure them to use Tor\n"
 "2. Applications that are already configured to use Tor are ignored by the \n"
-"Metaproxy, therefore, it only helps those applications which need it\n"
+"**Metaproxy**, therefore, it only helps those applications which need it\n"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_04_grsecurity.md:2
+#: 05_features_and_advanced_usage_05_roflcoptor.md:2
+msgid "## Securing the Tor control port with ROFLCopTor"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_05_roflcoptor.md:10
+msgid ""
+"The Tor service is managed by a control protocol. This lets users perform "
+"various actions such as querying information about Tor connections, starting "
+"hidden services, and changing configuration options. However, most "
+"applications do not need all of these features. These extra features may "
+"actually introduce security and privacy risks if someone gains unauthorized "
+"access to the control port. To mitigate these risks, Subgraph OS includes a "
+"control port filter called *ROFLCopTor*."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_05_roflcoptor.md:17
+#, no-wrap
+msgid ""
+"*ROFLCopTor* is a proxy server that is placed between Tor control clients "
+"and the\n"
+"Tor control server port. *ROFLCopTor* handles authentication itself, meaning "
+"\n"
+"clients do not need to know the authentication credentials or run with "
+"higher\n"
+"privileges to access to Tor control port. It intercepts the incoming "
+"commands \n"
+"and outgoing responses. *ROFLCopTor* enforces policies on a per-application "
+"\n"
+"basis for the traffic between the Tor control clients and the server.\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_05_roflcoptor.md:23
+#, no-wrap
+msgid ""
+"*ROFLCopTor* supports policies that are bi-directional. This means that a "
+"policy \n"
+"can filter both the incoming commands and the outgoing responses from the "
+"Tor \n"
+"control port. Policies can also replace command and response strings.\n"
+"Replacements can be used to filter sensitive information from Tor control "
+"port\n"
+"responses.\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_05_roflcoptor.md:28
+#, no-wrap
+msgid ""
+"*ROFLCopTor* has a number of default policies for applications in Subgraph "
+"OS that\n"
+"require access to the Tor control port. The policies work without "
+"modification\n"
+"for most use-cases. This section describes how to profile applications to "
+"create\n"
+"new policies or modify existing ones.\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_05_roflcoptor.md:30
+msgid "### Profiling applications with ROFLCopTor"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_05_roflcoptor.md:33
+#, no-wrap
+msgid ""
+"*ROFLCopTor* can profile applications to determine the Tor control commands "
+"that\n"
+"they run on a regular basis. This makes it easier to create or edit "
+"policies.\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_05_roflcoptor.md:39
+msgid ""
+"Before profiling applications, you should stop the currently running version "
+"of *ROFLCopTor*: ```{.bash} $ sudo systemctl stop roflcoptor ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_05_roflcoptor.md:44
+msgid ""
+"To begin profiling, you must start *ROFLCopTor* in *watch* mode: ```{.bash} "
+"$ sudo -u roflcoptor roflcoptor watch -log_level DEBUG \\ -config "
+"/etc/roflcoptor/roflcoptor_config.json"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_05_roflcoptor.md:63
+msgid ""
+"The log shows some of the commands that applications tried to run: ``` "
+"18:21:53 - DEBU 017 connection received tcp:127.0.0.1:44860 -> "
+"tcp:127.0.0.1:9051 18:21:55 - ERRO 018 filter policy for "
+"gnome-shell-torstatus DENY: A->T: [GETCONF ORPort] 18:21:55 - ERRO 019 "
+"filter policy for gnome-shell-torstatus DENY: A->T: [GETINFO events/names] "
+"18:21:55 - ERRO 01a filter policy for gnome-shell-torstatus DENY: A->T: "
+"[SETEVENTS NOTICE NS NEWDESC NEWCONSENSUS] 18:21:55 - ERRO 01b filter policy "
+"for gnome-shell-torstatus DENY: A->T: [GETINFO process/user] 18:21:55 - ERRO "
+"01c filter policy for gnome-shell-torstatus DENY: A->T: [GETINFO "
+"process/pid] ...  ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_05_roflcoptor.md:70
+msgid ""
+"Press **Ctrl-C** to stop the *ROFLCopTor* watch process. Make sure to "
+"restart *ROFLCopTor* normally after you are done profiling. Run the "
+"following command to restart *ROFLCopTor*: ```{.bash} $ sudo systemctl "
+"restart roflcoptor ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_05_roflcoptor.md:72
+msgid "### Editing ROFLCopTor policies"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_05_roflcoptor.md:75
+msgid ""
+"Once you have a list of commands required by an application, you can create "
+"or edit a policy."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_05_roflcoptor.md:81
+#, no-wrap
+msgid ""
+"*ROFLCopTor* policies are written in JSON. Policies can be found in the "
+"following\n"
+"directory on Subgraph OS:\n"
+"```\n"
+"/etc/roflcoptor/filters/\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_05_roflcoptor.md:98
+#, no-wrap
+msgid ""
+"The following is a simple policy for the Tor Status Gnome shell extension "
+"in\n"
+"Subgraph OS:\n"
+"```{.javascript}\n"
+"{\n"
+"    \"Name\": \"gnome-shell-torstatus\",\n"
+"    \"AuthNetAddr\" : \"tcp\",\n"
+"    \"AuthAddr\" : \"127.0.0.1:9051\",\n"
+"    \"client-allowed\" : [\"GETINFO status/bootstrap-phase\", \"SIGNAL "
+"NEWNYM\"],\n"
+"    \"client-allowed-prefixes\" : [],\n"
+"    \"client-replacements\" : {},\n"
+"    \"client-replacement-prefixes\" : {},\n"
+"    \"server-allowed\" : [\"250 OK\"],\n"
+"    \"server-allowed-prefixes\" : [\"250-status/bootstrap-phase=\"],\n"
+"    \"server-replacement-prefixes\" : {}\n"
+"}\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_05_roflcoptor.md:125
+msgid ""
+"> **ROFLCopTor policy configuration options** > > *Name*: The name of the "
+"application to apply the policy to > > *AuthNetAddr*: The protocol used by "
+"the Tor control port > > *AuthAddr*: The address of the Tor control port > > "
+"*client-allowed*: The list of commands allowed by the client > > "
+"*client-allowed-prefixes*: A list of prefixes for partial allowed client "
+">commands (commands where the suffix varies)  > > *client-replacements*: A "
+"list of commands to replace and their replacement > strings > > "
+"*client-replacement-prefixes*: A list of client command prefixes to replace "
+"> and their replacement strings (for commands where the suffix varies)  > > "
+"*server-allowed*: The list of responses allowed by the server > > "
+"*server-allowed-prefixes*: A list of prefixes for partial allowed server > "
+"responses (responds where the suffix varies)  > > "
+"*server-replacement-prefixes*: A list of server response prefixes to replace "
+"> and their replacement strings (for responses where the suffix varies)"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_05_roflcoptor.md:129
+msgid ""
+"The most common configuration task is to add new commands and responses to "
+"the *client-allowed*, *client-allowed-prefixes*, *server-allowed*, and "
+"*server-allowed-prefixes* options."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_05_roflcoptor.md:133
+msgid ""
+"More documentation on configuring and using ROFLCopTor is located on the "
+"following page: <https://github.com/subgraph/roflcoptor>"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_06_grsecurity.md:2
 msgid "## Hardening the operating system and applications with Grsecurity"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_04_grsecurity.md:7
+#: 05_features_and_advanced_usage_06_grsecurity.md:7
+#, no-wrap
 msgid ""
-"Grsecurity is a third-party security enhancement to the Linux kernel. It is "
-"developed and maintained by the Grsecurity team. It is implemented as a "
-"patch to the upstream Linux kernel. Subgraph OS ships with a kernel that is "
-"patched with Grsecurity."
+"**Grsecurity** is a third-party security enhancement to the Linux kernel. It "
+"is \n"
+"developed and maintained by the **Grsecurity** team. It is implemented as a "
+"patch\n"
+"to the upstream Linux kernel. Subgraph OS ships with a kernel that is "
+"patched\n"
+"with **Grsecurity**.\n"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_04_grsecurity.md:9
+#: 05_features_and_advanced_usage_06_grsecurity.md:9
+msgid "For more information about **Grsecurity**, see the following page:"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_06_grsecurity.md:11
+msgid "<https://grsecurity.net/>"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_06_grsecurity.md:13
 msgid "### Configuring PaX flags with Paxrat"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_05_macouflage.md:2
+#: 05_features_and_advanced_usage_06_grsecurity.md:16
+#, no-wrap
+msgid ""
+"**Paxrat** is a utility in Subgraph OS for maintaining the *PaX flags* of\n"
+"applications on the computer. \n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_06_grsecurity.md:45
+#, no-wrap
+msgid ""
+"> *What is PaX?*\n"
+">\n"
+"> *PaX* is a feature of *Grsecurity* that provides *memory protection*. Many "
+"security\n"
+"> vulnerabilities in applications and the Linux kernel allow attackers to \n"
+"> corrupt process memory. *Memory corruption* can be exploited to run the\n"
+"> attackers *payload* of malicious code.\n"
+">\n"
+"> PaX protects the computer from *memory corruption* using a number of "
+"novel\n"
+"> techniques such as:\n"
+">\n"
+"> 1. Randomizing the layout of process memory or *ASLR* (Address Space "
+"Layout\n"
+">    Randomization), making it harder for attackers to guess where their\n"
+">    malicious *payload* is stored in process memory\n"
+"> 2. Making memory pages *non-executable*, meaning that an attacker's "
+"*payload*\n"
+">    cannot run if stored in *non-executable* memory\n"
+">\n"
+"> *PaX* includes other *memory protection* and *control flow integrity* "
+"features\n"
+"> so that it is more difficult for attackers to exploit *memory "
+"corruption*\n"
+"> vulnerabilities in applications and the kernel.\n"
+">\n"
+"> *PaX* does not prevent all vulnerabilities but it complicates "
+"attacks. The\n"
+"> difference to an attacker is that with *PaX* they may be required to "
+"exploit\n"
+"> multiple vulnerabilities to achieve the same effect as a single "
+"vulnerability.\n"
+">\n"
+"> More information about *PaX* can be found here:\n"
+">\n"
+"> <https://pax.grsecurity.net/>\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_06_grsecurity.md:52
+#, no-wrap
+msgid ""
+"*PaX* works by killing applications that violate its security "
+"policies. This\n"
+"*proactively* prevents attacks from succeeding. However, as part of their "
+"normal\n"
+"functions, some applications perform non-malicious actions that violate "
+"the\n"
+"security policies. *PaX flags* are exceptions to these policies. They let\n"
+"applications run normally without being killed by *PaX* when they perform "
+"an\n"
+"action that appears to violate policies.\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_06_grsecurity.md:57
+msgid ""
+"Applications such as web browsers need *PaX flags* to be set because they "
+"perform actions such as *JIT* (Just in Time compilation). To *PaX*, *JIT* "
+"has the same profile as an attack. Applications that use a *JIT* compiler "
+"must be flagged as exceptions so that they are not killed."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_06_grsecurity.md:62
+#, no-wrap
+msgid ""
+"**Paxrat** keeps track of the *PaX flags* for applications in Subgraph "
+"OS. It is \n"
+"designed to maintain the *PaX* flags between application updates. **Paxrat** "
+"\n"
+"runs when the system updates software, automatically re-applying flags to\n"
+"upgraded applications.\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_06_grsecurity.md:68
+#, no-wrap
+msgid ""
+"**Paxrat** can only maintain the flags it knows about. If a user discovers "
+"that \n"
+"*PaX* is killing an application, the configuration must be changed to "
+"disable \n"
+"some *PaX flags*. Instructions are provided in this guide for changing the "
+"\n"
+"**Paxrat** configuration. We also advise users to report the exception to us "
+"so \n"
+"that we can update the configuration for everybody.\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_06_grsecurity.md:74
+#, no-wrap
+msgid ""
+"**Paxrat** configuration files are written in JSON. They are stored in the "
+"\n"
+"following directory:\n"
+"```\n"
+"/etc/paxrat\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_06_grsecurity.md:83
+#, no-wrap
+msgid ""
+"The following is a snippet of a *PaX flag* configuration for **Tor "
+"Browser**:\n"
+"```{.javascript}\n"
+"\"/home/user/.local/share/torbrowser/tbb/x86_64/tor-browser_en-US/Browser/firefox\":\n"
+"{\n"
+"    \"flags\": \"m\",\n"
+"    \"nonroot\": true\n"
+"}\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_06_grsecurity.md:100
+msgid ""
+"> **Paxrat configuration options** > > The first line of the configuration "
+"(in quotes) is the path to the > application.  > In the above example, it "
+"is: > "
+"\"/home/user/.local/share/torbrowser/tbb/x86_64/tor-browser_en-US/Browser/firefox\" "
+"> > *flags*: This a string of letters representing the various PaX flags > > "
+"*nonroot*: This indicates whether the application is owned by the *root* "
+"user > or not, it is *false* by default but *true* in the example because "
+"the > **Tor Browser** application is owned by a normal user > > **NOTE**: As "
+"a security precaution, **Paxrat** will not apply *PaX flags* to > an "
+"application that is owned by a *nonroot* user unless the *nonroot* option > "
+"is set to *true*."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_06_grsecurity.md:105
+msgid ""
+"There are a number of different *PaX flags* that can be *enabled* or "
+"*disabled*.  Most are *enabled* by default and must be "
+"*disabled*. *Disabled* flags are represented by a lower-case letter such as "
+"**m**. Upper-case letters such as **M** represent *enabled* flags."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_06_grsecurity.md:124
+msgid ""
+"> **PaX flags** > > *P/p*: *Enable/disable* PAGEXEC > > *E/e*: "
+"*Enable/disable* EMUTRAMP > > *M/m*: *Enable/disable* MPROTECT > > *R/r*: "
+"*Enable/disable* RANDMAP > > *X/x*: *Enable/disable* RANDEXEC > > *S/x*: "
+"*Enable/disable* SEGMEXEC > > > A detailed description of these flags can be "
+"found on the following page: > > "
+"<https://en.wikibooks.org/wiki/Grsecurity/Appendix/PaX_Flags>"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_06_grsecurity.md:129
+msgid ""
+"Working examples can be found in the Subgraph OS **Paxrat** configuration "
+"files: ``` /etc/paxrat/paxrat.conf ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_06_grsecurity.md:131
+msgid "### Applying PaX flags"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_06_grsecurity.md:137
+#, no-wrap
+msgid ""
+"*PaX flags* must be re-applied after any configuration changes. Run the\n"
+"following command to re-apply *PaX flags*:\n"
+"```\n"
+"$ sudo paxrat\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_07_macouflage.md:2
 msgid "## Anonymizing MAC addresses with Macouflage"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_05_macouflage.md:6
+#: 05_features_and_advanced_usage_07_macouflage.md:6
 msgid ""
 "MAC addresses are the unique identifiers for the network interface on the "
 "computer (such as Ethernet ports and WIFI cards). Due to their unique "
@@ -774,7 +3042,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_05_macouflage.md:13
+#: 05_features_and_advanced_usage_07_macouflage.md:13
 msgid ""
 "When connecting to a network, it is possible for other devices on the "
 "network to see the MAC address of the network interface that is "
@@ -786,7 +3054,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_05_macouflage.md:19
+#: 05_features_and_advanced_usage_07_macouflage.md:19
 msgid ""
 "Subgraph OS mitigates this privacy risk by always creating random MAC "
 "addresses for all of your network interfaces. Each time one of your "
@@ -796,286 +3064,877 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_06_usblockout.md:2
+#: 05_features_and_advanced_usage_08_usblockout.md:2
 msgid "## Preventing unauthorized USB access with USB Lockout"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:2
+#: 05_features_and_advanced_usage_08_usblockout.md:6
+#, no-wrap
+msgid ""
+"**USB Lockout** is a background feature in Subgraph OS. It protects your \n"
+"computer from unauthorized USB access while your desktop session is locked "
+"or \n"
+"you have logged out.\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_08_usblockout.md:11
+#, no-wrap
+msgid ""
+"**USB Lockout** is intended for situations where your computer must be "
+"left\n"
+"unattended for short periods. Particularly, in situations where you do not "
+"fear\n"
+"your computer will be stolen but you do do not want to expose it to other "
+"risks \n"
+"while unattended. \n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_08_usblockout.md:16
+msgid ""
+"Normally, when you lock the screen or logout, people may still insert a "
+"malicious USB device into the computer. While the computer is running, a "
+"malicious device can easily compromise it. **USB Lockout** denies all access "
+"for new USB devices while the screen is locked or the user is logged out."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_08_usblockout.md:21
+#, no-wrap
+msgid ""
+"**USB Lockout** works by monitoring the state of the desktop session. When "
+"the\n"
+"session is locked or logged out, **USB Lockout** enables the Grsecurity "
+"*Deny\n"
+"New USB* setting. When the user unlocks the screen or logs back in, this "
+"setting\n"
+"is disabled, allowing access to new USB devices once again.\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_08_usblockout.md:24
+msgid ""
+"See the following page page for more information about the Grsecurity *Deny "
+"New USB* feature:"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_08_usblockout.md:26
+msgid "<https://en.wikibooks.org/wiki/Grsecurity/Appendix/Grsecurity_and_PaX_Configuration_Options#Deny_new_USB_connections_after_toggle>"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_08_usblockout.md:29
+msgid "### Enabling/disabling USB Lockout"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_08_usblockout.md:32
+msgid ""
+"While **USB Lockout** runs automatically in the background, you can manually "
+"*enable* or *disable* it."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_08_usblockout.md:37
+msgid ""
+"Run the following command to *enable* **USB Lockout**: ```{.bash} $ "
+"usblockout --enable ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_08_usblockout.md:42
+msgid ""
+"Run the following command to *disable* **USB Lockout**: ```{.bash} $ "
+"usblockout --disable ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:2
 msgid "## Using virtual machines in Subgraph OS"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:5
+#: 05_features_and_advanced_usage_09_virtualmachines.md:7
 msgid ""
 "Contrary to popular belief, there is nothing that stops the use of virtual "
-"machines in Subgraph OS.  While there are, as of this writing, some known "
-"incompatibilities with VirtualBox, Qemu/KVM works as expected."
+"machines in Subgraph OS. While the *Grsecurity* kernel is not compatible "
+"with VirtualBox, **Qemu/KVM** works as expected. However, you must install "
+"**Qemu/KVM** yourself if you want to run virtual machines."
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:7
+#: 05_features_and_advanced_usage_09_virtualmachines.md:12
 msgid ""
-"Qemu/KVM can be obtained by installing it the normal way: `sudo apt install "
-"qemu-system qemu-kvm qemu-utils`"
+"Running the following command with install **Qemu/KVM**: ```{.bash} $ sudo "
+"apt install qemu-system qemu-kvm qemu-utils ```"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:9
-msgid "### Creating a virtual machine with Qemu."
+#: 05_features_and_advanced_usage_09_virtualmachines.md:14
+msgid "### Creating a virtual machine with Qemu"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:11
+#: 05_features_and_advanced_usage_09_virtualmachines.md:20
 msgid ""
-"The following are simple starter guides to using Qemu. For more detailed "
-"information regarding the operation of Qemu/KVM virtual machine see the "
-"official [Qemu manual](http://wiki.qemu.org/Manual)."
+"The following sections are recipes on how to use **Qemu/KVM** in Subgraph "
+"OS.  They are similar to our own workflows for developing and testing "
+"Subgraph OS.  **Qemu/KVM** supports many more options than what we use in "
+"these tutorials.  For more detailed information regarding the operation of "
+"**Qemu/KVM** virtual machines, see the official **Qemu** manual:"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:13
+#: 05_features_and_advanced_usage_09_virtualmachines.md:22
+msgid "<http://wiki.qemu.org/Manual>"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:26
 msgid ""
-"There are also multiple user interfaces that allow interfacing with Qemu/KVM "
-"with various degrees of complexity and flexibility such as:"
+"There are multiple third-party graphical user interfaces for "
+"**Qemu/KVM**. These may make it easier to configure and manage virtual "
+"machines. You can explore the various options by visiting these pages:"
 msgstr ""
 
 #. type: Bullet: '* '
-#: 05_features_and_advanced_usage_07_virtualmachines.md:18
-msgid "[gnome-boxes](https://wiki.gnome.org/Apps/Boxes)"
+#: 05_features_and_advanced_usage_09_virtualmachines.md:31
+msgid "<https://wiki.gnome.org/Apps/Boxes>"
 msgstr ""
 
 #. type: Bullet: '* '
-#: 05_features_and_advanced_usage_07_virtualmachines.md:18
-msgid "[virt-manager](http://virt-manager.et.redhat.com/)"
+#: 05_features_and_advanced_usage_09_virtualmachines.md:31
+msgid "<http://virt-manager.et.redhat.com>"
 msgstr ""
 
 #. type: Bullet: '* '
-#: 05_features_and_advanced_usage_07_virtualmachines.md:18
-msgid "[qemuctl](http://qemuctl.sourceforge.net/)"
+#: 05_features_and_advanced_usage_09_virtualmachines.md:31
+msgid "<http://qemuctl.sourceforge.net>"
 msgstr ""
 
 #. type: Bullet: '* '
-#: 05_features_and_advanced_usage_07_virtualmachines.md:18
-msgid "[virtualbricks](https://launchpad.net/virtualbrick)"
+#: 05_features_and_advanced_usage_09_virtualmachines.md:31
+msgid "<https://launchpad.net/virtualbrick>"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:20
-msgid "#### Simple virtual machine creation"
+#: 05_features_and_advanced_usage_09_virtualmachines.md:33
+msgid "### Creating a basic Linux virtual machine"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:22
+#: 05_features_and_advanced_usage_09_virtualmachines.md:36
 msgid ""
-"To create a virtual machine you will, if required, create a hard drive image "
-"for it:"
+"Prior to creating the virtual machine, you should create a virtual "
+"hard-drive image for it:"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:26
-msgid "``` qemu-img create -f qcow2 disk.qcow2 8G ```"
+#: 05_features_and_advanced_usage_09_virtualmachines.md:40
+msgid "```{.bash} $ qemu-img create -f qcow2 disk.qcow2 8G ```"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:28
+#: 05_features_and_advanced_usage_09_virtualmachines.md:43
 msgid ""
-"Your virtual machine drive is now ready for use. You may launch a virtual "
-"machine using this drive like so:"
+"Your virtual hard-drive is now ready for use. Run the following command to "
+"test a virtual machine with the hard-drive:"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:32
-msgid "``` qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 -m 4096 ```"
+#: 05_features_and_advanced_usage_09_virtualmachines.md:47
+msgid "```{.bash} $ qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 -m 4096 ```"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:34
+#: 05_features_and_advanced_usage_09_virtualmachines.md:50
 msgid ""
-"Where `-enable-kvm` enables KVM virtualisation instead of using emulation; "
-"`-hda ./disk.qcow2` attaches the disk image; and `-m 4096` allocates 4096MB "
-"of RAM to the virtual machine."
+"To start a virtual machine with an operating system ISO attached to the "
+"virtual CDROM, run the following command:"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:36
-msgid "To attach a cdrom image, for example to install an operating system:"
-msgstr ""
-
-#. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:40
+#: 05_features_and_advanced_usage_09_virtualmachines.md:55
 msgid ""
-"``` qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 -m 4096 -cdrom "
-"./subgraph-os-alpha_2016-06-16_2.iso -boot d ```"
+"```{.bash} $ qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 -m 4096 \\ "
+"-cdrom ./subgraph-os-alpha_2016-06-16_2.iso -boot d ```"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:42
-msgid "#### Advanced virtual machine creation"
-msgstr ""
-
-#. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:44
+#: 05_features_and_advanced_usage_09_virtualmachines.md:69
 msgid ""
-"For more control and easier installation of Debian releases inside of a "
-"virtual machine, one may use debootstrap to create pre installed images "
-"without going through the installer process."
+"> **Qemu/KVM options** > > *-enable-kvm*: enables **KVM** virtualisation, "
+"which is faster than > **Qemu's** emulation > > *-hda*: This attaches the "
+"virtual hard-drive you created > > *-m*: This allocates RAM to the virtual "
+"machine (4096MB in the example)  > > *-cdrom*: The path to the operation "
+"system ISO > > *-boot*: This specifies the boot order for the virtual "
+"machine, *d* is the > virtual CDROM"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:46
+#: 05_features_and_advanced_usage_09_virtualmachines.md:72
 msgid ""
-"Let's start by creating an 8GB raw sparse image for our VM, then format and "
-"mount it:"
+"This example can be adapted to run the Linux distribution of your choice "
+"inside of a virtual machine."
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:53
+#: 05_features_and_advanced_usage_09_virtualmachines.md:76
+msgid "### Creating an advanced Debian Stretch virtual machine using debootstrap"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:81
 msgid ""
-"``` truncate --size 8G ./disk.img # Here you could decide to create a proper "
-"partition table if you wanted... or not...  /sbin/mkfs.ext4 ./disk.img sudo "
-"mount -o loop ./disk.img /mnt ```"
+"To have more control over the installation of Debian inside of a virtual "
+"machine, you can use **debootstrap** to install the operating "
+"system. Another advantage of this approach is that you can avoid all of the "
+"installation dialogs of the **Debian installer**."
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:55
+#: 05_features_and_advanced_usage_09_virtualmachines.md:84
 msgid ""
-"It's worth nothing that you should have enough free disk space for the image "
-"you create (and possible twice as much if you want to convert it later on)."
+"This section will show how to install Debian Stretch with the *Grsecurity* "
+"kernel from Subgraph OS."
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:57
-msgid "However, the truncated image will only take as much as space as required:"
+#: 05_features_and_advanced_usage_09_virtualmachines.md:86
+msgid "#### Create a virtual hard-drive image for the operating system"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:64
+#: 05_features_and_advanced_usage_09_virtualmachines.md:89
 msgid ""
-"``` du -sh disk.img 189M\tdisk.img du --apparent-size -sh disk.img "
-"8.0G\tdisk.img ```"
+"To begin the install, you must set up a virtual hard-drive image. Follow "
+"these steps to set it up:"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:66
-msgid ""
-"Now that we have an image created and mounted, we can use debootstrap to "
-"expand a basic install into it:"
-msgstr ""
-
-#. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:69
-msgid "``` sudo debootstrap --variant=mintbase --include=systemd-sysv stretch /mnt"
-msgstr ""
-
-#. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:72
-msgid "# And set a root password sudo chroot /mnt passwd"
-msgstr ""
-
-#. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:77
-msgid ""
-"# Create a standard fstab sudo tee /mnt/etc/fstab << EOL "
-"/dev/sda\t/\text4\tdefaults,errors=remount-ro\t0\t1 EOL"
-msgstr ""
-
-#. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:86
-msgid ""
-"# Let's download the subgraph grsec kernel and install it cd /tmp apt-get "
-"download linux-{image,headers}-grsec-amd64-subgraph "
-"linux-{image,headers}-$(uname -r)  sudo cp ./linux-{image,headers}-$(uname "
-"-r) /mnt/tmp sudo chroot /mnt $ dpkg -i /tmp/linux-{image,headers}-* $ "
-"update-initramfs -u -k all $ exit"
-msgstr ""
-
-#. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:89
-msgid ""
-"# Now we grab a copy of the kernel and initramfs we just installed to boot "
-"the system cp /mnt/boot/vmlinuz-<version>-amd64 "
-"/mnt/boot/initrd.img-<version>-amd64 /home/user/path/to/vm"
-msgstr ""
-
-#. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:94
-msgid "# After, we will sync and umount sync sudo umount /mnt ```"
-msgstr ""
-
-#. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:96
-msgid ""
-"Once done, we can use it as is with Qemu/KVM, or if you prefer it can be "
-"converted to a qcow2 image for convenience:"
-msgstr ""
-
-#. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:100
-msgid "``` qemu-img convert -f raw -O qcow2 ./disk.img ./disk.qcow2 ```"
-msgstr ""
-
-#. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:102
-msgid "We can now launch our image:"
-msgstr ""
-
-#. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:109
+#: 05_features_and_advanced_usage_09_virtualmachines.md:94
 #, no-wrap
 msgid ""
+"1. Run the following command to create a sparse virtual hard-drive image:\n"
+"```{.bash}\n"
+"$ truncate --size 8G ./disk.img\n"
 "```\n"
-"qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 \\\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:102
+#, no-wrap
+msgid ""
+"2. To format the virtual hard-drive run the following command:\n"
+"```{.bash}\n"
+"$ /sbin/mkfs.ext4 ./disk.img\n"
+"```\n"
+"After formatting the hard-drive, you can create a proper partition "
+"table. We\n"
+"will skip this step in the tutorial as it is not strictly necessary to run "
+"the\n"
+"virtual machine.\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:107
+#, no-wrap
+msgid ""
+"3. Mount the virtual hard-drive:\n"
+"```{.bash}\n"
+"$ sudo mount -o loop ./disk.img /mnt\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:111
+#, no-wrap
+msgid ""
+"**NOTE:** You should ensure there is enough free space in the image you\n"
+"create. You may want to allocate twice as much if you want to convert the "
+"image\n"
+"later on.\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:115
+msgid ""
+"The sparse virtual hard-drive image you created will only use as much space "
+"as it requires."
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:117
+msgid "Run the following command to show how much space is used by the image:"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:121
+msgid "```{.bash} $ du -sh disk.img ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:127
+msgid ""
+"The amount shown is a fraction of the total amount specified in the "
+"*truncate* command: ``` 189M\tdisk.img ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:133
+msgid ""
+"To verify the total amount that was specified in the *truncate* command, run "
+"this command: ```{.bash} $ du --apparent-size -sh disk.img ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:138
+msgid ""
+"The total amount should correspond with what was specified when you ran "
+"*truncate*: ``` 8.0G\tdisk.img"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:142
+msgid "#### Installing the operating system with deboostrap"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:145
+msgid ""
+"Now that the virtual disk-image is created, we can now use **debootstrap** "
+"to install Debian Stretch. Follow these steps to install it:"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:150
+#, no-wrap
+msgid ""
+"1. Run **debootstrap** to install the operating system:\n"
+"```{.bash}\n"
+"$ sudo debootstrap --variant=mintbase --include=systemd-sysv stretch /mnt\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:155
+#, no-wrap
+msgid ""
+"2. Set a *root* password for the installed operating system:\n"
+"```{.bash}\n"
+"$ sudo chroot /mnt passwd\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:162
+#, no-wrap
+msgid ""
+"3. Create a standard fstab configuration:\n"
+"```{.bash}\n"
+"$ sudo tee /mnt/etc/fstab << EOL\n"
+"/dev/sda\t/\text4\tdefaults,errors=remount-ro\t0\t1\n"
+"EOL\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:164
+msgid "#### Installing the Grsecurity kernel in the operating system"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:176
+msgid ""
+"Run the following commands to install the Subgraph OS *Grsecurity* kernel in "
+"your virtual machine: ```{.bash} $ cd /tmp $ apt-get download "
+"linux-{image,headers}-grsec-amd64-subgraph linux-{image,headers}-$(uname -r)  "
+"$ sudo cp ./linux-{image,headers}-$(uname -r) /mnt/tmp $ sudo chroot /mnt $ "
+"dpkg -i /tmp/linux-{image,headers}-* $ update-initramfs -u -k all $ exit ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:186
+msgid ""
+"The kernel and initramfs are inside of your mounted virtual hard-drive "
+"image.  You must copy them to a directory on your computer to boot the "
+"virtual machine using these files. Run the following command to copy the "
+"files to the directory you want to start the virtual machine from: "
+"```{.bash} $ cp /mnt/boot/vmlinuz-<version>-amd64 "
+"/mnt/boot/initrd.img-<version>-amd64 \\ /home/user/path/to/vm ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:188
+msgid "#### Finalizing the installation of the operating system"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:195
+msgid ""
+"As the final step, we will sync the filesystem and unmount the virtual "
+"hard-drive image: ```{.bash} $ sync $ sudo umount /mnt ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:198
+msgid ""
+"(Optional) If you prefer, you may convert the virtual hard-drive image to "
+"the *qcow2* format:"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:202
+msgid "```{.bash} $ qemu-img convert -f raw -O qcow2 ./disk.img ./disk.qcow2 ```"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:204
+msgid "#### Starting the Debian Stretch virtual machine"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:207
+msgid ""
+"Now you are ready to start the virtual machine. Run the following command to "
+"start it:"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:216
+#, no-wrap
+msgid ""
+"```{.bash}\n"
+"$ qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 \\\n"
 "\t-kernel ./vmlinuz-<version>-amd64 \\\n"
 "\t-initrd ./initrd.img-<version>-amd64 \\\n"
 "\t-append root=/dev/sda\n"
 "```\n"
+"**NOTE:** This assumes you converted the virtual hard-drive image to the\n"
+"*qcow2*. If not, replace **disk.qcow2** with the correct name of your "
+"image.\n"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:111
+#: 05_features_and_advanced_usage_09_virtualmachines.md:228
+msgid ""
+"> **Qemu/KVM options** > > This section uses some new options for "
+"**Qemu/KVM**.  > > *-kernel*: This is the operating system kernel to boot "
+"when starting a virtual > machine > > *-initrd*: This is the initramfs to "
+"boot when starting a virtual machine > > *-append*: These are options to "
+"append to the kernel command line when > starting a virtual machine"
+msgstr ""
+
+#. type: Plain text
+#: 05_features_and_advanced_usage_09_virtualmachines.md:234
 msgid ""
 "If you want to install grub to keep the kernel and initrd images inside the "
-"virtual machine you'll have to create a full partition table, and "
-"potentially a separate /boot partition. But this is out of scope for this "
-"short tutorial."
+"virtual machine you'll have to create a full partition table. You may also "
+"need to create a separate **/boot** partition. But this is out of scope for "
+"this tutorial."
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:113
-msgid "#### Simple networking"
+#: 05_features_and_advanced_usage_09_virtualmachines.md:236
+msgid "### Setting up simple networking in Qemu/KVM"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:115
+#: 05_features_and_advanced_usage_09_virtualmachines.md:239
 msgid ""
-"By default, Qemu will transparently NAT your virtual machines to the host "
-"network. This can be disabled by using the `-net none` flag."
+"By default, **Qemu** will transparently *NAT* your virtual machines to the "
+"host network. This can be disabled by using the **-net none** flag."
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:117
+#: 05_features_and_advanced_usage_09_virtualmachines.md:242
 msgid ""
 "Alternatively, you can also open simple tunnels between the host and the "
-"virtual machine using the port redirection mechanism with the `-redir` flag:"
+"virtual machine using the port redirection mechanism with the **-redir** "
+"flag:"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:121
+#: 05_features_and_advanced_usage_09_virtualmachines.md:246
 msgid "``` -redir tcp:55700::55700 ```"
 msgstr ""
 
 #. type: Plain text
-#: 05_features_and_advanced_usage_07_virtualmachines.md:123
-msgid "For more on networking in Qemu/KVM see:"
+#: 05_features_and_advanced_usage_09_virtualmachines.md:248
+msgid "For more on networking in **Qemu/KVM** see:"
 msgstr ""
 
 #. type: Bullet: '* '
-#: 05_features_and_advanced_usage_07_virtualmachines.md:126
-msgid "http://wiki.qemu.org/Documentation/Networking"
+#: 05_features_and_advanced_usage_09_virtualmachines.md:251
+msgid "<http://wiki.qemu.org/Documentation/Networking>"
 msgstr ""
 
 #. type: Bullet: '* '
-#: 05_features_and_advanced_usage_07_virtualmachines.md:126
-msgid "https://en.wikibooks.org/wiki/QEMU/Networking"
+#: 05_features_and_advanced_usage_09_virtualmachines.md:251
+msgid "<https://en.wikibooks.org/wiki/QEMU/Networking>"
+msgstr ""
+
+#. type: Plain text
+#: 06_appendix_01_intro.md:2
+msgid "\\appendix"
+msgstr ""
+
+#. type: Plain text
+#: 06_appendix_01_intro.md:4
+msgid "# Appendix"
+msgstr ""
+
+#. type: Plain text
+#: 06_appendix_02_syscalls_01.md:2
+msgid "## System call table"
+msgstr ""
+
+#. type: Plain text
+#: 06_appendix_02_syscalls_01.md:7
+msgid ""
+"This section includes the Linux system call table for 64-bit Intel "
+"computers.  You can use the table to look up the corresponding numbers for "
+"system calls.  This will help when writing or debugging *seccomp* policies "
+"for the **Oz** sandbox. The numbers are presented in decimal and hexadecimal "
+"format."
+msgstr ""
+
+#. type: Plain text
+#: 06_appendix_02_syscalls_02.md:332
+#, no-wrap
+msgid ""
+"Syscall(dec)  Syscall(hex)  System Call\n"
+"------------  ------------  ------------\n"
+"0             0x0           read        \n"
+"1             0x1           write       \n"
+"2             0x2           open        \n"
+"3             0x3           close       \n"
+"4             0x4           stat        \n"
+"5             0x5           fstat       \n"
+"6             0x6           lstat       \n"
+"7             0x7           poll        \n"
+"8             0x8           lseek       \n"
+"9             0x9           mmap        \n"
+"10            0xa           mprotect    \n"
+"11            0xb           munmap      \n"
+"12            0xc           brk         \n"
+"13            0xd           rt_sigaction\n"
+"14            0xe           rt_sigprocmask\n"
+"15            0xf           rt_sigreturn\n"
+"16            0x10          ioctl       \n"
+"17            0x11          pread64     \n"
+"18            0x12          pwrite64    \n"
+"19            0x13          readv       \n"
+"20            0x14          writev      \n"
+"21            0x15          access      \n"
+"22            0x16          pipe        \n"
+"23            0x17          select      \n"
+"24            0x18          sched_yield \n"
+"25            0x19          mremap      \n"
+"26            0x1a          msync       \n"
+"27            0x1b          mincore     \n"
+"28            0x1c          madvise     \n"
+"29            0x1d          shmget      \n"
+"30            0x1e          shmat       \n"
+"31            0x1f          shmctl      \n"
+"32            0x20          dup         \n"
+"33            0x21          dup2        \n"
+"34            0x22          pause       \n"
+"35            0x23          nanosleep   \n"
+"36            0x24          getitimer   \n"
+"37            0x25          alarm       \n"
+"38            0x26          setitimer   \n"
+"39            0x27          getpid      \n"
+"40            0x28          sendfile    \n"
+"41            0x29          socket      \n"
+"42            0x2a          connect     \n"
+"43            0x2b          accept      \n"
+"44            0x2c          sendto      \n"
+"45            0x2d          recvfrom    \n"
+"46            0x2e          sendmsg     \n"
+"47            0x2f          recvmsg     \n"
+"48            0x30          shutdown    \n"
+"49            0x31          bind        \n"
+"50            0x32          listen      \n"
+"51            0x33          getsockname \n"
+"52            0x34          getpeername \n"
+"53            0x35          socketpair  \n"
+"54            0x36          setsockopt  \n"
+"55            0x37          getsockopt  \n"
+"56            0x38          clone       \n"
+"57            0x39          fork        \n"
+"58            0x3a          vfork       \n"
+"59            0x3b          execve      \n"
+"60            0x3c          exit        \n"
+"61            0x3d          wait4       \n"
+"62            0x3e          kill        \n"
+"63            0x3f          uname       \n"
+"64            0x40          semget      \n"
+"65            0x41          semop       \n"
+"66            0x42          semctl      \n"
+"67            0x43          shmdt       \n"
+"68            0x44          msgget      \n"
+"69            0x45          msgsnd      \n"
+"70            0x46          msgrcv      \n"
+"71            0x47          msgctl      \n"
+"72            0x48          fcntl       \n"
+"73            0x49          flock       \n"
+"74            0x4a          fsync       \n"
+"75            0x4b          fdatasync   \n"
+"76            0x4c          truncate    \n"
+"77            0x4d          ftruncate   \n"
+"78            0x4e          getdents    \n"
+"79            0x4f          getcwd      \n"
+"80            0x50          chdir       \n"
+"81            0x51          fchdir      \n"
+"82            0x52          rename      \n"
+"83            0x53          mkdir       \n"
+"84            0x54          rmdir       \n"
+"85            0x55          creat       \n"
+"86            0x56          link        \n"
+"87            0x57          unlink      \n"
+"88            0x58          symlink     \n"
+"89            0x59          readlink    \n"
+"90            0x5a          chmod       \n"
+"91            0x5b          fchmod      \n"
+"92            0x5c          chown       \n"
+"93            0x5d          fchown      \n"
+"94            0x5e          lchown      \n"
+"95            0x5f          umask       \n"
+"96            0x60          gettimeofday\n"
+"97            0x61          getrlimit   \n"
+"98            0x62          getrusage   \n"
+"99            0x63          sysinfo     \n"
+"100           0x64          times       \n"
+"101           0x65          ptrace      \n"
+"102           0x66          getuid      \n"
+"103           0x67          syslog      \n"
+"104           0x68          getgid      \n"
+"105           0x69          setuid      \n"
+"106           0x6a          setgid      \n"
+"107           0x6b          geteuid     \n"
+"108           0x6c          getegid     \n"
+"109           0x6d          setpgid     \n"
+"110           0x6e          getppid     \n"
+"111           0x6f          getpgrp     \n"
+"112           0x70          setsid      \n"
+"113           0x71          setreuid    \n"
+"114           0x72          setregid    \n"
+"115           0x73          getgroups   \n"
+"116           0x74          setgroups   \n"
+"117           0x75          setresuid   \n"
+"118           0x76          getresuid   \n"
+"119           0x77          setresgid   \n"
+"120           0x78          getresgid   \n"
+"121           0x79          getpgid     \n"
+"122           0x7a          setfsuid    \n"
+"123           0x7b          setfsgid    \n"
+"124           0x7c          getsid      \n"
+"125           0x7d          capget      \n"
+"126           0x7e          capset      \n"
+"127           0x7f          rt_sigpending\n"
+"128           0x80          rt_sigtimedwait\n"
+"129           0x81          rt_sigqueueinfo\n"
+"130           0x82          rt_sigsuspend\n"
+"131           0x83          sigaltstack \n"
+"132           0x84          utime       \n"
+"133           0x85          mknod       \n"
+"134           0x86          uselib      \n"
+"135           0x87          personality \n"
+"136           0x88          ustat       \n"
+"137           0x89          statfs      \n"
+"138           0x8a          fstatfs     \n"
+"139           0x8b          sysfs       \n"
+"140           0x8c          getpriority \n"
+"141           0x8d          setpriority \n"
+"142           0x8e          sched_setparam\n"
+"143           0x8f          sched_getparam\n"
+"144           0x90          sched_setscheduler\n"
+"145           0x91          sched_getscheduler\n"
+"146           0x92          sched_get_priority_max\n"
+"147           0x93          sched_get_priority_min\n"
+"148           0x94          sched_rr_get_interval\n"
+"149           0x95          mlock       \n"
+"150           0x96          munlock     \n"
+"151           0x97          mlockall    \n"
+"152           0x98          munlockall  \n"
+"153           0x99          vhangup     \n"
+"154           0x9a          modify_ldt  \n"
+"155           0x9b          pivot_root  \n"
+"156           0x9c          _sysctl     \n"
+"157           0x9d          prctl       \n"
+"158           0x9e          arch_prctl  \n"
+"159           0x9f          adjtimex    \n"
+"160           0xa0          setrlimit   \n"
+"161           0xa1          chroot      \n"
+"162           0xa2          sync        \n"
+"163           0xa3          acct        \n"
+"164           0xa4          settimeofday\n"
+"165           0xa5          mount       \n"
+"166           0xa6          umount2     \n"
+"167           0xa7          swapon      \n"
+"168           0xa8          swapoff     \n"
+"169           0xa9          reboot      \n"
+"170           0xaa          sethostname \n"
+"171           0xab          setdomainname\n"
+"172           0xac          iopl        \n"
+"173           0xad          ioperm      \n"
+"174           0xae          create_module\n"
+"175           0xaf          init_module \n"
+"176           0xb0          delete_module\n"
+"177           0xb1          get_kernel_syms\n"
+"178           0xb2          query_module\n"
+"179           0xb3          quotactl    \n"
+"180           0xb4          nfsservctl  \n"
+"181           0xb5          getpmsg     \n"
+"182           0xb6          putpmsg     \n"
+"183           0xb7          afs_syscall \n"
+"184           0xb8          tuxcall     \n"
+"185           0xb9          security    \n"
+"186           0xba          gettid      \n"
+"187           0xbb          readahead   \n"
+"188           0xbc          setxattr    \n"
+"189           0xbd          lsetxattr   \n"
+"190           0xbe          fsetxattr   \n"
+"191           0xbf          getxattr    \n"
+"192           0xc0          lgetxattr   \n"
+"193           0xc1          fgetxattr   \n"
+"194           0xc2          listxattr   \n"
+"195           0xc3          llistxattr  \n"
+"196           0xc4          flistxattr  \n"
+"197           0xc5          removexattr \n"
+"198           0xc6          lremovexattr\n"
+"199           0xc7          fremovexattr\n"
+"200           0xc8          tkill       \n"
+"201           0xc9          time        \n"
+"202           0xca          futex       \n"
+"203           0xcb          sched_setaffinity\n"
+"204           0xcc          sched_getaffinity\n"
+"205           0xcd          set_thread_area\n"
+"206           0xce          io_setup    \n"
+"207           0xcf          io_destroy  \n"
+"208           0xd0          io_getevents\n"
+"209           0xd1          io_submit   \n"
+"210           0xd2          io_cancel   \n"
+"211           0xd3          get_thread_area\n"
+"212           0xd4          lookup_dcookie\n"
+"213           0xd5          epoll_create\n"
+"214           0xd6          epoll_ctl_old\n"
+"215           0xd7          epoll_wait_old\n"
+"216           0xd8          remap_file_pages\n"
+"217           0xd9          getdents64  \n"
+"218           0xda          set_tid_address\n"
+"219           0xdb          restart_syscall\n"
+"220           0xdc          semtimedop  \n"
+"221           0xdd          fadvise64   \n"
+"222           0xde          timer_create\n"
+"223           0xdf          timer_settime\n"
+"224           0xe0          timer_gettime\n"
+"225           0xe1          timer_getoverrun\n"
+"226           0xe2          timer_delete\n"
+"227           0xe3          clock_settime\n"
+"228           0xe4          clock_gettime\n"
+"229           0xe5          clock_getres\n"
+"230           0xe6          clock_nanosleep\n"
+"231           0xe7          exit_group  \n"
+"232           0xe8          epoll_wait  \n"
+"233           0xe9          epoll_ctl   \n"
+"234           0xea          tgkill      \n"
+"235           0xeb          utimes      \n"
+"236           0xec          vserver     \n"
+"237           0xed          mbind       \n"
+"238           0xee          set_mempolicy\n"
+"239           0xef          get_mempolicy\n"
+"240           0xf0          mq_open     \n"
+"241           0xf1          mq_unlink   \n"
+"242           0xf2          mq_timedsend\n"
+"243           0xf3          mq_timedreceive\n"
+"244           0xf4          mq_notify   \n"
+"245           0xf5          mq_getsetattr\n"
+"246           0xf6          kexec_load  \n"
+"247           0xf7          waitid      \n"
+"248           0xf8          add_key     \n"
+"249           0xf9          request_key \n"
+"250           0xfa          keyctl      \n"
+"251           0xfb          ioprio_set  \n"
+"252           0xfc          ioprio_get  \n"
+"253           0xfd          inotify_init\n"
+"254           0xfe          inotify_add_watch\n"
+"255           0xff          inotify_rm_watch\n"
+"256           0x100         migrate_pages\n"
+"257           0x101         openat      \n"
+"258           0x102         mkdirat     \n"
+"259           0x103         mknodat     \n"
+"260           0x104         fchownat    \n"
+"261           0x105         futimesat   \n"
+"262           0x106         newfstatat  \n"
+"263           0x107         unlinkat    \n"
+"264           0x108         renameat    \n"
+"265           0x109         linkat      \n"
+"266           0x10a         symlinkat   \n"
+"267           0x10b         readlinkat  \n"
+"268           0x10c         fchmodat    \n"
+"269           0x10d         faccessat   \n"
+"270           0x10e         pselect6    \n"
+"271           0x10f         ppoll       \n"
+"272           0x110         unshare     \n"
+"273           0x111         set_robust_list\n"
+"274           0x112         get_robust_list\n"
+"275           0x113         splice      \n"
+"276           0x114         tee         \n"
+"277           0x115         sync_file_range\n"
+"278           0x116         vmsplice    \n"
+"279           0x117         move_pages  \n"
+"280           0x118         utimensat   \n"
+"281           0x119         epoll_pwait \n"
+"282           0x11a         signalfd    \n"
+"283           0x11b         timerfd_create\n"
+"284           0x11c         eventfd     \n"
+"285           0x11d         fallocate   \n"
+"286           0x11e         timerfd_settime\n"
+"287           0x11f         timerfd_gettime\n"
+"288           0x120         accept4     \n"
+"289           0x121         signalfd4   \n"
+"290           0x122         eventfd2    \n"
+"291           0x123         epoll_create1\n"
+"292           0x124         dup3        \n"
+"293           0x125         pipe2       \n"
+"294           0x126         inotify_init1\n"
+"295           0x127         preadv      \n"
+"296           0x128         pwritev     \n"
+"297           0x129         rt_tgsigqueueinfo\n"
+"298           0x12a         perf_event_open\n"
+"299           0x12b         recvmmsg    \n"
+"300           0x12c         fanotify_init\n"
+"301           0x12d         fanotify_mark\n"
+"302           0x12e         prlimit64   \n"
+"303           0x12f         name_to_handle_at\n"
+"304           0x130         open_by_handle_at\n"
+"305           0x131         clock_adjtime\n"
+"306           0x132         syncfs      \n"
+"307           0x133         sendmmsg    \n"
+"308           0x134         setns       \n"
+"309           0x135         getcpu      \n"
+"310           0x136         process_vm_readv\n"
+"311           0x137         process_vm_writev\n"
+"312           0x138         kcmp        \n"
+"313           0x139         finit_module\n"
+"314           0x13a         sched_setattr\n"
+"315           0x13b         sched_getattr\n"
+"316           0x13c         renameat2   \n"
+"317           0x13d         seccomp     \n"
+"318           0x13e         getrandom   \n"
+"319           0x13f         memfd_create\n"
+"320           0x140         kexec_file_load\n"
+"321           0x141         bpf         \n"
+"322           0x142         execveat    \n"
+"323           0x143         userfaultfd \n"
+"324           0x144         membarrier  \n"
+"325           0x145         mlock2      \n"
+"326           0x146         copy_file_range\n"
+"327           0x147         preadv2     \n"
+"328           0x148         pwritev2    \n"
 msgstr ""

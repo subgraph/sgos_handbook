@@ -36,7 +36,8 @@ LINUX_HEADERS:=/usr/src/linux-headers-$(KERNEL_VERSION)
 
 all: clean spellcheck readability contents sgos_handbook
 pot_all: pot po4a_fixup
-docbook_dev: docbook docbook_fix_links_dev
+docbook_debian: docbook docbook_fix_links 
+docbook_dev: docbook_local docbook_fix_links_local
 
 # requires aspell, aspell-en
 spellcheck:
@@ -73,8 +74,15 @@ docbook: $(BUILD_DIR)/sgos_handbook.xml
 $(BUILD_DIR)/sgos_handbook.xml: $(BOOK_CH4) $(BOOK_CH5) metadata.yaml
 	pandoc -s -r markdown -t docbook -o $@ $^
 
-docbook_fix_links_dev:
-	sed -i 's/<imagedata fileref="static\/images/<imagedata fileref="..\/static\/images/g' $(BUILD_DIR)/sgos_handbook.xml
+docbook_fix_links:
+	sed -i 's/<imagedata fileref="static\/images/<imagedata fileref="\/usr\/share\/doc\/sgos-handbook\/images\/en-US/g' $(BUILD_DIR)/sgos_handbook.xml
+
+docbook_local: $(BUILD_DIR)/sgos_handbook_dev.xml
+$(BUILD_DIR)/sgos_handbook_dev.xml: $(BOOK_CH4) $(BOOK_CH5) metadata.yaml
+	pandoc -s -r markdown -t docbook -o $@ $^
+
+docbook_fix_links_local:
+	sed -i 's/<imagedata fileref="static\/images/<imagedata fileref="..\/static\/images/g' $(BUILD_DIR)/sgos_handbook_dev.xml
 
 html: $(BUILD_DIR)/sgos_handbook.html 
 $(BUILD_DIR)/sgos_handbook.html: $(BOOK_CH_ALL) metadata.yaml

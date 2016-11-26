@@ -150,7 +150,7 @@
         <para>
           <inlinemediaobject>
             <imageobject>
-              <imagedata fileref="/usr/share/doc/sgos-handbook/images/en-US/oz_menu_zebra.png" id="id" role="class" width="60px" depth="60px" />
+              <imagedata fileref="../static/images/oz_menu_zebra.png" id="id" role="class" width="60px" depth="60px" />
             </imageobject>
           </inlinemediaobject> The following actions may be performed
           using the <emphasis>Oz menu</emphasis>:
@@ -183,7 +183,7 @@
         <title>Oz menu - Add file</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="/usr/share/doc/sgos-handbook/images/en-US/oz_menu_addfiles_menu.png" />
+            <imagedata fileref="../static/images/oz_menu_addfiles_menu.png" />
           </imageobject>
           <textobject><phrase>Oz menu - Add file</phrase></textobject>
         </mediaobject>
@@ -197,7 +197,7 @@
         <title>Oz menu - Select files or directories</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="/usr/share/doc/sgos-handbook/images/en-US/oz_menu_addfiles_prompt.png" />
+            <imagedata fileref="../static/images/oz_menu_addfiles_prompt.png" />
           </imageobject>
           <textobject><phrase>Oz menu - Select files or
           directories</phrase></textobject>
@@ -372,7 +372,7 @@
         <title>Oz menu - Add file</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="/usr/share/doc/sgos-handbook/images/en-US/Oz_menu_addfiles_pdf.png" />
+            <imagedata fileref="../static/images/Oz_menu_addfiles_pdf.png" />
           </imageobject>
           <textobject><phrase>Oz menu - Add file</phrase></textobject>
         </mediaobject>
@@ -386,7 +386,7 @@
         <title>Oz menu - Select files or directories</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="/usr/share/doc/sgos-handbook/images/en-US/Oz_menu_addfiles_pdf_prompt.png" />
+            <imagedata fileref="../static/images/Oz_menu_addfiles_pdf_prompt.png" />
           </imageobject>
           <textobject><phrase>Oz menu - Select files or
           directories</phrase></textobject>
@@ -465,7 +465,7 @@ ok received
         <title>CoyIM - Encrypt configuration file</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="/usr/share/doc/sgos-handbook/images/en-US/CoyIM_encrypt_config.png" />
+            <imagedata fileref="../static/images/CoyIM_encrypt_config.png" />
           </imageobject>
           <textobject><phrase>CoyIM - Encrypt configuration
           file</phrase></textobject>
@@ -483,7 +483,7 @@ ok received
         <title>CoyIM - Configure master password</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="/usr/share/doc/sgos-handbook/images/en-US/CoyIM_configure_master_password.png" />
+            <imagedata fileref="../static/images/CoyIM_configure_master_password.png" />
           </imageobject>
           <textobject><phrase>CoyIM - Configure master
           password</phrase></textobject>
@@ -498,7 +498,7 @@ ok received
         <title>CoyIM - Account details: basic configuration</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="/usr/share/doc/sgos-handbook/images/en-US/CoyIM_account_details_basic.png" />
+            <imagedata fileref="../static/images/CoyIM_account_details_basic.png" />
           </imageobject>
           <textobject><phrase>CoyIM - Account details: basic
           configuration</phrase></textobject>
@@ -514,7 +514,7 @@ ok received
         <title>CoyIM - Successful connection</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="/usr/share/doc/sgos-handbook/images/en-US/CoyIM_connected.png" />
+            <imagedata fileref="../static/images/CoyIM_connected.png" />
           </imageobject>
           <textobject><phrase>CoyIM - Successful
           connection</phrase></textobject>
@@ -639,7 +639,7 @@ ok received
         <title>Ricochet - Chatting</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="/usr/share/doc/sgos-handbook/images/en-US/Ricochet_chatting.png" />
+            <imagedata fileref="../static/images/Ricochet_chatting.png" />
           </imageobject>
           <textobject><phrase>Ricochet - Chatting</phrase></textobject>
         </mediaobject>
@@ -657,7 +657,7 @@ ok received
         <title>Ricochet - Adding a contact</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="/usr/share/doc/sgos-handbook/images/en-US/Ricochet_add_contact.png" />
+            <imagedata fileref="../static/images/Ricochet_add_contact.png" />
           </imageobject>
           <textobject><phrase>Ricochet - Adding a
           contact</phrase></textobject>
@@ -815,7 +815,7 @@ ok received
         <title>OnionShare - Share via OnionShare</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="/usr/share/doc/sgos-handbook/images/en-US/OnionShare_select_file.png" />
+            <imagedata fileref="../static/images/OnionShare_select_file.png" />
           </imageobject>
           <textobject><phrase>OnionShare - Share via
           OnionShare</phrase></textobject>
@@ -833,7 +833,7 @@ ok received
         <title>OnionShare - onionshare-gui</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="/usr/share/doc/sgos-handbook/images/en-US/OnionShare_onionshare-gui.png" />
+            <imagedata fileref="../static/images/OnionShare_onionshare-gui.png" />
           </imageobject>
           <textobject><phrase>OnionShare -
           onionshare-gui</phrase></textobject>
@@ -907,7 +907,7 @@ ok received
         <title>OnionShare - web interface in Tor Browser</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="/usr/share/doc/sgos-handbook/images/en-US/OnionShare_TorBrowser.png" />
+            <imagedata fileref="../static/images/OnionShare_TorBrowser.png" />
           </imageobject>
           <textobject><phrase>OnionShare - web interface in Tor
           Browser</phrase></textobject>
@@ -1008,7 +1008,7 @@ ok received
         <title>Subgraph Firewall - allow/deny prompt</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="/usr/share/doc/sgos-handbook/images/en-US/Subgraph_Firewall_alert.png" />
+            <imagedata fileref="../static/images/Subgraph_Firewall_alert.png" />
           </imageobject>
           <textobject><phrase>Subgraph Firewall - allow/deny
           prompt</phrase></textobject>
@@ -1084,7 +1084,7 @@ ok received
         Settings</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="/usr/share/doc/sgos-handbook/images/en-US/Subgraph_Firewall_menu.png" />
+            <imagedata fileref="../static/images/Subgraph_Firewall_menu.png" />
           </imageobject>
           <textobject><phrase>Gnome User Menu - Firewall -&gt; Firewall
           Settings</phrase></textobject>
@@ -1098,7 +1098,7 @@ ok received
         <title>Subgraph Firewall Settings</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="/usr/share/doc/sgos-handbook/images/en-US/Subgraph_Firewall_settings.png" />
+            <imagedata fileref="../static/images/Subgraph_Firewall_settings.png" />
           </imageobject>
           <textobject><phrase>Subgraph Firewall
           Settings</phrase></textobject>
@@ -1141,7 +1141,7 @@ ok received
         <title>Subgraph Firewall Settings - Edit Rule</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="/usr/share/doc/sgos-handbook/images/en-US/Subgraph_Firewall_edit_rule.png" />
+            <imagedata fileref="../static/images/Subgraph_Firewall_edit_rule.png" />
           </imageobject>
           <textobject><phrase>Subgraph Firewall Settings - Edit
           Rule</phrase></textobject>
@@ -1157,7 +1157,7 @@ ok received
         <title>Subgraph Firewall Settings -Options</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="/usr/share/doc/sgos-handbook/images/en-US/Subgraph_Firewall_options.png" />
+            <imagedata fileref="../static/images/Subgraph_Firewall_options.png" />
           </imageobject>
           <textobject><phrase>Subgraph Firewall Settings
           -Options</phrase></textobject>

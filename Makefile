@@ -75,7 +75,7 @@ $(BUILD_DIR)/sgos_handbook.xml: $(BOOK_CH4) $(BOOK_CH5) metadata.yaml
 	pandoc -s -r markdown -t docbook -o $@ $^
 
 docbook_fix_links:
-	sed -i 's/<imagedata fileref="static\/images/<imagedata fileref="\/usr\/share\/doc\/sgos-handbook\/images\/en-US/g' $(BUILD_DIR)/sgos_handbook.xml
+	sed -i 's/<imagedata fileref="static\/images/<imagedata fileref="..\/..\/images\/en-US/g' $(BUILD_DIR)/sgos_handbook.xml
 
 docbook_local: $(BUILD_DIR)/sgos_handbook_dev.xml
 $(BUILD_DIR)/sgos_handbook_dev.xml: $(BOOK_CH4) $(BOOK_CH5) metadata.yaml

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Subgraph OS Help
+GenericName=Help browser for Subgraph OS
+TryExec=yelp
+Exec=yelp /usr/share/doc/sgos-handbook/docbook/en-US/sgos_handbook.xml
+Comment=Subgraph OS Help
+Icon=help-browser
+Terminal=false
+StartupNotify=true
+MimeType=x-scheme-handler/ghelp;x-scheme-handler/help;x-scheme-handler/info;x-scheme-handler/man;
+Categories=GNOME;GTK;Core;Documentation;Utility;

@@ -1,0 +1,17 @@
+Source: sgos-handbook
+Section: doc
+Priority: standard
+Maintainer: David McKinney <mckinney@subgraph.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Vcs-Browser: https://github.com/subgraph/sgos_handbook.git
+Vcs-Git: https://github.com/subgraph/sgos_handbook.git
+Homepage: https://subgraph.com/sgos/index.en.html
+
+Package: sgos-handbook
+Architecture: all
+Depends: ${misc:Depends}, yelp
+Description: User handbook for Subgraph OS
+ This guide describes the features of Subgraph OS and presents basic and
+ advanced how-to information. It is available in multiple formats such as PDF,
+ HTML, and DocBook (viewable with yelp).

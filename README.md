@@ -41,5 +41,5 @@ To build from source you will need to install at least the following build depen
 
 ```
 sudo apt install pdftk fonts-lmodern lmodern fig2ps make texlive-latex-recommended \
-	texlive-xetex texlive-latex-extra aspell aspell-en 
+	texlive-xetex texlive-latex-extra aspell aspell-en diction
 ```

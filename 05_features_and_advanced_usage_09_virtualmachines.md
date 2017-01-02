@@ -85,6 +85,9 @@ Once done your virtual machine will start automatically:
 
 You can proceed with a regular installation, use a live image, etc.
 
+You may install the **qemu-guest-agent** and/or **spice-vdagent** and/or **xserver-xorg-video-qxl** in the running
+virtual machine to improve integration (though this is not strictly necessary and may present extra security concerns).
+
 ### Command line usage
 
 For a more minimal, and sometimes more advanced, usage one may also use **Qemu/KVM** on its own from the command line.

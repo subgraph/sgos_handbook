@@ -36,7 +36,7 @@ This requires some extra dependencies, but makes it much easier to work with.
 $ sudo apt install virt-manager libvirt-daemon virt-viewer gir1.2-spice-client-gtk-3.0
 ```
 
-After the installation is complete you can launch **virt-mnanager** from __GNOME Activities__.
+After the installation is complete you can launch **virt-manager** from __GNOME Activities__.
 
 #### Configuring virt-manager for session mode
 

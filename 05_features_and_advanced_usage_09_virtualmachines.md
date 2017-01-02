@@ -10,8 +10,6 @@ Running the following command with install **Qemu/KVM**:
 $ sudo apt install qemu-system qemu-kvm qemu-utils
 ```
 
-### Creating a virtual machine with Qemu
-
 The following sections are recipes  on how to use **Qemu/KVM** in Subgraph OS. 
 They are similar to our own workflows for developing and testing Subgraph OS. 
 **Qemu/KVM** supports many more options than what we use in these tutorials. 
@@ -29,7 +27,69 @@ various options by visiting these pages:
 * <http://qemuctl.sourceforge.net>
 * <https://launchpad.net/virtualbrick>
 
-### Creating a basic Linux virtual machine
+### Simple usage with Virt-Manager
+
+One option is to use the **virt-manager** frontend for **libvirt** and **Qemu/KVM**.
+This requires some extra dependencies, but makes it much easier to work with.
+
+```{.bash}
+$ sudo apt install virt-manager libvirt-daemon virt-viewer gir1.2-spice-client-gtk-3.0
+```
+
+After the installation is complete you can launch **virt-mnanager** from __GNOME Activities__.
+
+#### Configuring virt-manager for session mode
+
+On first launch we are prompted with an error about a failed connection to the libvirt daemon:
+
+![Virt Manager First Launch Error](static/images/virt-manager/virt-manager_00_firtlaunch_error.png)
+
+This error can be ignored; to avoid it the future we will right-click on the only entry in the list 
+**QEMU/KVM - Not Running** and delete it. 
+
+![Virt Manager Delete Default Connection](static/images/virt-manager/virt-manager_00_firtlaunch_delete.png)
+
+Now we need to add a session mode connect. For this go into the the **File** menu, and select 
+**Add Connection...**. A new window will appear, you will need to select **QEMU/KVM user session**
+in the hypervisor popup menu.
+
+![Virt Manager Select User Session Hypervisor](static/images/virt-manager/virt-manager_00_hypervisor_select.png)
+
+We are now ready to use **virt-manager**
+
+![Virt Manager Ready](static/images/virt-manager/virt-manager_00_virtman_ready.png)
+
+#### Creating a simple virtual machine in virt-manager
+
+Click on the create new virtual machine button and you will be prompted to start configuring the virtual machine:
+
+![Virt Manager Create New Virtual Machine](static/images/virt-manager/virt-manager_01_createnew.png)
+
+When selecting a disk image to install, you will probably notice that libvirt looks in an odd location for disk images.
+The default location is `~/.local/share/libvirt/images`. You can add more, or more simply you can just ignore this,
+and select **Browse Local** to freely select and image.
+
+![Virt Manager Image Browser](static/images/virt-manager/virt-manager_01_browser.png)
+
+Continue with the configuration of the basic attributes of your virtual machine:
+
+![Virt Manager CPU And RAM Configuration](static/images/virt-manager/virt-manager_01_cpuram.png)
+
+![Virt Manager Disk Image Configuration](static/images/virt-manager/virt-manager_01_diskimage.png)
+
+![Virt Manager Final Configuration](static/images/virt-manager/virt-manager_01_name.png)
+
+Once done your virtual machine will start automatically:
+
+![Virt Manager Running Virtual Machine](static/images/virt-manager/virt-manager_01_done.png)
+
+You can proceed with a regular installation, use a live image, etc.
+
+### Command line usage
+
+For a more minimal, and sometimes more advanced, usage one may also use **Qemu/KVM** on its own from the command line.
+
+#### Creating a basic Linux virtual machine with Qemu
 
 Prior to creating the virtual machine, you should create a virtual hard-drive 
 image for it:
@@ -72,7 +132,7 @@ a virtual machine.
 
 \newpage
 
-### Creating an advanced Debian Stretch virtual machine using debootstrap
+#### Creating an advanced Debian Stretch virtual machine using debootstrap
 
 To have more control over the installation of Debian inside of a virtual
 machine, you can use **debootstrap** to install the operating system. Another
@@ -82,7 +142,7 @@ of the **Debian installer**.
 This section will show how to install Debian Stretch with the *Grsecurity* 
 kernel from Subgraph OS.
 
-#### Create a virtual hard-drive image for the operating system
+##### Create a virtual hard-drive image for the operating system
 
 To begin the install, you must set up a virtual hard-drive image. Follow these
 steps to set it up:
@@ -131,14 +191,14 @@ this command:
 $ du --apparent-size -sh disk.img
 ```
 
-The total amount should correspond with what was specified when you ran  
+The total amount should correspond with what was specified when you ran 
 *truncate*:
 ```
 8.0G	disk.img
 
 ```
 
-#### Installing the operating system with deboostrap
+##### Installing the operating system with deboostrap
 
 Now that the virtual disk-image is created, we can now use **debootstrap** to
 install Debian Stretch. Follow these steps to install it:
@@ -160,7 +220,7 @@ $ sudo tee /mnt/etc/fstab << EOL
 EOL
 ```
 
-#### Installing the Grsecurity kernel in the operating system
+##### Installing the Grsecurity kernel in the operating system
 
 Run the following commands to install the Subgraph OS *Grsecurity* kernel in 
 your virtual machine:
@@ -184,7 +244,7 @@ $ cp /mnt/boot/vmlinuz-<version>-amd64 /mnt/boot/initrd.img-<version>-amd64 \
 /home/user/path/to/vm
 ```
 
-#### Finalizing the installation of the operating system
+##### Finalizing the installation of the operating system
 
 As the final step, we will sync the filesystem and unmount the virtual
 hard-drive image:
@@ -200,7 +260,7 @@ $ sudo umount /mnt
 $ qemu-img convert -f raw -O qcow2 ./disk.img ./disk.qcow2
 ```
 
-#### Starting the Debian Stretch virtual machine
+##### Starting the Debian Stretch virtual machine
 
 Now you are ready to start the virtual machine. Run the following command to
 start it:
@@ -232,7 +292,7 @@ virtual machine you'll have to create a full partition table. You may also need
 to create a separate **/boot** partition. But this is out of scope for this 
 tutorial.
 
-### Setting up simple networking in Qemu/KVM
+#### Setting up simple networking in Qemu/KVM
 
 By default, **Qemu** will transparently *NAT* your virtual machines to the host 
 network. This can be disabled by using the **-net none** flag.

@@ -1,27 +1,27 @@
 readability grades:
-        Kincaid: 8.8
-        ARI: 9.5
+        Kincaid: 8.9
+        ARI: 9.6
         Coleman-Liau: 11.7
-        Flesch Index: 57.5/100
-        Fog Index: 11.5
+        Flesch Index: 57.2/100
+        Fog Index: 11.6
         Lix: 44.8 = school year 8
         SMOG-Grading: 10.9
 sentence info:
-        53032 characters
-        10565 words, average length 5.02 characters = 1.59 syllables
-        729 sentences, average length 14.5 words
-        29% (218) short sentences (at most 9 words)
-        8% (63) long sentences (at least 24 words)
-        274 paragraphs, average length 2.7 sentences
+        55671 characters
+        11079 words, average length 5.02 characters = 1.59 syllables
+        757 sentences, average length 14.6 words
+        35% (268) short sentences (at most 10 words)
+        7% (53) long sentences (at least 25 words)
+        293 paragraphs, average length 2.6 sentences
         0% (3) questions
-        43% (317) passive sentences
-        longest sent 65 wds at sent 395; shortest sent 1 wds at sent 57
+        43% (327) passive sentences
+        longest sent 65 wds at sent 396; shortest sent 1 wds at sent 57
 word usage:
         verb types:
-        to be (377) auxiliary (246) 
+        to be (387) auxiliary (267) 
         types as % of total:
-        conjunctions 4% (382) pronouns 7% (704) prepositions 10% (1108)
-        nominalizations 2% (234)
+        conjunctions 4% (401) pronouns 7% (736) prepositions 10% (1144)
+        nominalizations 2% (250)
 sentence beginnings:
-        pronoun (146) interrogative pronoun (28) article (92)
-        subordinating conjunction (45) conjunction (1) preposition (51)
+        pronoun (155) interrogative pronoun (28) article (95)
+        subordinating conjunction (46) conjunction (1) preposition (53)

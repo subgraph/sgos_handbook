@@ -150,7 +150,7 @@
         <para>
           <inlinemediaobject>
             <imageobject>
-              <imagedata fileref="../../images/en-US/oz_menu_zebra.png" id="id" role="class" width="60px" depth="60px" />
+              <imagedata fileref="static/images/oz_menu_zebra.png" id="id" role="class" width="60px" depth="60px" />
             </imageobject>
           </inlinemediaobject> The following actions may be performed
           using the <emphasis>Oz menu</emphasis>:
@@ -183,7 +183,7 @@
         <title>Oz menu - Add file</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../images/en-US/oz_menu_addfiles_menu.png" />
+            <imagedata fileref="static/images/oz_menu_addfiles_menu.png" />
           </imageobject>
           <textobject><phrase>Oz menu - Add file</phrase></textobject>
         </mediaobject>
@@ -197,7 +197,7 @@
         <title>Oz menu - Select files or directories</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../images/en-US/oz_menu_addfiles_prompt.png" />
+            <imagedata fileref="static/images/oz_menu_addfiles_prompt.png" />
           </imageobject>
           <textobject><phrase>Oz menu - Select files or
           directories</phrase></textobject>
@@ -372,7 +372,7 @@
         <title>Oz menu - Add file</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../images/en-US/Oz_menu_addfiles_pdf.png" />
+            <imagedata fileref="static/images/Oz_menu_addfiles_pdf.png" />
           </imageobject>
           <textobject><phrase>Oz menu - Add file</phrase></textobject>
         </mediaobject>
@@ -386,7 +386,7 @@
         <title>Oz menu - Select files or directories</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../images/en-US/Oz_menu_addfiles_pdf_prompt.png" />
+            <imagedata fileref="static/images/Oz_menu_addfiles_pdf_prompt.png" />
           </imageobject>
           <textobject><phrase>Oz menu - Select files or
           directories</phrase></textobject>
@@ -465,7 +465,7 @@ ok received
         <title>CoyIM - Encrypt configuration file</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../images/en-US/CoyIM_encrypt_config.png" />
+            <imagedata fileref="static/images/CoyIM_encrypt_config.png" />
           </imageobject>
           <textobject><phrase>CoyIM - Encrypt configuration
           file</phrase></textobject>
@@ -483,7 +483,7 @@ ok received
         <title>CoyIM - Configure master password</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../images/en-US/CoyIM_configure_master_password.png" />
+            <imagedata fileref="static/images/CoyIM_configure_master_password.png" />
           </imageobject>
           <textobject><phrase>CoyIM - Configure master
           password</phrase></textobject>
@@ -498,7 +498,7 @@ ok received
         <title>CoyIM - Account details: basic configuration</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../images/en-US/CoyIM_account_details_basic.png" />
+            <imagedata fileref="static/images/CoyIM_account_details_basic.png" />
           </imageobject>
           <textobject><phrase>CoyIM - Account details: basic
           configuration</phrase></textobject>
@@ -514,7 +514,7 @@ ok received
         <title>CoyIM - Successful connection</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../images/en-US/CoyIM_connected.png" />
+            <imagedata fileref="static/images/CoyIM_connected.png" />
           </imageobject>
           <textobject><phrase>CoyIM - Successful
           connection</phrase></textobject>
@@ -639,7 +639,7 @@ ok received
         <title>Ricochet - Chatting</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../images/en-US/Ricochet_chatting.png" />
+            <imagedata fileref="static/images/Ricochet_chatting.png" />
           </imageobject>
           <textobject><phrase>Ricochet - Chatting</phrase></textobject>
         </mediaobject>
@@ -657,7 +657,7 @@ ok received
         <title>Ricochet - Adding a contact</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../images/en-US/Ricochet_add_contact.png" />
+            <imagedata fileref="static/images/Ricochet_add_contact.png" />
           </imageobject>
           <textobject><phrase>Ricochet - Adding a
           contact</phrase></textobject>
@@ -815,7 +815,7 @@ ok received
         <title>OnionShare - Share via OnionShare</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../images/en-US/OnionShare_select_file.png" />
+            <imagedata fileref="static/images/OnionShare_select_file.png" />
           </imageobject>
           <textobject><phrase>OnionShare - Share via
           OnionShare</phrase></textobject>
@@ -833,7 +833,7 @@ ok received
         <title>OnionShare - onionshare-gui</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../images/en-US/OnionShare_onionshare-gui.png" />
+            <imagedata fileref="static/images/OnionShare_onionshare-gui.png" />
           </imageobject>
           <textobject><phrase>OnionShare -
           onionshare-gui</phrase></textobject>
@@ -907,7 +907,7 @@ ok received
         <title>OnionShare - web interface in Tor Browser</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../images/en-US/OnionShare_TorBrowser.png" />
+            <imagedata fileref="static/images/OnionShare_TorBrowser.png" />
           </imageobject>
           <textobject><phrase>OnionShare - web interface in Tor
           Browser</phrase></textobject>
@@ -1008,7 +1008,7 @@ ok received
         <title>Subgraph Firewall - allow/deny prompt</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../images/en-US/Subgraph_Firewall_alert.png" />
+            <imagedata fileref="static/images/Subgraph_Firewall_alert.png" />
           </imageobject>
           <textobject><phrase>Subgraph Firewall - allow/deny
           prompt</phrase></textobject>
@@ -1084,7 +1084,7 @@ ok received
         Settings</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../images/en-US/Subgraph_Firewall_menu.png" />
+            <imagedata fileref="static/images/Subgraph_Firewall_menu.png" />
           </imageobject>
           <textobject><phrase>Gnome User Menu - Firewall -&gt; Firewall
           Settings</phrase></textobject>
@@ -1098,7 +1098,7 @@ ok received
         <title>Subgraph Firewall Settings</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../images/en-US/Subgraph_Firewall_settings.png" />
+            <imagedata fileref="static/images/Subgraph_Firewall_settings.png" />
           </imageobject>
           <textobject><phrase>Subgraph Firewall
           Settings</phrase></textobject>
@@ -1141,7 +1141,7 @@ ok received
         <title>Subgraph Firewall Settings - Edit Rule</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../images/en-US/Subgraph_Firewall_edit_rule.png" />
+            <imagedata fileref="static/images/Subgraph_Firewall_edit_rule.png" />
           </imageobject>
           <textobject><phrase>Subgraph Firewall Settings - Edit
           Rule</phrase></textobject>
@@ -1157,7 +1157,7 @@ ok received
         <title>Subgraph Firewall Settings -Options</title>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="../../images/en-US/Subgraph_Firewall_options.png" />
+            <imagedata fileref="static/images/Subgraph_Firewall_options.png" />
           </imageobject>
           <textobject><phrase>Subgraph Firewall Settings
           -Options</phrase></textobject>
@@ -2518,246 +2518,432 @@ $ usblockout --disable
     <programlisting language="bash">
 $ sudo apt install qemu-system qemu-kvm qemu-utils
 </programlisting>
-    <sect3 id="creating-a-virtual-machine-with-qemu">
-      <title>Creating a virtual machine with Qemu</title>
+    <para>
+      The following sections are recipes on how to use
+      <emphasis role="strong">Qemu/KVM</emphasis> in Subgraph OS. They
+      are similar to our own workflows for developing and testing
+      Subgraph OS. <emphasis role="strong">Qemu/KVM</emphasis> supports
+      many more options than what we use in these tutorials. For more
+      detailed information regarding the operation of
+      <emphasis role="strong">Qemu/KVM</emphasis> virtual machines, see
+      the official <emphasis role="strong">Qemu</emphasis> manual:
+    </para>
+    <para>
+      <ulink url="http://wiki.qemu.org/Manual">http://wiki.qemu.org/Manual</ulink>
+    </para>
+    <para>
+      There are multiple third-party graphical user interfaces for
+      <emphasis role="strong">Qemu/KVM</emphasis>. These may make it
+      easier to configure and manage virtual machines. You can explore
+      the various options by visiting these pages:
+    </para>
+    <itemizedlist spacing="compact">
+      <listitem>
+        <para>
+          <ulink url="https://wiki.gnome.org/Apps/Boxes">https://wiki.gnome.org/Apps/Boxes</ulink>
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          <ulink url="http://virt-manager.et.redhat.com">http://virt-manager.et.redhat.com</ulink>
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          <ulink url="http://qemuctl.sourceforge.net">http://qemuctl.sourceforge.net</ulink>
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          <ulink url="https://launchpad.net/virtualbrick">https://launchpad.net/virtualbrick</ulink>
+        </para>
+      </listitem>
+    </itemizedlist>
+    <sect3 id="simple-usage-with-virt-manager">
+      <title>Simple usage with Virt-Manager</title>
       <para>
-        The following sections are recipes on how to use
-        <emphasis role="strong">Qemu/KVM</emphasis> in Subgraph OS. They
-        are similar to our own workflows for developing and testing
-        Subgraph OS. <emphasis role="strong">Qemu/KVM</emphasis>
-        supports many more options than what we use in these tutorials.
-        For more detailed information regarding the operation of
-        <emphasis role="strong">Qemu/KVM</emphasis> virtual machines,
-        see the official <emphasis role="strong">Qemu</emphasis> manual:
-      </para>
-      <para>
-        <ulink url="http://wiki.qemu.org/Manual">http://wiki.qemu.org/Manual</ulink>
-      </para>
-      <para>
-        There are multiple third-party graphical user interfaces for
-        <emphasis role="strong">Qemu/KVM</emphasis>. These may make it
-        easier to configure and manage virtual machines. You can explore
-        the various options by visiting these pages:
-      </para>
-      <itemizedlist spacing="compact">
-        <listitem>
-          <para>
-            <ulink url="https://wiki.gnome.org/Apps/Boxes">https://wiki.gnome.org/Apps/Boxes</ulink>
-          </para>
-        </listitem>
-        <listitem>
-          <para>
-            <ulink url="http://virt-manager.et.redhat.com">http://virt-manager.et.redhat.com</ulink>
-          </para>
-        </listitem>
-        <listitem>
-          <para>
-            <ulink url="http://qemuctl.sourceforge.net">http://qemuctl.sourceforge.net</ulink>
-          </para>
-        </listitem>
-        <listitem>
-          <para>
-            <ulink url="https://launchpad.net/virtualbrick">https://launchpad.net/virtualbrick</ulink>
-          </para>
-        </listitem>
-      </itemizedlist>
-    </sect3>
-    <sect3 id="creating-a-basic-linux-virtual-machine">
-      <title>Creating a basic Linux virtual machine</title>
-      <para>
-        Prior to creating the virtual machine, you should create a
-        virtual hard-drive image for it:
+        One option is to use the
+        <emphasis role="strong">virt-manager</emphasis> frontend for
+        <emphasis role="strong">libvirt</emphasis> and
+        <emphasis role="strong">Qemu/KVM</emphasis>. This requires some
+        extra dependencies, but makes it much easier to work with.
       </para>
       <programlisting language="bash">
+$ sudo apt install virt-manager libvirt-daemon virt-viewer gir1.2-spice-client-gtk-3.0
+</programlisting>
+      <para>
+        After the installation is complete you can launch
+        <emphasis role="strong">virt-manager</emphasis> from
+        <emphasis role="strong">GNOME Activities</emphasis>.
+      </para>
+      <sect4 id="configuring-virt-manager-for-session-mode">
+        <title>Configuring virt-manager for session mode</title>
+        <para>
+          On first launch we are prompted with an error about a failed
+          connection to the libvirt daemon:
+        </para>
+        <figure>
+          <title>Virt Manager First Launch Error</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="static/images/virt-manager/virt-manager_00_firtlaunch_error.png" />
+            </imageobject>
+            <textobject><phrase>Virt Manager First Launch
+            Error</phrase></textobject>
+          </mediaobject>
+        </figure>
+        <para>
+          This error can be ignored; to avoid it the future we will
+          right-click on the only entry in the list
+          <emphasis role="strong">QEMU/KVM - Not Running</emphasis> and
+          delete it.
+        </para>
+        <figure>
+          <title>Virt Manager Delete Default Connection</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="static/images/virt-manager/virt-manager_00_firtlaunch_delete.png" />
+            </imageobject>
+            <textobject><phrase>Virt Manager Delete Default
+            Connection</phrase></textobject>
+          </mediaobject>
+        </figure>
+        <para>
+          Now we need to add a session mode connect. For this go into
+          the the <emphasis role="strong">File</emphasis> menu, and
+          select <emphasis role="strong">Add Connection...</emphasis>. A
+          new window will appear, you will need to select
+          <emphasis role="strong">QEMU/KVM user session</emphasis> in
+          the hypervisor popup menu.
+        </para>
+        <figure>
+          <title>Virt Manager Select User Session Hypervisor</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="static/images/virt-manager/virt-manager_00_hypervisor_select.png" />
+            </imageobject>
+            <textobject><phrase>Virt Manager Select User Session
+            Hypervisor</phrase></textobject>
+          </mediaobject>
+        </figure>
+        <para>
+          We are now ready to use
+          <emphasis role="strong">virt-manager</emphasis>
+        </para>
+        <figure>
+          <title>Virt Manager Ready</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="static/images/virt-manager/virt-manager_00_virtman_ready.png" />
+            </imageobject>
+            <textobject><phrase>Virt Manager Ready</phrase></textobject>
+          </mediaobject>
+        </figure>
+      </sect4>
+      <sect4 id="creating-a-simple-virtual-machine-in-virt-manager">
+        <title>Creating a simple virtual machine in virt-manager</title>
+        <para>
+          Click on the create new virtual machine button and you will be
+          prompted to start configuring the virtual machine:
+        </para>
+        <figure>
+          <title>Virt Manager Create New Virtual Machine</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="static/images/virt-manager/virt-manager_01_createnew.png" />
+            </imageobject>
+            <textobject><phrase>Virt Manager Create New Virtual
+            Machine</phrase></textobject>
+          </mediaobject>
+        </figure>
+        <para>
+          When selecting a disk image to install, you will probably
+          notice that libvirt looks in an odd location for disk images.
+          The default location is
+          <literal>~/.local/share/libvirt/images</literal>. You can add
+          more, or more simply you can just ignore this, and select
+          <emphasis role="strong">Browse Local</emphasis> to freely
+          select and image.
+        </para>
+        <figure>
+          <title>Virt Manager Image Browser</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="static/images/virt-manager/virt-manager_01_browser.png" />
+            </imageobject>
+            <textobject><phrase>Virt Manager Image
+            Browser</phrase></textobject>
+          </mediaobject>
+        </figure>
+        <para>
+          Continue with the configuration of the basic attributes of
+          your virtual machine:
+        </para>
+        <figure>
+          <title>Virt Manager CPU And RAM Configuration</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="static/images/virt-manager/virt-manager_01_cpuram.png" />
+            </imageobject>
+            <textobject><phrase>Virt Manager CPU And RAM
+            Configuration</phrase></textobject>
+          </mediaobject>
+        </figure>
+        <figure>
+          <title>Virt Manager Disk Image Configuration</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="static/images/virt-manager/virt-manager_01_diskimage.png" />
+            </imageobject>
+            <textobject><phrase>Virt Manager Disk Image
+            Configuration</phrase></textobject>
+          </mediaobject>
+        </figure>
+        <figure>
+          <title>Virt Manager Final Configuration</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="static/images/virt-manager/virt-manager_01_name.png" />
+            </imageobject>
+            <textobject><phrase>Virt Manager Final
+            Configuration</phrase></textobject>
+          </mediaobject>
+        </figure>
+        <para>
+          Once done your virtual machine will start automatically:
+        </para>
+        <figure>
+          <title>Virt Manager Running Virtual Machine</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="static/images/virt-manager/virt-manager_01_done.png" />
+            </imageobject>
+            <textobject><phrase>Virt Manager Running Virtual
+            Machine</phrase></textobject>
+          </mediaobject>
+        </figure>
+        <para>
+          You can proceed with a regular installation, use a live image,
+          etc.
+        </para>
+        <para>
+          You may install the
+          <emphasis role="strong">qemu-guest-agent</emphasis> and/or
+          <emphasis role="strong">spice-vdagent</emphasis> and/or
+          <emphasis role="strong">xserver-xorg-video-qxl</emphasis> in
+          the running virtual machine to improve integration (though
+          this is not strictly necessary and may present extra security
+          concerns).
+        </para>
+      </sect4>
+    </sect3>
+    <sect3 id="command-line-usage">
+      <title>Command line usage</title>
+      <para>
+        For a more minimal, and sometimes more advanced, usage one may
+        also use <emphasis role="strong">Qemu/KVM</emphasis> on its own
+        from the command line.
+      </para>
+      <sect4 id="creating-a-basic-linux-virtual-machine-with-qemu">
+        <title>Creating a basic Linux virtual machine with Qemu</title>
+        <para>
+          Prior to creating the virtual machine, you should create a
+          virtual hard-drive image for it:
+        </para>
+        <programlisting language="bash">
 $ qemu-img create -f qcow2 disk.qcow2 8G
 </programlisting>
-      <para>
-        Your virtual hard-drive is now ready for use. Run the following
-        command to test a virtual machine with the hard-drive:
-      </para>
-      <programlisting language="bash">
+        <para>
+          Your virtual hard-drive is now ready for use. Run the
+          following command to test a virtual machine with the
+          hard-drive:
+        </para>
+        <programlisting language="bash">
 $ qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 -m 4096
 </programlisting>
-      <para>
-        To start a virtual machine with an operating system ISO attached
-        to the virtual CDROM, run the following command:
-      </para>
-      <programlisting language="bash">
+        <para>
+          To start a virtual machine with an operating system ISO
+          attached to the virtual CDROM, run the following command:
+        </para>
+        <programlisting language="bash">
 $ qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 -m 4096 \
 -cdrom ./subgraph-os-alpha_2016-06-16_2.iso -boot d
 </programlisting>
-      <blockquote>
+        <blockquote>
+          <para>
+            <emphasis role="strong">Qemu/KVM options</emphasis>
+          </para>
+          <para>
+            <emphasis>-enable-kvm</emphasis>: enables
+            <emphasis role="strong">KVM</emphasis> virtualisation, which
+            is faster than <emphasis role="strong">Qemu's</emphasis>
+            emulation
+          </para>
+          <para>
+            <emphasis>-hda</emphasis>: This attaches the virtual
+            hard-drive you created
+          </para>
+          <para>
+            <emphasis>-m</emphasis>: This allocates RAM to the virtual
+            machine (4096MB in the example)
+          </para>
+          <para>
+            <emphasis>-cdrom</emphasis>: The path to the operation
+            system ISO
+          </para>
+          <para>
+            <emphasis>-boot</emphasis>: This specifies the boot order
+            for the virtual machine, <emphasis>d</emphasis> is the
+            virtual CDROM
+          </para>
+        </blockquote>
         <para>
-          <emphasis role="strong">Qemu/KVM options</emphasis>
+          This example can be adapted to run the Linux distribution of
+          your choice inside of a virtual machine.
+        </para>
+      </sect4>
+      <sect4 id="creating-an-advanced-debian-stretch-virtual-machine-using-debootstrap">
+        <title>Creating an advanced Debian Stretch virtual machine using
+        debootstrap</title>
+        <para>
+          To have more control over the installation of Debian inside of
+          a virtual machine, you can use
+          <emphasis role="strong">debootstrap</emphasis> to install the
+          operating system. Another advantage of this approach is that
+          you can avoid all of the installation dialogs of the
+          <emphasis role="strong">Debian installer</emphasis>.
         </para>
         <para>
-          <emphasis>-enable-kvm</emphasis>: enables
-          <emphasis role="strong">KVM</emphasis> virtualisation, which
-          is faster than <emphasis role="strong">Qemu's</emphasis>
-          emulation
+          This section will show how to install Debian Stretch with the
+          <emphasis>Grsecurity</emphasis> kernel from Subgraph OS.
         </para>
-        <para>
-          <emphasis>-hda</emphasis>: This attaches the virtual
-          hard-drive you created
-        </para>
-        <para>
-          <emphasis>-m</emphasis>: This allocates RAM to the virtual
-          machine (4096MB in the example)
-        </para>
-        <para>
-          <emphasis>-cdrom</emphasis>: The path to the operation system
-          ISO
-        </para>
-        <para>
-          <emphasis>-boot</emphasis>: This specifies the boot order for
-          the virtual machine, <emphasis>d</emphasis> is the virtual
-          CDROM
-        </para>
-      </blockquote>
-      <para>
-        This example can be adapted to run the Linux distribution of
-        your choice inside of a virtual machine.
-      </para>
-    </sect3>
-    <sect3 id="creating-an-advanced-debian-stretch-virtual-machine-using-debootstrap">
-      <title>Creating an advanced Debian Stretch virtual machine using
-      debootstrap</title>
-      <para>
-        To have more control over the installation of Debian inside of a
-        virtual machine, you can use
-        <emphasis role="strong">debootstrap</emphasis> to install the
-        operating system. Another advantage of this approach is that you
-        can avoid all of the installation dialogs of the
-        <emphasis role="strong">Debian installer</emphasis>.
-      </para>
-      <para>
-        This section will show how to install Debian Stretch with the
-        <emphasis>Grsecurity</emphasis> kernel from Subgraph OS.
-      </para>
-      <sect4 id="create-a-virtual-hard-drive-image-for-the-operating-system">
-        <title>Create a virtual hard-drive image for the operating
-        system</title>
-        <para>
-          To begin the install, you must set up a virtual hard-drive
-          image. Follow these steps to set it up:
-        </para>
-        <orderedlist numeration="arabic">
-          <listitem>
-            <para>
-              Run the following command to create a sparse virtual
-              hard-drive image:
-            </para>
-            <programlisting language="bash">
+        <sect5 id="create-a-virtual-hard-drive-image-for-the-operating-system">
+          <title>Create a virtual hard-drive image for the operating
+          system</title>
+          <para>
+            To begin the install, you must set up a virtual hard-drive
+            image. Follow these steps to set it up:
+          </para>
+          <orderedlist numeration="arabic">
+            <listitem>
+              <para>
+                Run the following command to create a sparse virtual
+                hard-drive image:
+              </para>
+              <programlisting language="bash">
 $ truncate --size 8G ./disk.img
 </programlisting>
-          </listitem>
-          <listitem>
-            <para>
-              To format the virtual hard-drive run the following
-              command:
-            </para>
-            <programlisting language="bash">
+            </listitem>
+            <listitem>
+              <para>
+                To format the virtual hard-drive run the following
+                command:
+              </para>
+              <programlisting language="bash">
 $ /sbin/mkfs.ext4 ./disk.img
 </programlisting>
-            <para>
-              After formatting the hard-drive, you can create a proper
-              partition table. We will skip this step in the tutorial as
-              it is not strictly necessary to run the virtual machine.
-            </para>
-          </listitem>
-          <listitem>
-            <para>
-              Mount the virtual hard-drive:
-            </para>
-            <programlisting language="bash">
+              <para>
+                After formatting the hard-drive, you can create a proper
+                partition table. We will skip this step in the tutorial
+                as it is not strictly necessary to run the virtual
+                machine.
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                Mount the virtual hard-drive:
+              </para>
+              <programlisting language="bash">
 $ sudo mount -o loop ./disk.img /mnt
 </programlisting>
-          </listitem>
-        </orderedlist>
-        <para>
-          <emphasis role="strong">NOTE:</emphasis> You should ensure
-          there is enough free space in the image you create. You may
-          want to allocate twice as much if you want to convert the
-          image later on.
-        </para>
-        <para>
-          The sparse virtual hard-drive image you created will only use
-          as much space as it requires.
-        </para>
-        <para>
-          Run the following command to show how much space is used by
-          the image:
-        </para>
-        <programlisting language="bash">
+            </listitem>
+          </orderedlist>
+          <para>
+            <emphasis role="strong">NOTE:</emphasis> You should ensure
+            there is enough free space in the image you create. You may
+            want to allocate twice as much if you want to convert the
+            image later on.
+          </para>
+          <para>
+            The sparse virtual hard-drive image you created will only
+            use as much space as it requires.
+          </para>
+          <para>
+            Run the following command to show how much space is used by
+            the image:
+          </para>
+          <programlisting language="bash">
 $ du -sh disk.img
 </programlisting>
-        <para>
-          The amount shown is a fraction of the total amount specified
-          in the <emphasis>truncate</emphasis> command:
-        </para>
-        <programlisting>
+          <para>
+            The amount shown is a fraction of the total amount specified
+            in the <emphasis>truncate</emphasis> command:
+          </para>
+          <programlisting>
 189M    disk.img
 </programlisting>
-        <para>
-          To verify the total amount that was specified in the
-          <emphasis>truncate</emphasis> command, run this command:
-        </para>
-        <programlisting language="bash">
+          <para>
+            To verify the total amount that was specified in the
+            <emphasis>truncate</emphasis> command, run this command:
+          </para>
+          <programlisting language="bash">
 $ du --apparent-size -sh disk.img
 </programlisting>
-<literallayout>The total amount should correspond with what was specified when you ran
-<emphasis>truncate</emphasis>:</literallayout>
-        <programlisting>
+          <para>
+            The total amount should correspond with what was specified
+            when you ran <emphasis>truncate</emphasis>:
+          </para>
+          <programlisting>
 8.0G    disk.img
 </programlisting>
-      </sect4>
-      <sect4 id="installing-the-operating-system-with-deboostrap">
-        <title>Installing the operating system with deboostrap</title>
-        <para>
-          Now that the virtual disk-image is created, we can now use
-          <emphasis role="strong">debootstrap</emphasis> to install
-          Debian Stretch. Follow these steps to install it:
-        </para>
-        <orderedlist numeration="arabic">
-          <listitem>
-            <para>
-              Run <emphasis role="strong">debootstrap</emphasis> to
-              install the operating system:
-            </para>
-            <programlisting language="bash">
+        </sect5>
+        <sect5 id="installing-the-operating-system-with-deboostrap">
+          <title>Installing the operating system with deboostrap</title>
+          <para>
+            Now that the virtual disk-image is created, we can now use
+            <emphasis role="strong">debootstrap</emphasis> to install
+            Debian Stretch. Follow these steps to install it:
+          </para>
+          <orderedlist numeration="arabic">
+            <listitem>
+              <para>
+                Run <emphasis role="strong">debootstrap</emphasis> to
+                install the operating system:
+              </para>
+              <programlisting language="bash">
 $ sudo debootstrap --variant=mintbase --include=systemd-sysv stretch /mnt
 </programlisting>
-          </listitem>
-          <listitem>
-            <para>
-              Set a <emphasis>root</emphasis> password for the installed
-              operating system:
-            </para>
-            <programlisting language="bash">
+            </listitem>
+            <listitem>
+              <para>
+                Set a <emphasis>root</emphasis> password for the
+                installed operating system:
+              </para>
+              <programlisting language="bash">
 $ sudo chroot /mnt passwd
 </programlisting>
-          </listitem>
-          <listitem>
-            <para>
-              Create a standard fstab configuration:
-            </para>
-            <programlisting language="bash">
+            </listitem>
+            <listitem>
+              <para>
+                Create a standard fstab configuration:
+              </para>
+              <programlisting language="bash">
 $ sudo tee /mnt/etc/fstab &lt;&lt; EOL
 /dev/sda    /   ext4    defaults,errors=remount-ro  0   1
 EOL
 </programlisting>
-          </listitem>
-        </orderedlist>
-      </sect4>
-      <sect4 id="installing-the-grsecurity-kernel-in-the-operating-system">
-        <title>Installing the Grsecurity kernel in the operating
-        system</title>
-        <para>
-          Run the following commands to install the Subgraph OS
-          <emphasis>Grsecurity</emphasis> kernel in your virtual
-          machine:
-        </para>
-        <programlisting language="bash">
+            </listitem>
+          </orderedlist>
+        </sect5>
+        <sect5 id="installing-the-grsecurity-kernel-in-the-operating-system">
+          <title>Installing the Grsecurity kernel in the operating
+          system</title>
+          <para>
+            Run the following commands to install the Subgraph OS
+            <emphasis>Grsecurity</emphasis> kernel in your virtual
+            machine:
+          </para>
+          <programlisting language="bash">
 $ cd /tmp
 $ apt-get download linux-{image,headers}-grsec-amd64-subgraph linux-{image,headers}-$(uname -r)
 $ sudo cp ./linux-{image,headers}-$(uname -r) /mnt/tmp
@@ -2766,118 +2952,120 @@ $ dpkg -i /tmp/linux-{image,headers}-*
 $ update-initramfs -u -k all
 $ exit
 </programlisting>
-        <para>
-          The kernel and initramfs are inside of your mounted virtual
-          hard-drive image. You must copy them to a directory on your
-          computer to boot the virtual machine using these files. Run
-          the following command to copy the files to the directory you
-          want to start the virtual machine from:
-        </para>
-        <programlisting language="bash">
+          <para>
+            The kernel and initramfs are inside of your mounted virtual
+            hard-drive image. You must copy them to a directory on your
+            computer to boot the virtual machine using these files. Run
+            the following command to copy the files to the directory you
+            want to start the virtual machine from:
+          </para>
+          <programlisting language="bash">
 $ cp /mnt/boot/vmlinuz-&lt;version&gt;-amd64 /mnt/boot/initrd.img-&lt;version&gt;-amd64 \
 /home/user/path/to/vm
 </programlisting>
-      </sect4>
-      <sect4 id="finalizing-the-installation-of-the-operating-system">
-        <title>Finalizing the installation of the operating
-        system</title>
-        <para>
-          As the final step, we will sync the filesystem and unmount the
-          virtual hard-drive image:
-        </para>
-        <programlisting language="bash">
+        </sect5>
+        <sect5 id="finalizing-the-installation-of-the-operating-system">
+          <title>Finalizing the installation of the operating
+          system</title>
+          <para>
+            As the final step, we will sync the filesystem and unmount
+            the virtual hard-drive image:
+          </para>
+          <programlisting language="bash">
 $ sync
 $ sudo umount /mnt
 </programlisting>
-        <para>
-          (Optional) If you prefer, you may convert the virtual
-          hard-drive image to the <emphasis>qcow2</emphasis> format:
-        </para>
-        <programlisting language="bash">
+          <para>
+            (Optional) If you prefer, you may convert the virtual
+            hard-drive image to the <emphasis>qcow2</emphasis> format:
+          </para>
+          <programlisting language="bash">
 $ qemu-img convert -f raw -O qcow2 ./disk.img ./disk.qcow2
 </programlisting>
-      </sect4>
-      <sect4 id="starting-the-debian-stretch-virtual-machine">
-        <title>Starting the Debian Stretch virtual machine</title>
-        <para>
-          Now you are ready to start the virtual machine. Run the
-          following command to start it:
-        </para>
-        <programlisting language="bash">
+        </sect5>
+        <sect5 id="starting-the-debian-stretch-virtual-machine">
+          <title>Starting the Debian Stretch virtual machine</title>
+          <para>
+            Now you are ready to start the virtual machine. Run the
+            following command to start it:
+          </para>
+          <programlisting language="bash">
 $ qemu-system-x86_64 -enable-kvm -hda ./disk.qcow2 \
     -kernel ./vmlinuz-&lt;version&gt;-amd64 \
     -initrd ./initrd.img-&lt;version&gt;-amd64 \
     -append root=/dev/sda
 </programlisting>
-        <para>
-          <emphasis role="strong">NOTE:</emphasis> This assumes you
-          converted the virtual hard-drive image to the
-          <emphasis>qcow2</emphasis>. If not, replace
-          <emphasis role="strong">disk.qcow2</emphasis> with the correct
-          name of your image.
-        </para>
-        <blockquote>
           <para>
-            <emphasis role="strong">Qemu/KVM options</emphasis>
+            <emphasis role="strong">NOTE:</emphasis> This assumes you
+            converted the virtual hard-drive image to the
+            <emphasis>qcow2</emphasis>. If not, replace
+            <emphasis role="strong">disk.qcow2</emphasis> with the
+            correct name of your image.
           </para>
+          <blockquote>
+            <para>
+              <emphasis role="strong">Qemu/KVM options</emphasis>
+            </para>
+            <para>
+              This section uses some new options for
+              <emphasis role="strong">Qemu/KVM</emphasis>.
+            </para>
+            <para>
+              <emphasis>-kernel</emphasis>: This is the operating system
+              kernel to boot when starting a virtual machine
+            </para>
+            <para>
+              <emphasis>-initrd</emphasis>: This is the initramfs to
+              boot when starting a virtual machine
+            </para>
+            <para>
+              <emphasis>-append</emphasis>: These are options to append
+              to the kernel command line when starting a virtual machine
+            </para>
+          </blockquote>
           <para>
-            This section uses some new options for
-            <emphasis role="strong">Qemu/KVM</emphasis>.
+            If you want to install grub to keep the kernel and initrd
+            images inside the virtual machine you'll have to create a
+            full partition table. You may also need to create a separate
+            <emphasis role="strong">/boot</emphasis> partition. But this
+            is out of scope for this tutorial.
           </para>
-          <para>
-            <emphasis>-kernel</emphasis>: This is the operating system
-            kernel to boot when starting a virtual machine
-          </para>
-          <para>
-            <emphasis>-initrd</emphasis>: This is the initramfs to boot
-            when starting a virtual machine
-          </para>
-          <para>
-            <emphasis>-append</emphasis>: These are options to append to
-            the kernel command line when starting a virtual machine
-          </para>
-        </blockquote>
-        <para>
-          If you want to install grub to keep the kernel and initrd
-          images inside the virtual machine you'll have to create a full
-          partition table. You may also need to create a separate
-          <emphasis role="strong">/boot</emphasis> partition. But this
-          is out of scope for this tutorial.
-        </para>
+        </sect5>
       </sect4>
-    </sect3>
-    <sect3 id="setting-up-simple-networking-in-qemukvm">
-      <title>Setting up simple networking in Qemu/KVM</title>
-      <para>
-        By default, <emphasis role="strong">Qemu</emphasis> will
-        transparently <emphasis>NAT</emphasis> your virtual machines to
-        the host network. This can be disabled by using the
-        <emphasis role="strong">-net none</emphasis> flag.
-      </para>
-      <para>
-        Alternatively, you can also open simple tunnels between the host
-        and the virtual machine using the port redirection mechanism
-        with the <emphasis role="strong">-redir</emphasis> flag:
-      </para>
-      <programlisting>
+      <sect4 id="setting-up-simple-networking-in-qemukvm">
+        <title>Setting up simple networking in Qemu/KVM</title>
+        <para>
+          By default, <emphasis role="strong">Qemu</emphasis> will
+          transparently <emphasis>NAT</emphasis> your virtual machines
+          to the host network. This can be disabled by using the
+          <emphasis role="strong">-net none</emphasis> flag.
+        </para>
+        <para>
+          Alternatively, you can also open simple tunnels between the
+          host and the virtual machine using the port redirection
+          mechanism with the <emphasis role="strong">-redir</emphasis>
+          flag:
+        </para>
+        <programlisting>
 -redir tcp:55700::55700
 </programlisting>
-      <para>
-        For more on networking in
-        <emphasis role="strong">Qemu/KVM</emphasis> see:
-      </para>
-      <itemizedlist spacing="compact">
-        <listitem>
-          <para>
-            <ulink url="http://wiki.qemu.org/Documentation/Networking">http://wiki.qemu.org/Documentation/Networking</ulink>
-          </para>
-        </listitem>
-        <listitem>
-          <para>
-            <ulink url="https://en.wikibooks.org/wiki/QEMU/Networking">https://en.wikibooks.org/wiki/QEMU/Networking</ulink>
-          </para>
-        </listitem>
-      </itemizedlist>
+        <para>
+          For more on networking in
+          <emphasis role="strong">Qemu/KVM</emphasis> see:
+        </para>
+        <itemizedlist spacing="compact">
+          <listitem>
+            <para>
+              <ulink url="http://wiki.qemu.org/Documentation/Networking">http://wiki.qemu.org/Documentation/Networking</ulink>
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              <ulink url="https://en.wikibooks.org/wiki/QEMU/Networking">https://en.wikibooks.org/wiki/QEMU/Networking</ulink>
+            </para>
+          </listitem>
+        </itemizedlist>
+      </sect4>
     </sect3>
   </sect2>
 </sect1>

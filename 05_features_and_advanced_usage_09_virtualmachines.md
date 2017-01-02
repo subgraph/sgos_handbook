@@ -27,6 +27,8 @@ various options by visiting these pages:
 * <http://qemuctl.sourceforge.net>
 * <https://launchpad.net/virtualbrick>
 
+\newpage
+
 ### Simple usage with Virt-Manager
 
 One option is to use the **virt-manager** frontend for **libvirt** and **Qemu/KVM**.
@@ -43,51 +45,69 @@ After the installation is complete you can launch **virt-manager** from __GNOME 
 
 On first launch we are prompted with an error about a failed connection to the libvirt daemon:
 
-![Virt Manager First Launch Error](static/images/virt-manager/virt-manager_00_firtlaunch_error.png)
+![Virt Manager First Launch Error](static/images/virt-manager_00_firtlaunch_error.png)
+
+\clearpage
 
 This error can be ignored; to avoid it the future we will right-click on the only entry in the list 
-**QEMU/KVM - Not Running** and delete it. 
+`QEMU/KVM - Not Running` and delete it. 
 
-![Virt Manager Delete Default Connection](static/images/virt-manager/virt-manager_00_firtlaunch_delete.png)
+![Virt Manager Delete Default Connection](static/images/virt-manager_00_firtlaunch_delete.png)
 
-Now we need to add a session mode connect. For this go into the the **File** menu, and select 
-**Add Connection...**. A new window will appear, you will need to select **QEMU/KVM user session**
-in the hypervisor popup menu.
+\clearpage
 
-![Virt Manager Select User Session Hypervisor](static/images/virt-manager/virt-manager_00_hypervisor_select.png)
+Now we need to add a session mode connection. This will allow us to use unpriviledged virtual machines.
+For this go into the the `File` menu, and select `Add Connection...`.
+A new window will appear, you will need to select `QEMU/KVM user session` in the hypervisor popup menu.
 
-We are now ready to use **virt-manager**
+![Virt Manager Select User Session Hypervisor](static/images/virt-manager_00_hypervisor_select.png)
 
-![Virt Manager Ready](static/images/virt-manager/virt-manager_00_virtman_ready.png)
+\clearpage
+
+We are now ready to use **virt-manager**!
+
+![Virt Manager Ready](static/images/virt-manager_00_virtman_ready.png)
+
+\newpage
 
 #### Creating a simple virtual machine in virt-manager
 
 Click on the create new virtual machine button and you will be prompted to start configuring the virtual machine:
 
-![Virt Manager Create New Virtual Machine](static/images/virt-manager/virt-manager_01_createnew.png)
+![Virt Manager Create New Virtual Machine](static/images/virt-manager_01_createnew.png)
 
 When selecting a disk image to install, you will probably notice that libvirt looks in an odd location for disk images.
 The default location is `~/.local/share/libvirt/images`. You can add more, or more simply you can just ignore this,
 and select **Browse Local** to freely select and image.
 
-![Virt Manager Image Browser](static/images/virt-manager/virt-manager_01_browser.png)
+![Virt Manager Image Browser](static/images/virt-manager_01_browser.png)
+
+\newpage
 
 Continue with the configuration of the basic attributes of your virtual machine:
 
-![Virt Manager CPU And RAM Configuration](static/images/virt-manager/virt-manager_01_cpuram.png)
+![Virt Manager CPU And RAM Configuration](static/images/virt-manager_01_cpuram.png)
 
-![Virt Manager Disk Image Configuration](static/images/virt-manager/virt-manager_01_diskimage.png)
+![Virt Manager Disk Image Configuration](static/images/virt-manager_01_diskimage.png)
 
-![Virt Manager Final Configuration](static/images/virt-manager/virt-manager_01_name.png)
+![Virt Manager Final Configuration](static/images/virt-manager_01_name.png)
+
+\newpage
 
 Once done your virtual machine will start automatically:
 
-![Virt Manager Running Virtual Machine](static/images/virt-manager/virt-manager_01_done.png)
+![Virt Manager Running Virtual Machine](static/images/virt-manager_01_done.png)
 
 You can proceed with a regular installation, use a live image, etc.
 
-You may install the **qemu-guest-agent** and/or **spice-vdagent** and/or **xserver-xorg-video-qxl** in the running
-virtual machine to improve integration (though this is not strictly necessary and may present extra security concerns).
+> ***Qemu/KVM guest integration**
+> 
+> You may install the **qemu-guest-agent** and/or **spice-vdagent** and/or **xserver-xorg-video-qxl** in the running
+virtual machine to improve integration.
+> 
+> This is not strictly necessary and may present extra security considerations.
+
+\newpage
 
 ### Command line usage
 

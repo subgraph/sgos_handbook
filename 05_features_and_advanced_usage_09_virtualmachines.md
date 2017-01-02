@@ -30,8 +30,9 @@ various options by visiting these pages:
 ### Simple usage with Virt-Manager
 
 One option is to use the **virt-manager** frontend for **libvirt** and **Qemu/KVM**.
-This requires some extra dependencies, but makes it much easier to work with.
+This requires some extra dependencies, but is far more user friendly.
 
+You will want to install it along with the following dependencies:
 ```{.bash}
 $ sudo apt install virt-manager libvirt-daemon virt-viewer gir1.2-spice-client-gtk-3.0
 ```

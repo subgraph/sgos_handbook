@@ -111,7 +111,8 @@ virtual machine to improve integration.
 
 ### Command line usage
 
-For a more minimal, and sometimes more advanced, usage one may also use **Qemu/KVM** on its own from the command line.
+For a more minimal, and sometimes more advanced, usage one may also use **Qemu/KVM** 
+directly with the command line interface.
 
 #### Creating a basic Linux virtual machine with Qemu
 

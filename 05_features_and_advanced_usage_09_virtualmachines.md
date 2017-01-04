@@ -336,3 +336,9 @@ For more on networking in **Qemu/KVM** see:
 
 \newpage
 
+### Additional documentation
+
+* <https://en.wikibooks.org/wiki/QEMU/Images#Converting_image_formats>
+
+\newpage
+

@@ -34,7 +34,7 @@ HTMLOPTIONS:= --toc --highlight-style haddock --section-divs --number-sections -
 KERNEL_VERSION:=$(shell uname -r)
 LINUX_HEADERS:=/usr/src/linux-headers-$(KERNEL_VERSION)
 
-all: clean spellcheck readability contents sgos_handbook
+all: clean readability contents sgos_handbook
 pot_all: pot po4a_fixup
 docbook_debian: docbook docbook_fix_links 
 docbook_dev: docbook_local docbook_fix_links_local

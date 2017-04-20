@@ -1,0 +1,12 @@
+sgos-handbook (1.0.0-2.1) unstable; urgency=medium
+
+  * NMU
+  * git-buildpackage ready
+
+ -- Alexsandr Kibal <ak@subgraph.com>  Wed, 19 Apr 2017 20:06:06 +0000
+
+sgos-handbook (1.0.0-1) unstable; urgency=medium
+
+  * Initial release. 
+
+ -- David McKinney <mckinney@subgraph.com>  Tue, 29 Nov 2016 13:58:36 -0500

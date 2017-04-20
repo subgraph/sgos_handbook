@@ -1,0 +1,5 @@
+*.desktop usr/share/applications/
+static/images/* usr/share/sgos-handbook/images/en-US/
+build/sgos_handbook.pdf usr/share/sgos-handbook/pdf/en-US/
+build/sgos_handbook.html usr/share/sgos-handbook/html/en-US/
+build/sgos_handbook.xml usr/share/sgos-handbook/docbook/en-US/

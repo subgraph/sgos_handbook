@@ -1,14 +1,14 @@
-## Sandboxing applications with Subgraph Oz
+## Sandboxing applications with Subgraph OZ
 
-Subgraph OS runs desktop applications inside of our security sandbox (**Oz**). 
+Subgraph OS runs desktop applications inside of our security sandbox (**OZ**). 
 The security sandbox is an additional layer of security, above and beyond the 
 othersecurity features of Subgraph OS. Subgraph OS is hardened to make it very
 difficult for an attacker to compromise applications. However, it is impossible 
 to prevent every vulnerability. If an attacker compromises an application,
-**Oz** can help to protect the computer and the user's sensitive files against
+**OZ** can help to protect the computer and the user's sensitive files against
 further compromise.
 
-**Oz** can provide the following protections to sandboxed applications:
+**OZ** can provide the following protections to sandboxed applications:
 
 * Restrict the files that the application has access to
 * Restrict network access
@@ -35,20 +35,20 @@ Eog            Image Viewer       No          No
 
 \newpage
 
-**Oz** also sandboxes desktop applications from each other. Normally, 
+**OZ** also sandboxes desktop applications from each other. Normally, 
 applications running under the X11 display server can interact with each other. 
 This means that one application can intercept or inject events into another 
 application.
 
-Without **Oz** or an alternate display server, there is no way to securely 
+Without **OZ** or an alternate display server, there is no way to securely 
 prevent applications from interacting with each other. An attacker could abuse 
 this to perform malicious actions such as intercepting the keystrokes from 
-another desktop application. To prevent these attacks, **Oz** sandboxes use 
+another desktop application. To prevent these attacks, **OZ** sandboxes use 
 **xpra** to render applications on the desktop. **Xpra** isolates applications 
 by using a separate display server to render each application. Since the 
 applications do not share the same display server, they cannot interact.
 
-For more technical details about **Oz** and its security features, see the 
+For more technical details about **OZ** and its security features, see the 
 following page:
 
 <https://github.com/subgraph/oz/wiki/Oz-Technical-Details>
@@ -56,14 +56,14 @@ following page:
 
 \newpage
 
-### Enabling an Oz profile
+### Enabling an OZ profile
 
-**Oz** profiles can be found in the following directory:
+**OZ** profiles can be found in the following directory:
 ```
 /var/lib/oz/cells.d
 ```
 
-**Oz** automatically enables profiles in this directory. However, if you need to
+**OZ** automatically enables profiles in this directory. However, if you need to
 manually enable a profile, you can do so by running the **oz-setup** command to
 *install* the profile. 
 
@@ -72,12 +72,12 @@ The following example installs the profile for **evince**:
 $ sudo oz-setup install evince
 ```
 
-When the profile is installed, **Oz** will *divert* the path of the program
-executable. Instead of the program running directly, diverting it lets **Oz** 
+When the profile is installed, **OZ** will *divert* the path of the program
+executable. Instead of the program running directly, diverting it lets **OZ** 
 start the program. So the next time it is started, the program will be sandboxed 
-by **Oz**.
+by **OZ**.
 
-### Disabling an Oz profile
+### Disabling an OZ profile
 
 If you want to run a previously sandboxed program outside of the sandbox, you
 must disable its profile. To disable a profile, run the **oz-setup** command 
@@ -88,10 +88,10 @@ The following example removes the profile for **evince**:
 $ sudo oz-setup remove evince
 ```
 
-When the profile is removed, **Oz** will undo the *divert* of the program path.
-The program will not run in the **Oz** sandbox the next time it is started.
+When the profile is removed, **OZ** will undo the *divert* of the program path.
+The program will not run in the **OZ** sandbox the next time it is started.
 
-### Viewing the status of an Oz profile
+### Viewing the status of an OZ profile
 
 The status of a program can also be viewed with the **oz-setup** command.
 
@@ -116,13 +116,13 @@ Package divert is not installed for: /usr/bin/evince-previewer
 
 \newpage
 
-### Creating an Oz profile
+### Creating an OZ profile
 
 In this section, we will walk through some of the options in a basic profile.
 
-**Oz** profiles are written in JSON.
+**OZ** profiles are written in JSON.
 
-The following is the **Oz** profile for the **eog** image viewer:
+The following is the **OZ** profile for the **eog** image viewer:
 ```{.javascript}
 {
  "name": "eog"
@@ -154,7 +154,7 @@ The following is the **Oz** profile for the **eog** image viewer:
  }
 ```
 
-> **Example Oz profile configuration options**
+> **Example OZ profile configuration options**
 >
 > *name*: The name of the profile
 >
@@ -192,36 +192,36 @@ The following is the **Oz** profile for the **eog** image viewer:
 >
 > *seccomp -> whitelist*: The path to the whitelist policy
 
-**Oz** supports a number of different profile configurations. More examples for 
+**OZ** supports a number of different profile configurations. More examples for 
 real applications are located in the profiles directory:
 ```
 /var/lib/oz/cells.d
 ```
 
-Complete documentation for creating **Oz** profiles can be found here:
+Complete documentation for creating **OZ** profiles can be found here:
 
 <https://github.com/subgraph/oz>
 
 \newpage
 
-### Securing system calls with seccomp in Oz
+### Securing system calls with seccomp in OZ
 
 *Seccomp* is a feature of the Linux kernel to limit exposed system calls. As
 system calls provide a user interface to the kernel, they expose it to attacks.
 These attacks can let an attacker elevate their privileges on the computer. The
-**Oz** sandbox uses *seccomp* to protect against this type of attack.
+**OZ** sandbox uses *seccomp* to protect against this type of attack.
 
-**Oz** supports *seccomp* policies on a per-application basis. *Seccomp* kills
+**OZ** supports *seccomp* policies on a per-application basis. *Seccomp* kills
 applications whenever they violate a policy. This protects the computer in cases
 where an attacker tries to exploit a vulnerability in the kernel that depends on 
 the blocked system call. 
 
 Some attacks also use system calls as part of their *payload*. A *payload* is 
 the malicious code that runs as a result of a successful exploit. The *seccomp* 
-policies in **Oz** can prevent *payloads* from running if they use a blocked 
+policies in **OZ** can prevent *payloads* from running if they use a blocked 
 system call.
 
-**Oz** supports **whitelist** or **blacklist** policies. Whitelist policies are 
+**OZ** supports **whitelist** or **blacklist** policies. Whitelist policies are 
 *default deny*. This means that only system calls that are explicitly permitted 
 will be allowed. All other system calls (those not on the **whitelist**) cause 
 the application to be killed. 
@@ -242,11 +242,11 @@ application.
 understood. We use them prior to the creation of a **whitelist** or if there is
 some other reason a **whitelist** cannot be created. 
 
-**Oz** includes a generic **blacklist** that will work out-of-the-box with many 
+**OZ** includes a generic **blacklist** that will work out-of-the-box with many 
 applications. This policy blocks unusual or exotic system calls that 
 applications do not normally use.
 
-The **Oz** generic **blacklist** is located here:
+The **OZ** generic **blacklist** is located here:
 ```
 /var/lib/oz/cells.d/generic-blacklist.seccomp
 ```
@@ -262,14 +262,14 @@ this reference to look up system call numbers when writing or debugging
 
 ### Profiling applications with oz-seccomp-tracer
 
-**Oz** includes a tool to help with the creation and maintenance of seccomp
+**OZ** includes a tool to help with the creation and maintenance of seccomp
 **whitelists**. The **oz-seccomp-tracer** profiles applications as they run to
 determine the system calls that they use. This tool will generate a seccomp
 `whitelist` after it exits.  
 
 To profile Firefox using **oz-seccomp-tracer**, run the following command:
 ```{.bash}
-$ oz-seccomp-tracer -trace -output firefox-whitelist.seccomp /usr/bin/firefox \ 
+$ oz-seccomp-tracer -train -output firefox-whitelist.seccomp /usr/bin/firefox \ 
 2>firefox_syscalls.txt
 ```
 
@@ -280,7 +280,7 @@ You can then use Firefox as you normally would. When you are finished, a seccomp
 We use **firefox_syscalls.txt** in this example. You could also redirect this 
 output to **/dev/null** if you don't want to save it.
 
-### Adding a seccomp policy to an Oz application profile
+### Adding a seccomp policy to an OZ application profile
 
 Once you are satisfied with the **whitelist**, you can copy it to the following
 directory:
@@ -309,11 +309,15 @@ Then the seccomp policy needs to be enabled to run in *enforce* mode:
 }
 ```
 
-Lastly, the **Oz** daemon must be restarted to load the seccomp policy. You
-should save your work at this point as restarting **Oz** will close all of the 
-open sandboxes. To restart the **Oz** daemon, run the following command:
+Lastly, the **OZ** any sandbox running for this profile should be killed by 
+closing the application or using:
 ```{.bash}
-$ sudo systemctl restart oz-daemon.service 
+$ oz list
+$ oz kill <id>
+```
+The daemon can now be reloaded to read the profile changes:
+```{.bash}
+$ sudo systemctl reload oz-daemon.service 
 ```
 
 \newpage

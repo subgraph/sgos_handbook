@@ -5,7 +5,7 @@ machines in Subgraph OS. While the *Grsecurity* kernel is not compatible with
 VirtualBox, **Qemu/KVM** works as expected. However, you must install 
 **Qemu/KVM** yourself if you want to run virtual machines.
 
-Running the following command with install **Qemu/KVM**:
+Running the following command will install **Qemu/KVM**:
 ```{.bash}
 $ sudo apt install qemu-system qemu-kvm qemu-utils
 ```

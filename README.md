@@ -1,7 +1,7 @@
 # Subgraph OS Handbook
 
-The Subgraph OS Handbook is a user guide for Subgraph OS, covering basic 
-everyday uses as well as the advanced configuration. 
+The Subgraph OS Handbook is a user guide for Subgraph OS, covering 
+everyday use as well as advanced configuration. 
 
 The Subgraph OS Handbook is written in Markdown. This is so that we can 
 have a single source text that can be converted to multiple output formats, 
